@@ -3,6 +3,7 @@ import OpenAI from 'openai';
 import { loadConfig } from './config';
 import { fakeScore, loadFixturePostings } from './dry-run';
 import { loadProfile } from './profile';
+import { mapWithConcurrency } from './util';
 import { dedupe, fuzzyKey } from './pipeline/dedupe';
 import { hardFilter } from './pipeline/filter';
 import { formatAlertMessage, formatDigestMessage, sendTelegram } from './pipeline/notify';
@@ -18,6 +19,7 @@ const STATE_PATH = 'state/jobs.json';
 const PROFILE_PATH = 'profile.pdf';
 
 async function main(): Promise<void> {
+  const totalStart = Date.now();
   const mode = process.argv.includes('--mode=digest') ? 'digest' : 'alerts';
   const dryRun = process.argv.includes('--dry-run');
   const config = loadConfig();
@@ -62,71 +64,83 @@ async function main(): Promise<void> {
     const openai = dryRun ? null : new OpenAI();
     const scoringClient = openai ? openaiScoringClient(openai) : null;
 
-    // Fix 4: snapshot retry candidates BEFORE this run adds new 'seen' records
+    // Snapshot retry candidates BEFORE this run adds new 'seen' records.
     const retryCandidates = Object.values(state.jobs).filter((r) => r.status === 'seen' && !r.score);
     let scoringBudget = config.maxJobsScoredPerRun;
     const toScore = kept.slice(0, scoringBudget);
     scoringBudget -= toScore.length;
-
     if (kept.length > toScore.length) console.log(`cost cap: scoring ${toScore.length}/${kept.length}`);
-    for (const posting of toScore) {
-      const record = addJob(state, posting, fuzzyKey(posting), flaggedDe.has(posting.id) ? 'de' : undefined);
-      try {
-        record.score = scoringClient
-          ? await scoreJob(scoringClient, config.models.scoring, profile, posting)
-          : fakeScore(posting);
-        setStatus(record, 'scored');
-      } catch (err) {
-        console.error(`scoring failed for ${posting.id}, will retry next run:`, err);
-        // stays 'seen'; next run re-scores everything still in 'seen'.
-      }
-    }
 
-    // Fix 4: retry previously failed scorings, within the same per-run budget
-    for (const record of retryCandidates) {
-      if (scoringBudget <= 0) {
-        console.log(`cost cap: skipping ${retryCandidates.length - retryCandidates.indexOf(record)} pending re-scorings`);
-        break;
-      }
-      scoringBudget -= 1;
+    // One combined work list: fresh postings (added to state now) + retries within the same budget.
+    const scoringRecords = toScore.map((posting) =>
+      addJob(state, posting, fuzzyKey(posting), flaggedDe.has(posting.id) ? 'de' : undefined),
+    );
+    const retries = retryCandidates.slice(0, Math.max(0, scoringBudget));
+    if (retryCandidates.length > retries.length) {
+      console.log(`cost cap: skipping ${retryCandidates.length - retries.length} pending re-scorings`);
+    }
+    scoringRecords.push(...retries);
+
+    const scoringStart = Date.now();
+    let scoredOk = 0;
+    let scoredFailed = 0;
+    if (scoringRecords.length > 0) {
+      console.log(`scoring ${scoringRecords.length} jobs (concurrency ${config.scoringConcurrency})...`);
+    }
+    await mapWithConcurrency(scoringRecords, config.scoringConcurrency, async (record) => {
+      const jobStart = Date.now();
       try {
         record.score = scoringClient
           ? await scoreJob(scoringClient, config.models.scoring, profile, record.posting)
           : fakeScore(record.posting);
         setStatus(record, 'scored');
+        scoredOk += 1;
+        const seconds = ((Date.now() - jobStart) / 1000).toFixed(1);
+        console.log(
+          `scored ${scoredOk + scoredFailed}/${scoringRecords.length}: ${record.score.score}/100 — ${record.posting.title} @ ${record.posting.company} (${seconds}s)`,
+        );
       } catch (err) {
-        console.error(`re-scoring failed for ${record.posting.id}:`, err);
+        scoredFailed += 1;
+        console.error(`scoring failed for ${record.posting.id}, will retry next run:`, err);
+        // stays 'seen'; next run re-scores everything still in 'seen'.
       }
+    });
+    if (scoringRecords.length > 0) {
+      console.log(`scoring done in ${((Date.now() - scoringStart) / 1000).toFixed(0)}s (${scoredOk} ok, ${scoredFailed} failed)`);
     }
 
     // 5. Tailor everything digest-worthy that has no match file yet
-    const tailoringClient = openai ? openaiTailoringClient(openai) : null;
-    const date = new Date().toISOString().slice(0, 10);
-    // Fix 5: create matches dir once before the loop (not in dry-run)
-    if (!dryRun) mkdirSync('matches', { recursive: true });
-    for (const record of Object.values(state.jobs)) {
-      const score = record.score;
-      if (!score || score.score < config.thresholds.digest || record.matchFile) continue;
-      // Fix 5: skip archived; allow alerted/digested jobs whose tailoring previously failed
-      if (record.status === 'archived') continue;
-      const file = matchFilename(record.posting, date);
-      // Fix 5: per-record isolation — failure retried next run
-      try {
-        const markdown = tailoringClient
-          ? await tailorJob(tailoringClient, config.models.tailoring, profile, record.posting, score)
-          : `# dry-run match for ${record.posting.id}\n`;
-        if (!dryRun) writeFileSync(file, markdown);
-        record.matchFile = file;
-        console.log(`tailored: ${file}`);
-      } catch (err) {
-        console.error(`tailoring failed for ${record.posting.id}, will retry next run:`, err);
+    if (config.tailor) {
+      const tailoringClient = openai ? openaiTailoringClient(openai) : null;
+      const date = new Date().toISOString().slice(0, 10);
+      if (!dryRun) mkdirSync('matches', { recursive: true });
+      for (const record of Object.values(state.jobs)) {
+        const score = record.score;
+        if (!score || score.score < config.thresholds.digest || record.matchFile) continue;
+        if (record.status === 'archived') continue;
+        const file = matchFilename(record.posting, date);
+        const tailorStart = Date.now();
+        try {
+          const markdown = tailoringClient
+            ? await tailorJob(tailoringClient, config.models.tailoring, profile, record.posting, score)
+            : `# dry-run match for ${record.posting.id}\n`;
+          if (!dryRun) writeFileSync(file, markdown);
+          record.matchFile = file;
+          console.log(`tailored: ${file} (${((Date.now() - tailorStart) / 1000).toFixed(1)}s)`);
+        } catch (err) {
+          console.error(`tailoring failed for ${record.posting.id}, will retry next run:`, err);
+        }
       }
+    } else {
+      console.log('tailoring disabled (config.tailor=false)');
     }
 
     // 6. Notify
     if (mode === 'alerts') {
       // Fix 6: per-send isolation — one failure doesn't abort later sends
-      for (const record of selectAlertJobs(state, config.thresholds.hot)) {
+      const alertJobs = selectAlertJobs(state, config.thresholds.hot);
+      if (alertJobs.length > 0) console.log(`sending ${alertJobs.length} alert(s)...`);
+      for (const record of alertJobs) {
         const message = formatAlertMessage(record);
         try {
           if (dryRun) console.log('[dry-run alert]\n' + message);
@@ -139,6 +153,7 @@ async function main(): Promise<void> {
     } else {
       const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
       const digestJobs = selectDigestJobs(state, config.thresholds.digest, since);
+      console.log(`digest: ${digestJobs.length} match(es) in the last 24h`);
       const failing = Object.entries(state.sourceFailures)
         .filter(([, f]) => f.consecutiveFailures >= 3)
         .map(([name]) => name);
@@ -154,7 +169,7 @@ async function main(): Promise<void> {
       }
     }
 
-    console.log('done');
+    console.log(`done in ${((Date.now() - totalStart) / 1000).toFixed(0)}s`);
   } finally {
     // Fix 1: persist state even on partial failure so status advances are not lost
     if (!dryRun) saveState(STATE_PATH, state);

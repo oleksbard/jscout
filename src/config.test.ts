@@ -18,11 +18,17 @@ describe('loadConfig', () => {
     expect(config.maxJobsScoredPerRun).toBe(100);
     expect(config.models.scoring).toBeTruthy();
     expect(config.watchlist).toEqual({ greenhouse: [], lever: [], personio: [] });
+    expect(config.tailor).toBe(true);
+    expect(config.scoringConcurrency).toBe(5);
   });
 
   it('keeps explicit values', () => {
-    const config = loadConfig(writeTmpConfig({ thresholds: { hot: 90, digest: 70 }, maxJobsScoredPerRun: 10 }));
+    const config = loadConfig(
+      writeTmpConfig({ thresholds: { hot: 90, digest: 70 }, maxJobsScoredPerRun: 10, tailor: false, scoringConcurrency: 2 }),
+    );
     expect(config.thresholds).toEqual({ hot: 90, digest: 70 });
     expect(config.maxJobsScoredPerRun).toBe(10);
+    expect(config.tailor).toBe(false);
+    expect(config.scoringConcurrency).toBe(2);
   });
 });

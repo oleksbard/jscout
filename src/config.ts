@@ -3,6 +3,8 @@ import { readFileSync } from 'node:fs';
 export interface Config {
   thresholds: { hot: number; digest: number };
   maxJobsScoredPerRun: number;
+  scoringConcurrency: number;
+  tailor: boolean;
   models: { scoring: string; tailoring: string };
   searchTerms: string[];
   titleInclude: string[];
@@ -16,6 +18,8 @@ export function loadConfig(path = 'config.json'): Config {
   return {
     thresholds: { hot: 80, digest: 60, ...raw.thresholds },
     maxJobsScoredPerRun: raw.maxJobsScoredPerRun ?? 100,
+    scoringConcurrency: raw.scoringConcurrency ?? 5,
+    tailor: raw.tailor ?? true,
     // Model ids are config-only — verify current OpenAI model names/pricing before first real run.
     models: { scoring: 'gpt-5-mini', tailoring: 'gpt-5', ...raw.models },
     searchTerms: raw.searchTerms ?? [],

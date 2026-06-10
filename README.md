@@ -27,6 +27,15 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
 - `npm run dry-run` — full pipeline on fixtures, no network/LLM/Telegram
 - `npm run alerts` / `npm run digest` — real runs (need env vars locally)
 
+## Tuning (config.json)
+
+- `tailor` — `false` here by default: no cover-letter generation. Set `true`
+  to generate tailored material for every new match ≥ the digest threshold
+  (back-fills jobs that are still relevant on the next run).
+- `scoringConcurrency` — parallel scoring calls (default 5). Raise for speed,
+  lower if you hit OpenAI rate limits.
+- `maxJobsScoredPerRun` — cost cap per run (default 100).
+
 ## Schedules (UTC cron; Berlin drifts 1h across DST)
 
 - alerts: every 2h, 10:00–18:00 Berlin, Mon–Fri — hot matches (score ≥ 80)
