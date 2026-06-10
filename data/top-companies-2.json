@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "Top 30 tech employers for senior/staff software engineers in Germany by realistic total comp",
+    "currency": "EUR",
+    "compBasis": "estimated annual senior/staff total compensation (base + bonus + equity)",
+    "rankedBy": "estSeniorTotalCompEur, highest first",
+    "sources": ["levels.fyi (Germany leaderboard + company pages)", "Glassdoor", "European salary reports", "live ATS board URLs where verifiable"],
+    "lastResearched": "2026-06-11",
+    "caveats": "Trading firms and VSOP-heavy scale-ups skew higher in realized comp than levels.fyi all-levels medians and are thinly sampled; treat their figures as wide ranges. Only Celonis (greenhouse) was directly confirmed via a live board URL. Big-tech firms often run bespoke/Workday portals, so 'other' slugs are informational. Verify each slug at job-boards.greenhouse.io/{slug} or jobs.lever.co/{slug} before relying on it."
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Jane Street",
+      "reason": "Quant trading firm where senior-engineer cash comp (mostly bonus) dwarfs standard tech equity packages.",
+      "estSeniorTotalCompEur": "350000-450000",
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["janestreet"]
+    },
+    {
+      "rank": 2,
+      "name": "Meta Platforms",
+      "reason": "Tops the levels.fyi Germany leaderboard on the strength of large RSU grants at senior (E5) level.",
+      "estSeniorTotalCompEur": "300000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["meta", "facebook"]
+    },
+    {
+      "rank": 3,
+      "name": "Optiver",
+      "reason": "Market-maker whose senior SWE packages are bonus-heavy and reach EUR 250K-360K at the Amsterdam hub.",
+      "estSeniorTotalCompEur": "250000-360000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["optiver"]
+    },
+    {
+      "rank": 4,
+      "name": "IMC Trading",
+      "reason": "Prop-trading firm with an Amsterdam engineering hub and cash bonuses well above SaaS norms.",
+      "estSeniorTotalCompEur": "220000-320000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["imc", "imctrading"]
+    },
+    {
+      "rank": 5,
+      "name": "Snowflake",
+      "reason": "Data-cloud leader paying near the top of the Germany leaderboard via heavy RSU loading.",
+      "estSeniorTotalCompEur": "230000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["snowflakecomputing", "snowflake"]
+    },
+    {
+      "rank": 6,
+      "name": "Nutanix",
+      "reason": "Enterprise-cloud firm near the top of the Germany leaderboard for senior engineers.",
+      "estSeniorTotalCompEur": "220000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["nutanix"]
+    },
+    {
+      "rank": 7,
+      "name": "NVIDIA",
+      "reason": "AI-hardware boom has pushed senior (IC4) packages to the top tier, with German R&D sites.",
+      "estSeniorTotalCompEur": "210000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["nvidia"]
+    },
+    {
+      "rank": 8,
+      "name": "Stripe",
+      "reason": "Payments leader paying top-of-market with strong equity; hires across the EU remotely.",
+      "estSeniorTotalCompEur": "200000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["stripe"]
+    },
+    {
+      "rank": 9,
+      "name": "Databricks",
+      "reason": "Data/AI scale-up with rich pre-IPO equity for senior (L5) engineers.",
+      "estSeniorTotalCompEur": "195000",
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["databricks"]
+    },
+    {
+      "rank": 10,
+      "name": "Reddit",
+      "reason": "Pays unusually high base plus RSU at senior level and hires EU-remote.",
+      "estSeniorTotalCompEur": "190000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["reddit"]
+    },
+    {
+      "rank": 11,
+      "name": "Microsoft",
+      "reason": "Germany page shows senior packages up to ~EUR 196K with stock plus bonus and a large local footprint.",
+      "estSeniorTotalCompEur": "185000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["microsoft"]
+    },
+    {
+      "rank": 12,
+      "name": "CrowdStrike",
+      "reason": "Security firm with bonus-heavy senior comp on the Germany leaderboard.",
+      "estSeniorTotalCompEur": "185000",
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["crowdstrike"]
+    },
+    {
+      "rank": 13,
+      "name": "MongoDB",
+      "reason": "Database company paying strong senior base plus RSU and EU-remote friendly.",
+      "estSeniorTotalCompEur": "185000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["mongodb"]
+    },
+    {
+      "rank": 14,
+      "name": "Atlassian",
+      "reason": "High senior (P50) packages and a Team-Anywhere remote policy covering Germany.",
+      "estSeniorTotalCompEur": "185000",
+      "germanyPresence": "remote-eu",
+      "ats": "lever",
+      "slugGuesses": ["atlassian"]
+    },
+    {
+      "rank": 15,
+      "name": "Datadog",
+      "reason": "Observability firm with senior packages combining solid base and large RSU.",
+      "estSeniorTotalCompEur": "180000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["datadog"]
+    },
+    {
+      "rank": 16,
+      "name": "GitHub",
+      "reason": "Microsoft subsidiary, remote-first, with strong senior (E4) packages on the leaderboard.",
+      "estSeniorTotalCompEur": "180000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["github"]
+    },
+    {
+      "rank": 17,
+      "name": "Cloudflare",
+      "reason": "Edge-network firm with competitive senior equity and EU-remote hiring.",
+      "estSeniorTotalCompEur": "175000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["cloudflare"]
+    },
+    {
+      "rank": 18,
+      "name": "ServiceNow",
+      "reason": "Enterprise-SaaS senior (IC4) packages high on base plus RSU.",
+      "estSeniorTotalCompEur": "175000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["servicenow"]
+    },
+    {
+      "rank": 19,
+      "name": "GitLab",
+      "reason": "All-remote company with competitive, Germany-eligible senior packages.",
+      "estSeniorTotalCompEur": "175000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["gitlab"]
+    },
+    {
+      "rank": 20,
+      "name": "HashiCorp",
+      "reason": "Infra-tooling firm (now IBM) with strong senior base plus equity.",
+      "estSeniorTotalCompEur": "175000",
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["hashicorp"]
+    },
+    {
+      "rank": 21,
+      "name": "Google",
+      "reason": "Senior (L4/L5) packages strong (leaderboard L4 median understates senior) with large German R&D.",
+      "estSeniorTotalCompEur": "175000-200000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["google"]
+    },
+    {
+      "rank": 22,
+      "name": "Helsing",
+      "reason": "Well-funded German defense-AI unicorn paying top-of-market for senior engineers.",
+      "estSeniorTotalCompEur": "170000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["helsing"]
+    },
+    {
+      "rank": 23,
+      "name": "QuantCo",
+      "reason": "German-rooted data-science/quant consultancy paying high all-cash senior packages.",
+      "estSeniorTotalCompEur": "170000",
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["quantco"]
+    },
+    {
+      "rank": 24,
+      "name": "Adobe",
+      "reason": "Senior (SWE5) packages strong on base plus RSU with German offices.",
+      "estSeniorTotalCompEur": "170000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["adobe"]
+    },
+    {
+      "rank": 25,
+      "name": "Salesforce",
+      "reason": "Senior MTS packages competitive with an established German presence.",
+      "estSeniorTotalCompEur": "165000",
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["salesforce"]
+    },
+    {
+      "rank": 26,
+      "name": "Revolut",
+      "reason": "Fintech paying ~EUR 186K median senior (Glassdoor) with EU-remote and Berlin hiring.",
+      "estSeniorTotalCompEur": "160000",
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["revolut"]
+    },
+    {
+      "rank": 27,
+      "name": "Palantir Technologies",
+      "reason": "Senior engineers paid high base plus equity; hires across the EU.",
+      "estSeniorTotalCompEur": "160000",
+      "germanyPresence": "office",
+      "ats": "lever",
+      "slugGuesses": ["palantir"]
+    },
+    {
+      "rank": 28,
+      "name": "Trade Republic",
+      "reason": "Berlin neo-broker/fintech scale-up paying top of the German market with equity.",
+      "estSeniorTotalCompEur": "150000",
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["traderepublic", "traderepublicbank"]
+    },
+    {
+      "rank": 29,
+      "name": "Celonis",
+      "reason": "Munich process-mining decacorn; senior (IC3) ~EUR 122K cash with VSOP upside lifting total.",
+      "estSeniorTotalCompEur": "150000",
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["celonis"]
+    },
+    {
+      "rank": 30,
+      "name": "N26",
+      "reason": "Berlin mobile-bank scale-up with strong senior packages and equity for the German market.",
+      "estSeniorTotalCompEur": "135000",
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["n26", "number26"]
+    }
+  ]
+}

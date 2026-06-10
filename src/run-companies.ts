@@ -5,6 +5,7 @@ import { sendTelegram } from './pipeline/notify';
 import {
   COMPANIES_PATH, emptyCompaniesFile, loadCompaniesFile, saveCompaniesFile, type CompaniesFile,
 } from './research/companies-file';
+import { curatedListFiles, loadCuratedCompanies } from './research/curated-list';
 import { diffCompanies, formatCompaniesMessage } from './research/summary';
 import { openaiResearchClient, researchTopCompanies } from './research/top-companies';
 import { buildBoardCache, discoverBoards, type ProbeFn } from './research/verify-boards';
@@ -34,12 +35,17 @@ async function main(): Promise<void> {
 
   const previous = dryRun ? emptyCompaniesFile() : loadCompaniesFile(COMPANIES_PATH);
 
-  // 1. Research. Any failure here or in discovery aborts before the artifact
+  // 1. Source the companies: curated lists in data/ win; LLM research is the
+  //    fallback. Any failure here or in discovery aborts before the artifact
   //    is written, so last week's file survives a bad run.
   const researchStart = Date.now();
+  const curated = curatedListFiles();
   let researched;
   if (dryRun) {
     researched = loadFixtureCompanies();
+  } else if (curated.length > 0) {
+    researched = loadCuratedCompanies();
+    console.log(`using ${curated.length} curated list(s): ${curated.join(', ')} — LLM research skipped`);
   } else {
     console.log(`researching top ${config.topCompanies.count} companies with ${config.models.research} + web search (usually takes a few minutes)...`);
     // The research call is one long await — heartbeat so the run never looks hung.

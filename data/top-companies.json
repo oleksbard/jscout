@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-11",
+    "currency": "EUR",
+    "scope": "Senior/staff (L5/E5-equivalent) software engineer estimated annual total compensation (base + bonus + equity), mid-point of realistic offers",
+    "sources": ["levels.fyi Germany dataset (Mar-Jun 2026)", "Glassdoor", "eurotoptech.com / nextleveljobs.eu 2026 salary reports", "community reports"],
+    "notes": "Ranks 14-26 are within each other's error bars. 'remote-eu' eligibility by country changes frequently; verify per posting. ATS vendors and slugs change often; verify before scripting."
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Meta Platforms",
+      "reason": "US-band, RSU-heavy packages (~40-50% equity) in Berlin make it the clear German market ceiling.",
+      "estSeniorTotalCompEur": 280000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["metacareers", "meta"]
+    },
+    {
+      "rank": 2,
+      "name": "OpenAI",
+      "reason": "New Munich office imports near-US AI-lab compensation with large equity grants; sparse German data, wide error bars.",
+      "estSeniorTotalCompEur": 250000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "atsNote": "Ashby",
+      "slugGuesses": ["openai"]
+    },
+    {
+      "rank": 3,
+      "name": "Google",
+      "reason": "Munich/Berlin engineering on global L5 bands with substantial GSU grants and bonus.",
+      "estSeniorTotalCompEur": 210000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["google"]
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA",
+      "reason": "AI-boom stock appreciation makes its Munich/Berlin RSU grants the richest of the hardware players.",
+      "estSeniorTotalCompEur": 185000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "atsNote": "Workday",
+      "slugGuesses": ["nvidia"]
+    },
+    {
+      "rank": 5,
+      "name": "Stripe",
+      "reason": "Pays near-uniform global-tier comp with high cash base plus equity to engineers it employs remotely in Germany.",
+      "estSeniorTotalCompEur": 185000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["stripe"]
+    },
+    {
+      "rank": 6,
+      "name": "Databricks",
+      "reason": "Pre-/post-IPO equity on top of strong base puts Berlin L5s near EUR 190K.",
+      "estSeniorTotalCompEur": 180000,
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["databricks"]
+    },
+    {
+      "rank": 7,
+      "name": "Snowflake",
+      "reason": "US data-cloud bands applied to its Berlin engineering hub, equity-heavy.",
+      "estSeniorTotalCompEur": 170000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "atsNote": "Eightfold",
+      "slugGuesses": ["snowflake"]
+    },
+    {
+      "rank": 8,
+      "name": "Coinbase",
+      "reason": "Remote-first with location-agnostic-leaning bands; crypto comp cycles push senior offers well above EU norms.",
+      "estSeniorTotalCompEur": 170000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["coinbase"]
+    },
+    {
+      "rank": 9,
+      "name": "Apple",
+      "reason": "Munich silicon/engineering hub pays large RSU refreshers atop solid base.",
+      "estSeniorTotalCompEur": 165000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["apple"]
+    },
+    {
+      "rank": 10,
+      "name": "Amazon (incl. AWS)",
+      "reason": "Berlin, Munich, Dresden and Aachen hubs; L6 senior SDE packages with back-loaded RSUs.",
+      "estSeniorTotalCompEur": 160000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["amazon"]
+    },
+    {
+      "rank": 11,
+      "name": "Grammarly",
+      "reason": "Berlin hub on near-US bands with meaningful equity for a profitable private company.",
+      "estSeniorTotalCompEur": 155000,
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["grammarly"]
+    },
+    {
+      "rank": 12,
+      "name": "Pinterest",
+      "reason": "Berlin engineering office inherits US public-company RSU structure.",
+      "estSeniorTotalCompEur": 150000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["pinterest", "pinterestcareers"]
+    },
+    {
+      "rank": 13,
+      "name": "Wayfair",
+      "reason": "Berlin is its largest non-US engineering hub and a long-time top payer in the city (median ~EUR 147K).",
+      "estSeniorTotalCompEur": 145000,
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["wayfair"]
+    },
+    {
+      "rank": 14,
+      "name": "Datadog",
+      "reason": "High-growth observability margins fund US-style equity for remote-EMEA and German engineers.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["datadog"]
+    },
+    {
+      "rank": 15,
+      "name": "Microsoft",
+      "reason": "Munich/Berlin roles with stock and bonus; senior/principal clears EUR 140K+.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["microsoft"]
+    },
+    {
+      "rank": 16,
+      "name": "Helsing",
+      "reason": "Defense-AI funding boom lets it outbid the Munich market with aggressive equity.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "office",
+      "ats": "unknown",
+      "slugGuesses": ["helsing"]
+    },
+    {
+      "rank": 17,
+      "name": "Confluent",
+      "reason": "Public-company RSUs plus remote-Germany hiring on US-anchored bands.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["confluent"]
+    },
+    {
+      "rank": 18,
+      "name": "Vercel",
+      "reason": "Frontier dev-tools startup paying SF-anchored cash plus equity to remote EU engineers.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["vercel"]
+    },
+    {
+      "rank": 19,
+      "name": "GitHub",
+      "reason": "Microsoft-backed, remote across the EU with stock on top of strong base.",
+      "estSeniorTotalCompEur": 135000,
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["github"]
+    },
+    {
+      "rank": 20,
+      "name": "Shopify",
+      "reason": "Remote 'digital by design' with RSU-flexible comp framework for German hires.",
+      "estSeniorTotalCompEur": 135000,
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["shopify"]
+    },
+    {
+      "rank": 21,
+      "name": "GitLab",
+      "reason": "All-remote with a transparent location-factor calculator; Germany lands in the upper band.",
+      "estSeniorTotalCompEur": 130000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["gitlab"]
+    },
+    {
+      "rank": 22,
+      "name": "Elastic",
+      "reason": "Distributed-first since founding (German roots), pays equity to remote German seniors.",
+      "estSeniorTotalCompEur": 130000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["elastic"]
+    },
+    {
+      "rank": 23,
+      "name": "MongoDB",
+      "reason": "Public-company RSUs with remote-Germany engineering hiring.",
+      "estSeniorTotalCompEur": 130000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["mongodb"]
+    },
+    {
+      "rank": 24,
+      "name": "HashiCorp (IBM)",
+      "reason": "Remote-first infra vendor; the IBM acquisition converted equity into cash-rich packages.",
+      "estSeniorTotalCompEur": 125000,
+      "germanyPresence": "remote-eu",
+      "ats": "greenhouse",
+      "slugGuesses": ["hashicorp"]
+    },
+    {
+      "rank": 25,
+      "name": "DeepL",
+      "reason": "AI-translation unicorn paying top-of-German-market with equity; Cologne/Berlin plus remote-in-Germany.",
+      "estSeniorTotalCompEur": 125000,
+      "germanyPresence": "office",
+      "ats": "greenhouse",
+      "slugGuesses": ["deepl"]
+    },
+    {
+      "rank": 26,
+      "name": "HubSpot",
+      "reason": "Remote-in-Germany product engineering on Dublin-anchored bands with RSUs.",
+      "estSeniorTotalCompEur": 125000,
+      "germanyPresence": "remote-eu",
+      "ats": "other",
+      "slugGuesses": ["hubspot"]
+    },
+    {
+      "rank": 27,
+      "name": "Spotify",
+      "reason": "Distributed-first within Germany (Berlin entity) with RSU/options choice on top of base.",
+      "estSeniorTotalCompEur": 120000,
+      "germanyPresence": "office",
+      "ats": "lever",
+      "slugGuesses": ["spotify"]
+    },
+    {
+      "rank": 28,
+      "name": "Wolt (DoorDash)",
+      "reason": "Berlin is a major engineering hub; DoorDash RSUs lift packages above local delivery-tech peers.",
+      "estSeniorTotalCompEur": 120000,
+      "germanyPresence": "office",
+      "ats": "unknown",
+      "slugGuesses": ["wolt", "woltapp"]
+    },
+    {
+      "rank": 29,
+      "name": "JetBrains",
+      "reason": "Highly profitable tooling company paying strong cash at its Munich hub.",
+      "estSeniorTotalCompEur": 115000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "slugGuesses": ["jetbrains"]
+    },
+    {
+      "rank": 30,
+      "name": "Trade Republic",
+      "reason": "Best-paying German fintech for engineers (senior median ~EUR 110K, staff to ~EUR 170K) plus VSOP equity.",
+      "estSeniorTotalCompEur": 115000,
+      "germanyPresence": "office",
+      "ats": "other",
+      "atsNote": "Ashby",
+      "slugGuesses": ["trade-republic", "traderepublic"]
+    }
+  ]
+}

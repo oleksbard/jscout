@@ -42,6 +42,10 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
   judges salaries mentioned only in the posting text.
 - `topCompanies.count` — size of the weekly top-paying companies list
   (default 30). `models.research` — model used for the weekly research run.
+  Both only apply to LLM research, which runs only when no curated list
+  exists: `data/top-companies*.json` files are the preferred source — all of
+  them are merged (deduped by name, slug guesses pooled, first file wins on
+  conflicts) and used instead of calling OpenAI.
 
 ## Schedules (UTC cron; Berlin drifts 1h across DST)
 
@@ -50,8 +54,9 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
   the cron in `.github/workflows/alerts.yml`
 - digest: 08:30 Berlin daily — all new matches ≥ 60, ranked
 - companies: schedule currently disabled (manual `workflow_dispatch` only) —
-  LLM web research refreshes `state/companies.json` (top companies by
-  senior-SWE total comp, Germany office or EU-remote); verified
+  refreshes `state/companies.json` (top companies by senior-SWE total comp,
+  Germany office or EU-remote) from the curated `data/top-companies*.json`
+  lists (LLM web research only when none exist); verified
   Greenhouse/Lever/Personio boards are monitored by every alerts/digest run
   alongside the manual `watchlist`; re-enable by uncommenting the cron in
   `.github/workflows/companies.yml`.

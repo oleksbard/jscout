@@ -124,7 +124,24 @@ describe('discoverBoards', () => {
     );
     expect(lines).toHaveLength(2);
     expect(lines).toContainEqual(expect.stringMatching(/^board [12]\/2: Acme → lever:acme \(1 probe\)$/));
-    expect(lines).toContainEqual(expect.stringMatching(/^board [12]\/2: Initech → none \(3 probes\)$/));
+    expect(lines).toContainEqual(expect.stringMatching(/^board [12]\/2: Initech → none \(1 probe\)$/));
+  });
+
+  it('probes name-checked greenhouse only, unless the source claims lever/personio', async () => {
+    const calls: string[] = [];
+    const probe: ProbeFn = async (vendor, slug) => {
+      calls.push(`${vendor}:${slug}`);
+      return 'miss';
+    };
+    await discoverBoards(
+      [company('Acme', 'unknown', []), company('Initech', 'personio', [])],
+      {},
+      probe,
+    );
+    // unknown → greenhouse only; claimed personio → personio first, then greenhouse.
+    expect(calls.filter((c) => c.startsWith('greenhouse'))).toEqual(['greenhouse:acme', 'greenhouse:initech']);
+    expect(calls.filter((c) => c.startsWith('personio'))).toEqual(['personio:initech']);
+    expect(calls.filter((c) => c.startsWith('lever'))).toEqual([]);
   });
 
   it('marks cached boards in progress output', async () => {

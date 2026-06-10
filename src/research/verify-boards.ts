@@ -98,7 +98,13 @@ export async function discoverBoards(
     let probes = 0;
     const slugs = slugVariants(c.name, c.ats.slugGuesses);
     const claimed = VENDORS.find((v) => v === c.ats.vendor);
-    const vendors = claimed ? [claimed, ...VENDORS.filter((v) => v !== claimed)] : VENDORS;
+    // Lever/Personio responses carry no company name, so a colliding slug is
+    // undetectable (amazon.jobs.personio.de is a real, unrelated tenant) —
+    // probe them only when the source claims that vendor. Greenhouse hits are
+    // name-checked, so it is always safe to try as a fallback.
+    const vendors: BoardVendor[] = claimed
+      ? [claimed, ...(claimed === 'greenhouse' ? [] : (['greenhouse'] as BoardVendor[]))]
+      : ['greenhouse'];
     for (const vendor of vendors) {
       for (const slug of slugs) {
         probes += 1;
