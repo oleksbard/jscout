@@ -41,5 +41,7 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
 
 ## Schedules (UTC cron; Berlin drifts 1h across DST)
 
-- alerts: every 2h, 10:00–18:00 Berlin, Mon–Fri — hot matches (score ≥ 80)
+- alerts: schedule currently disabled (manual `workflow_dispatch` only) — hot
+  matches (score ≥ 80) arrive via the daily digest; re-enable by uncommenting
+  the cron in `.github/workflows/alerts.yml`
 - digest: 08:30 Berlin daily — all new matches ≥ 60, ranked
