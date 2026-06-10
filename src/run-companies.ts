@@ -9,6 +9,11 @@ import { diffCompanies, formatCompaniesMessage } from './research/summary';
 import { openaiResearchClient, researchTopCompanies } from './research/top-companies';
 import { buildBoardCache, discoverBoards, type ProbeFn } from './research/verify-boards';
 
+// Web-search research on a reasoning model regularly exceeds the SDK's 10-min
+// default request timeout (seen as APIConnectionTimeoutError in CI). One retry
+// keeps the worst case bounded at ~1h.
+const RESEARCH_TIMEOUT_MS = 30 * 60 * 1000;
+
 // Deterministic dry-run probe: fixture companies with these boards "exist".
 const fakeProbe: ProbeFn = async (vendor, slug) =>
   (vendor === 'greenhouse' && ['stripe', 'datadog'].includes(slug)) ||
@@ -31,15 +36,34 @@ async function main(): Promise<void> {
 
   // 1. Research. Any failure here or in discovery aborts before the artifact
   //    is written, so last week's file survives a bad run.
-  const researched = dryRun
-    ? loadFixtureCompanies()
-    : await researchTopCompanies(openaiResearchClient(new OpenAI()), config.models.research, config.topCompanies.count);
-  console.log(`researched ${researched.length} companies`);
+  const researchStart = Date.now();
+  let researched;
+  if (dryRun) {
+    researched = loadFixtureCompanies();
+  } else {
+    console.log(`researching top ${config.topCompanies.count} companies with ${config.models.research} + web search (usually takes a few minutes)...`);
+    // The research call is one long await — heartbeat so the run never looks hung.
+    const heartbeat = setInterval(() => {
+      console.log(`research still running (${Math.round((Date.now() - researchStart) / 1000)}s)...`);
+    }, 30_000);
+    try {
+      researched = await researchTopCompanies(
+        openaiResearchClient(new OpenAI({ timeout: RESEARCH_TIMEOUT_MS, maxRetries: 1 })),
+        config.models.research,
+        config.topCompanies.count,
+      );
+    } finally {
+      clearInterval(heartbeat);
+    }
+  }
+  console.log(`researched ${researched.length} companies in ${((Date.now() - researchStart) / 1000).toFixed(0)}s`);
 
   // 2. Verify boards
-  const entries = await discoverBoards(researched, buildBoardCache(previous), dryRun ? fakeProbe : undefined);
+  const discoveryStart = Date.now();
+  console.log(`verifying job boards for ${researched.length} companies (concurrency 5)...`);
+  const entries = await discoverBoards(researched, buildBoardCache(previous), dryRun ? fakeProbe : undefined, console.log);
   entries.sort((a, b) => b.estSeniorTotalCompEur - a.estSeniorTotalCompEur);
-  console.log(`boards verified: ${entries.filter((e) => e.board).length}/${entries.length}`);
+  console.log(`boards verified: ${entries.filter((e) => e.board).length}/${entries.length} in ${((Date.now() - discoveryStart) / 1000).toFixed(0)}s`);
 
   // 3. Persist
   const current: CompaniesFile = { updatedAt: new Date().toISOString(), companies: entries };
@@ -47,8 +71,12 @@ async function main(): Promise<void> {
 
   // 4. Notify
   const message = formatCompaniesMessage(current, diffCompanies(previous, current));
-  if (dryRun) console.log('[dry-run companies]\n' + message);
-  else await sendTelegram(token, chatId, message);
+  if (dryRun) {
+    console.log('[dry-run companies]\n' + message);
+  } else {
+    console.log('sending telegram summary...');
+    await sendTelegram(token, chatId, message);
+  }
 
   console.log(`done in ${((Date.now() - totalStart) / 1000).toFixed(0)}s`);
 }

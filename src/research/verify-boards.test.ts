@@ -112,4 +112,26 @@ describe('discoverBoards', () => {
     const [entry] = await discoverBoards([company('Acme', 'unknown', [])], {}, probe);
     expect(entry?.board).toBeNull();
   });
+
+  it('reports per-company progress with probe counts', async () => {
+    const probe: ProbeFn = async (vendor, slug) => (vendor === 'lever' && slug === 'acme' ? 'hit' : 'miss');
+    const lines: string[] = [];
+    await discoverBoards(
+      [company('Acme', 'lever', ['acme']), company('Initech', 'unknown', [])],
+      {},
+      probe,
+      (message) => lines.push(message),
+    );
+    expect(lines).toHaveLength(2);
+    expect(lines).toContainEqual(expect.stringMatching(/^board [12]\/2: Acme → lever:acme \(1 probe\)$/));
+    expect(lines).toContainEqual(expect.stringMatching(/^board [12]\/2: Initech → none \(3 probes\)$/));
+  });
+
+  it('marks cached boards in progress output', async () => {
+    const probe: ProbeFn = async () => 'miss';
+    const lines: string[] = [];
+    const cache = { stripe: { vendor: 'greenhouse', slug: 'stripe' } as const };
+    await discoverBoards([company('Stripe', 'greenhouse', ['stripe'])], cache, probe, (message) => lines.push(message));
+    expect(lines).toEqual(['board 1/1: Stripe → greenhouse:stripe (cached)']);
+  });
 });

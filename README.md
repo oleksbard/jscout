@@ -49,7 +49,9 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
   matches (score ≥ 80) arrive via the daily digest; re-enable by uncommenting
   the cron in `.github/workflows/alerts.yml`
 - digest: 08:30 Berlin daily — all new matches ≥ 60, ranked
-- companies: 07:00 Berlin Mondays — LLM web research refreshes
-  `state/companies.json` (top companies by senior-SWE total comp, Germany
-  office or EU-remote); verified Greenhouse/Lever/Personio boards are
-  monitored by every alerts/digest run alongside the manual `watchlist`.
+- companies: schedule currently disabled (manual `workflow_dispatch` only) —
+  LLM web research refreshes `state/companies.json` (top companies by
+  senior-SWE total comp, Germany office or EU-remote); verified
+  Greenhouse/Lever/Personio boards are monitored by every alerts/digest run
+  alongside the manual `watchlist`; re-enable by uncommenting the cron in
+  `.github/workflows/companies.yml`.

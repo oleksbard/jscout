@@ -26,21 +26,25 @@ export function namesMatch(boardName: string, companyName: string): boolean {
 export type ProbeResult = 'hit' | 'miss' | 'error';
 export type ProbeFn = (vendor: BoardVendor, slug: string, company: string) => Promise<ProbeResult>;
 
+// Bounds a stalled connection (e.g. dead Personio subdomain) so one probe
+// can't silently hang the run for minutes.
+const PROBE_TIMEOUT_MS = 10_000;
+
 async function probeGreenhouse(slug: string, company: string): Promise<boolean> {
-  const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${slug}`);
+  const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${slug}`, { signal: AbortSignal.timeout(PROBE_TIMEOUT_MS) });
   if (!res.ok) return false;
   const body = (await res.json()) as { name?: string };
   return namesMatch(body.name ?? '', company);
 }
 
 async function probeLever(slug: string): Promise<boolean> {
-  const res = await fetch(`https://api.lever.co/v0/postings/${slug}?mode=json&limit=1`);
+  const res = await fetch(`https://api.lever.co/v0/postings/${slug}?mode=json&limit=1`, { signal: AbortSignal.timeout(PROBE_TIMEOUT_MS) });
   if (!res.ok) return false;
   return Array.isArray(await res.json());
 }
 
 async function probePersonio(slug: string): Promise<boolean> {
-  const res = await fetch(`https://${slug}.jobs.personio.de/search.json`);
+  const res = await fetch(`https://${slug}.jobs.personio.de/search.json`, { signal: AbortSignal.timeout(PROBE_TIMEOUT_MS) });
   return res.ok;
 }
 
@@ -71,10 +75,12 @@ export async function discoverBoards(
   companies: ResearchedCompany[],
   cache: Record<string, CompanyBoard>,
   probe: ProbeFn = defaultProbe,
+  onProgress: (message: string) => void = () => {},
 ): Promise<CompanyEntry[]> {
   let hits = 0;
   let misses = 0;
   let errors = 0;
+  let done = 0;
   const entries = await mapWithConcurrency(companies, 5, async (c): Promise<CompanyEntry> => {
     const base = {
       name: c.name,
@@ -82,23 +88,30 @@ export async function discoverBoards(
       estSeniorTotalCompEur: c.estSeniorTotalCompEur,
       germanyPresence: c.germanyPresence,
     };
+    const finish = (board: CompanyBoard | null, note: string): CompanyEntry => {
+      done += 1;
+      onProgress(`board ${done}/${companies.length}: ${c.name} → ${board ? `${board.vendor}:${board.slug}` : 'none'}${note}`);
+      return { ...base, board };
+    };
     const cached = cache[c.name.toLowerCase()];
-    if (cached) return { ...base, board: cached };
+    if (cached) return finish(cached, ' (cached)');
+    let probes = 0;
     const slugs = slugVariants(c.name, c.ats.slugGuesses);
     const claimed = VENDORS.find((v) => v === c.ats.vendor);
     const vendors = claimed ? [claimed, ...VENDORS.filter((v) => v !== claimed)] : VENDORS;
     for (const vendor of vendors) {
       for (const slug of slugs) {
+        probes += 1;
         const result = await probe(vendor, slug, c.name);
         if (result === 'hit') {
           hits += 1;
-          return { ...base, board: { vendor, slug } };
+          return finish({ vendor, slug }, ` (${probes} probe${probes === 1 ? '' : 's'})`);
         }
         if (result === 'miss') misses += 1;
         else errors += 1;
       }
     }
-    return { ...base, board: null };
+    return finish(null, ` (${probes} probe${probes === 1 ? '' : 's'})`);
   });
   if (errors > 0 && hits === 0 && misses === 0) {
     throw new Error(`board discovery: all ${errors} probes errored (network?)`);

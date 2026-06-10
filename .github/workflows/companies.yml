@@ -1,8 +1,10 @@
 name: companies
 on:
-  schedule:
-    # Mon 07:00 Berlin (summer). Winter: 06:00 — accepted.
-    - cron: '0 5 * * 1'
+  # Auto-run disabled — trigger manually via workflow_dispatch.
+  # To re-enable the weekly run, restore:
+  #   schedule:
+  #     # Mon 07:00 Berlin (summer). Winter: 06:00 — accepted.
+  #     - cron: '0 5 * * 1'
   workflow_dispatch:
 
 concurrency:
