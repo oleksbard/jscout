@@ -1,0 +1,10 @@
+[
+  {
+    "id": "lever-uuid-1",
+    "text": "Engineering Manager, Web",
+    "hostedUrl": "https://jobs.lever.co/acme/lever-uuid-1",
+    "categories": { "location": "Remote - Germany", "commitment": "Full-time" },
+    "descriptionPlain": "Lead a team of frontend engineers.",
+    "createdAt": 1765300000000
+  }
+]

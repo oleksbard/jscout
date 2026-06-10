@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "id": "987654",
+      "title": "Senior Fullstack Developer (React/Node)",
+      "company": { "display_name": "Beta Tech GmbH" },
+      "location": { "display_name": "Hamburg, Deutschland" },
+      "description": "Hybrid role: 2 days office. React, Node, TypeScript.",
+      "redirect_url": "https://www.adzuna.de/land/ad/987654",
+      "created": "2026-06-09T08:00:00Z",
+      "salary_min": 75000,
+      "salary_max": 90000
+    }
+  ]
+}

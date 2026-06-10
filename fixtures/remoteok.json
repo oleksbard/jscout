@@ -1,0 +1,14 @@
+[
+  { "legal": "API terms..." },
+  {
+    "id": "123456",
+    "slug": "remote-senior-react-developer-acme",
+    "company": "Acme",
+    "position": "Senior React Developer",
+    "description": "<p>Remote-first team in Europe.</p>",
+    "location": "Europe",
+    "url": "https://remoteok.com/remote-jobs/123456",
+    "date": "2026-06-09T12:00:00+00:00",
+    "tags": ["react", "typescript"]
+  }
+]

@@ -1,0 +1,44 @@
+name: alerts
+on:
+  schedule:
+    # 10:00-18:00 Berlin (summer, CEST=UTC+2) every 2h, weekdays.
+    # Winter (CET=UTC+1) this drifts to 09:00-17:00 — accepted.
+    - cron: '0 8-16/2 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: job-scout
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run alerts
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Commit state
+        # always(): a failed run still persists partial state (run.ts saves in a finally block),
+        # so successfully-alerted jobs aren't re-alerted next run.
+        if: always()
+        run: |
+          git config user.name "job-scout-bot"
+          git config user.email "job-scout-bot@users.noreply.github.com"
+          git add state matches
+          git diff --cached --quiet || git commit -m "chore: state update (alerts) [skip ci]"
+          git pull --rebase origin main
+          git push

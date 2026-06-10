@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "slug": "senior-frontend-engineer-acme-berlin",
+      "company_name": "Acme GmbH",
+      "title": "Senior Frontend Engineer (m/w/d)",
+      "description": "<p>We build with <b>React</b> and TypeScript.</p>",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/acme/senior-frontend-engineer",
+      "tags": ["React", "TypeScript"],
+      "job_types": ["full-time"],
+      "location": "Berlin",
+      "created_at": 1765400000
+    }
+  ]
+}

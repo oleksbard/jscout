@@ -1,0 +1,8 @@
+node_modules/
+
+# secrets — never commit
+.env
+.env.*
+
+# OS noise
+.DS_Store

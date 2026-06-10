@@ -1,0 +1,14 @@
+{
+  "hits": [
+    {
+      "objectID": "40000001",
+      "comment_text": "Delta Systems | Senior Frontend Engineer | Berlin or Remote (EU) | Full-time<p>We build developer tools with React and TypeScript. Apply at jobs@delta.example</p>",
+      "created_at": "2026-06-02T09:00:00.000Z"
+    },
+    {
+      "objectID": "40000002",
+      "comment_text": "Tiny reply comment, not a posting",
+      "created_at": "2026-06-02T10:00:00.000Z"
+    }
+  ]
+}

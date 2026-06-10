@@ -1,0 +1,12 @@
+{
+  "jobs": [
+    {
+      "id": 555,
+      "title": "Senior Product Engineer",
+      "absolute_url": "https://boards.greenhouse.io/acme/jobs/555",
+      "location": { "name": "Berlin, Germany" },
+      "content": "&lt;p&gt;React, TypeScript, Node.&lt;/p&gt;",
+      "updated_at": "2026-06-08T00:00:00-00:00"
+    }
+  ]
+}

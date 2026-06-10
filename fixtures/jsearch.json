@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "job_id": "abc123==",
+      "employer_name": "Gamma Labs",
+      "job_title": "Staff Software Engineer, Frontend",
+      "job_description": "Join our Berlin office or work remotely from anywhere in Germany.",
+      "job_apply_link": "https://www.stepstone.de/job/12345",
+      "job_city": "Berlin",
+      "job_country": "DE",
+      "job_is_remote": true,
+      "job_posted_at_datetime_utc": "2026-06-09T10:00:00.000Z"
+    }
+  ]
+}

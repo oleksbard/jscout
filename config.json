@@ -1,0 +1,10 @@
+{
+  "thresholds": { "hot": 80, "digest": 60 },
+  "maxJobsScoredPerRun": 100,
+  "models": { "scoring": "gpt-5-mini", "tailoring": "gpt-5" },
+  "searchTerms": ["frontend developer", "fullstack developer", "react developer", "typescript", "engineering manager"],
+  "titleInclude": ["frontend", "front-end", "front end", "fullstack", "full-stack", "full stack", "react", "typescript", "web developer", "software engineer", "software developer", "staff engineer", "principal engineer", "tech lead", "engineering lead", "engineering manager", "head of engineering"],
+  "titleExclude": ["intern", "internship", "working student", "werkstudent", "recruiter", "sales", "marketing", "wordpress", "php", "salesforce", "sap", "drupal"],
+  "watchlist": { "greenhouse": [], "lever": [], "personio": [] },
+  "sources": { "arbeitnow": true, "remoteok": true, "adzuna": true, "hnWhoIsHiring": true, "jsearch": true, "watchlist": true }
+}
