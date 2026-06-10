@@ -22,6 +22,9 @@ describe('buildScoringMessages', () => {
     expect(messages[1]?.role).toBe('user');
     expect(messages[1]?.content).toContain('Senior Frontend Engineer');
     expect(messages[1]?.content).toContain('Acme');
+    expect(messages[0]?.content).toContain('hands-on Engineering Manager');
+    expect(messages[0]?.content).toContain('hybrid in Berlin');
+    expect(messages[0]?.content).toContain('€100,000');
   });
 });
 

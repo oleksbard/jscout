@@ -20,15 +20,17 @@ describe('loadConfig', () => {
     expect(config.watchlist).toEqual({ greenhouse: [], lever: [], personio: [] });
     expect(config.tailor).toBe(true);
     expect(config.scoringConcurrency).toBe(5);
+    expect(config.minSalaryEur).toBe(0);
   });
 
   it('keeps explicit values', () => {
     const config = loadConfig(
-      writeTmpConfig({ thresholds: { hot: 90, digest: 70 }, maxJobsScoredPerRun: 10, tailor: false, scoringConcurrency: 2 }),
+      writeTmpConfig({ thresholds: { hot: 90, digest: 70 }, maxJobsScoredPerRun: 10, tailor: false, scoringConcurrency: 2, minSalaryEur: 100000 }),
     );
     expect(config.thresholds).toEqual({ hot: 90, digest: 70 });
     expect(config.maxJobsScoredPerRun).toBe(10);
     expect(config.tailor).toBe(false);
     expect(config.scoringConcurrency).toBe(2);
+    expect(config.minSalaryEur).toBe(100000);
   });
 });

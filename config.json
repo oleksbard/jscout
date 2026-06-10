@@ -3,6 +3,7 @@
   "maxJobsScoredPerRun": 100,
   "scoringConcurrency": 5,
   "tailor": false,
+  "minSalaryEur": 100000,
   "models": { "scoring": "gpt-5-mini", "tailoring": "gpt-5" },
   "searchTerms": ["frontend developer", "fullstack developer", "react developer", "typescript", "engineering manager"],
   "titleInclude": ["frontend", "front-end", "front end", "fullstack", "full-stack", "full stack", "react", "typescript", "web developer", "software engineer", "software developer", "staff engineer", "principal engineer", "tech lead", "engineering lead", "engineering manager", "head of engineering"],

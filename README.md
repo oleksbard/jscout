@@ -35,6 +35,9 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
 - `scoringConcurrency` — parallel scoring calls (default 5). Raise for speed,
   lower if you hit OpenAI rate limits.
 - `maxJobsScoredPerRun` — cost cap per run (default 100).
+- `minSalaryEur` — drop jobs whose stated salary range tops out below this
+  (default 0 = off; set to 100000 here). Unstated salaries pass; the scorer
+  judges salaries mentioned only in the posting text.
 
 ## Schedules (UTC cron; Berlin drifts 1h across DST)
 

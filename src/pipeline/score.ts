@@ -43,8 +43,10 @@ export function buildScoringMessages(profile: string, posting: JobPosting): Scor
       role: 'system',
       content: [
         'You score job postings for one specific candidate. Return strict JSON per the schema.',
-        'In-scope roles: Senior Frontend (React/TS), Senior Full-stack (TS/Node), Staff/Lead/Principal Engineer, Engineering Manager.',
-        'Location scope: remote (EU, hireable from Germany), remote/hybrid in Germany, or Berlin onsite/hybrid.',
+        'In-scope roles: Senior+ Frontend or Full-stack Engineer working with TypeScript, React and Node.js; Staff/Lead/Principal on that stack; hands-on Engineering Manager (still coding) on that stack.',
+        'Out of scope: pure people-management EM roles, and roles centered on other stacks (e.g. Java, .NET, PHP, Python-only, mobile).',
+        'Location scope: remote (EU, hireable from Germany) or hybrid in Berlin. Onsite-only roles are out of scope — score below 40.',
+        'Salary: if the posting states total compensation below €100,000/year, score below 60. Unstated salary is neutral.',
         'score = overall fit 0-100. 80+ means: apply today. 60-79: worth a look. Below 60: skip.',
         'reasoning = ONE sentence, the single most decisive factor.',
         'language = main language of the posting text.',

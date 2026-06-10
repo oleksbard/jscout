@@ -1,12 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import type { Config } from '../config';
 import type { JobPosting } from '../types';
-import { detectGerman, hardFilter, matchesLocation, matchesTitle } from './filter';
+import { detectGerman, hardFilter, matchesLocation, matchesTitle, meetsSalaryFloor } from './filter';
 
 const config = {
   titleInclude: ['frontend', 'react', 'engineering manager'],
   titleExclude: ['intern', 'php'],
-} as Pick<Config, 'titleInclude' | 'titleExclude'> as Config;
+  minSalaryEur: 0,
+} as Pick<Config, 'titleInclude' | 'titleExclude' | 'minSalaryEur'> as Config;
 
 function posting(overrides: Partial<JobPosting>): JobPosting {
   return {
@@ -39,31 +40,29 @@ describe('matchesTitle', () => {
 });
 
 describe('matchesLocation', () => {
-  it('accepts Berlin regardless of work mode', () => {
-    expect(matchesLocation(posting({ location: 'Berlin', workMode: 'onsite' }))).toBe(true);
+  it('drops onsite everywhere, including Berlin', () => {
+    expect(matchesLocation(posting({ location: 'Berlin', workMode: 'onsite' }))).toBe(false);
+    expect(matchesLocation(posting({ location: 'Hamburg', workMode: 'onsite' }))).toBe(false);
   });
 
-  it('accepts EU-wide remote, rejects non-EU remote', () => {
+  it('accepts EU-wide remote, rejects clearly non-EU remote', () => {
     expect(matchesLocation(posting({ location: 'Remote, Europe', workMode: 'remote' }))).toBe(true);
     expect(matchesLocation(posting({ location: '', workMode: 'remote' }))).toBe(true);
     expect(matchesLocation(posting({ location: 'New York, USA', workMode: 'remote' }))).toBe(false);
+    expect(matchesLocation(posting({ location: 'Remote, Singapore', workMode: 'remote' }))).toBe(false);
+    expect(matchesLocation(posting({ location: 'Remote, Switzerland', workMode: 'remote' }))).toBe(false);
   });
 
-  it('accepts hybrid only in Germany', () => {
-    expect(matchesLocation(posting({ location: 'Munich, Germany', workMode: 'hybrid' }))).toBe(true);
-    expect(matchesLocation(posting({ location: 'Paris, France', workMode: 'hybrid' }))).toBe(false);
+  it('accepts hybrid only in Berlin', () => {
+    expect(matchesLocation(posting({ location: 'Berlin, Germany', workMode: 'hybrid' }))).toBe(true);
+    expect(matchesLocation(posting({ location: 'Munich, Germany', workMode: 'hybrid' }))).toBe(false);
+    expect(matchesLocation(posting({ location: 'Berlin or New York, USA', workMode: 'hybrid' }))).toBe(true);
   });
 
-  it('rejects onsite outside Berlin, keeps unknown mode in Germany', () => {
-    expect(matchesLocation(posting({ location: 'Hamburg', workMode: 'onsite' }))).toBe(false);
-    expect(matchesLocation(posting({ location: 'Hamburg', workMode: 'unknown' }))).toBe(true);
+  it('keeps unknown work mode only in Berlin', () => {
+    expect(matchesLocation(posting({ location: 'Berlin', workMode: 'unknown' }))).toBe(true);
+    expect(matchesLocation(posting({ location: 'Hamburg', workMode: 'unknown' }))).toBe(false);
     expect(matchesLocation(posting({ location: 'Madrid', workMode: 'unknown' }))).toBe(false);
-  });
-
-  it('rejects explicitly non-EU remote locations', () => {
-    expect(matchesLocation(posting({ location: 'Remote, USA', workMode: 'remote' }))).toBe(false);
-    expect(matchesLocation(posting({ location: 'Remote - North America', workMode: 'remote' }))).toBe(false);
-    expect(matchesLocation(posting({ location: 'Berlin or New York, USA', workMode: 'onsite' }))).toBe(true);
   });
 });
 
@@ -74,6 +73,22 @@ describe('detectGerman', () => {
     const en = 'We are looking for an experienced engineer to join our team building React applications.';
     expect(detectGerman(de)).toBe(true);
     expect(detectGerman(en)).toBe(false);
+  });
+});
+
+describe('meetsSalaryFloor', () => {
+  it('passes when no salary stated or no floor configured', () => {
+    expect(meetsSalaryFloor(undefined, 100000)).toBe(true);
+    expect(meetsSalaryFloor('75000–90000', 0)).toBe(true);
+  });
+
+  it('compares the max of the stated range against the floor', () => {
+    expect(meetsSalaryFloor('75000–90000', 100000)).toBe(false);
+    expect(meetsSalaryFloor('95000–120000', 100000)).toBe(true);
+  });
+
+  it('passes non-numeric salary strings through', () => {
+    expect(meetsSalaryFloor('competitive', 100000)).toBe(true);
   });
 });
 
@@ -91,5 +106,12 @@ describe('hardFilter', () => {
     expect(kept.map((p) => p.id)).toEqual(['x:good', 'x:de']);
     expect(flaggedDe.has('x:de')).toBe(true);
     expect(flaggedDe.has('x:good')).toBe(false);
+  });
+
+  it('drops postings below the salary floor when configured', () => {
+    const cheap = posting({ id: 'x:cheap', salary: '60000–80000' });
+    const rich = posting({ id: 'x:rich', salary: '90000–130000' });
+    const { kept } = hardFilter([cheap, rich], { ...config, minSalaryEur: 100000 });
+    expect(kept.map((p) => p.id)).toEqual(['x:rich']);
   });
 });

@@ -16,6 +16,8 @@ const EU_HINTS = [
 const NON_EU_HINTS = [
   ' usa', 'united states', 'u.s.', 'north america', 'latin america',
   'canada', 'united kingdom', 'australia', 'new zealand', 'india',
+  'switzerland', 'singapore', 'japan', 'china', 'uae', 'dubai', 'israel',
+  'brazil', 'mexico', 'asia', 'apac', 'africa', 'middle east',
 ];
 
 function hasWord(text: string, keyword: string): boolean {
@@ -31,14 +33,24 @@ export function matchesTitle(title: string, config: Config): boolean {
 
 export function matchesLocation(p: JobPosting): boolean {
   const loc = ` ${p.location.toLowerCase()} `;
-  const inGermany = GERMANY_HINTS.some((h) => loc.includes(h));
+  const inBerlin = loc.includes('berlin');
+  // Clearly non-EU — unless Berlin is one of the listed offices (multi-office postings).
+  if (!inBerlin && NON_EU_HINTS.some((h) => loc.includes(h))) return false;
   const inEu = p.location === '' || EU_HINTS.some((h) => loc.includes(h));
-  if (loc.includes('berlin')) return true; // Berlin: any work mode
-  if (NON_EU_HINTS.some((h) => loc.includes(h))) return false; // explicitly non-EU: drop
+  if (p.workMode === 'onsite') return false; // onsite: never, anywhere
   if (p.workMode === 'remote') return inEu; // remote: EU-wide
-  if (p.workMode === 'hybrid') return inGermany; // hybrid: Germany only
-  if (p.workMode === 'onsite') return false; // onsite outside Berlin: drop
-  return inGermany; // unknown mode: keep German postings, scorer judges the rest
+  if (p.workMode === 'hybrid') return inBerlin; // hybrid: Berlin only
+  return inBerlin; // unknown mode: Berlin only — elsewhere it's almost certainly a local role
+}
+
+export function meetsSalaryFloor(salary: string | undefined, floorEur: number): boolean {
+  if (!salary || floorEur <= 0) return true;
+  const numbers = (salary.match(/\d+(?:[.,]\d+)*/g) ?? [])
+    .map((raw) => Number(raw.replace(/[.,](?=\d{3}(?:\D|$))/g, '')))
+    .filter((n) => Number.isFinite(n) && n > 0);
+  if (numbers.length === 0) return true;
+  const max = Math.max(...numbers);
+  return (max < 1000 ? max * 1000 : max) >= floorEur; // "75–90" style means thousands
 }
 
 const GERMAN_MARKERS = [
@@ -56,7 +68,9 @@ export function hardFilter(
   postings: JobPosting[],
   config: Config,
 ): { kept: JobPosting[]; flaggedDe: Set<string> } {
-  const kept = postings.filter((p) => matchesTitle(p.title, config) && matchesLocation(p));
+  const kept = postings.filter(
+    (p) => matchesTitle(p.title, config) && matchesLocation(p) && meetsSalaryFloor(p.salary, config.minSalaryEur),
+  );
   const flaggedDe = new Set(kept.filter((p) => detectGerman(p.description)).map((p) => p.id));
   return { kept, flaggedDe };
 }
