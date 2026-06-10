@@ -1,0 +1,811 @@
+{
+  "jobs": {
+    "arbeitnow:founding-software-engineer-backend-cloud-ai-infrastructure-berlin-384861": {
+      "posting": {
+        "id": "arbeitnow:founding-software-engineer-backend-cloud-ai-infrastructure-berlin-384861",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/nextexai/founding-software-engineer-backend-cloud-ai-infrastructure-berlin-384861",
+        "title": "Founding Software Engineer (Backend, Cloud & AI Infrastructure)",
+        "company": "NextexAI",
+        "location": "Berlin",
+        "workMode": "unknown",
+        "description": "NexTex AI is a Berlin-based deep-tech startup building an AI-powered intelligence layer for textile manufacturing. Our platform combines industrial cameras, retrofit sensors, PLC/SCADA signals, edge computing and artificial intelligence to detect textile defects, optimize production processes and generate sustainability KPIs for CSRD and EU Green Deal compliance. We are currently preparing our EXIST Startup Grant application and a ProFIT Berlin R&#x26;D funding application. Our goal is to build and validate an MVP with pilot textile manufacturers during the first year and scale into one of Europe’s leading industrial AI platforms for textile production. We are looking for a Founding Software Engineer who wants to join the founding team and help build the technical backbone of the company from day one. Tasks As a Founding Software Engineer, you will be responsible for designing and building the backend systems, cloud infrastructure and AI deployment architecture behind NexTex AI. You will work closely with the founders, machine learning engineers and future computer vision engineers to create a scalable edge-to-cloud platform for industrial AI applications. Your responsibilities include: • Designing and developing scalable backend services and APIs • Building cloud-native infrastructure and deployment pipelines • Developing industrial data pipelines for machine, sensor and camera data • Supporting edge-to-cloud communication and industrial integrations • Supporting AI model deployment, monitoring and inference workflows • Building dashboards, analytics systems and internal tools • Structuring textile production data, defect classifications and sustainability KPIs • Working directly with pilot factories and industrial partners • Contributing to product architecture and technical strategy Requirements Strong software engineering background • Strong Python programming skills • Experience with FastAPI, Django, Flask, Node.js or similar frameworks • Experience with PostgreSQL or similar database systems • Experience with Docker and containerized environments • Experience with AWS, Azure or Google Cloud • Understanding of REST APIs and scalable software architectures • Fluent English • Ability to work independently in an early-stage startup environment Preferred Qualifications • Located in Berlin or willing to relocate to Berlin • Fluent German • Experience with Computer Vision systems • Experience with Machine Learning infrastructure • Familiarity with PyTorch, TensorFlow or ONNX • Experience with MLOps and model deployment pipelines • Experience with Edge AI deployments • Experience with NVIDIA Jetson, CUDA or TensorRT • Experience with Industrial IoT, PLC/SCADA systems or manufacturing environments • Experience using AI development tools such as ChatGPT, Claude, Cursor or GitHub Copilot • Startup or founding-team experience • Interest in textile manufacturing, sustainability and Industry 4.0 Perks &#x26; Benefits • Founding team position • 10% equity participation • Approx. €2,500/month through the German Federal EXIST Startup Grant during the first year • Significant compensation increase planned following successful MVP validation and funding milestones • Opportunity to build a deep-tech startup from day one • Access to real industrial production environments and pilot textile factories • Direct collaboration with experienced founders, advisors and industry partners • Startup coaching, legal support and mentoring through EXIST and ProFIT Berlin • Opportunity to shape both the product and company from an early stage Benefits • 10% equity participation as a founding team member • Approx. €2,500/month through the German Federal EXIST Startup Grant during the first year • Significant compensation increase planned following successful MVP validation and funding milestones • Opportunity to build a deep-tech startup from day one • Direct impact on product, technology and company strategy • Access to real industrial production environments and pilot textile factories • Work on AI, Computer Vision, Edge AI, Industrial IoT and Sustainability Intelligence • Direct collaboration with experienced founders, academic advisors and industry partners • Startup coaching, legal support and mentoring through EXIST and ProFIT Berlin • Opportunity to shape both the product and company from an early stage • Flexible working environment • Potential CTO-level growth opportunities as the company scales We are looking for ambitious engineers who want to build something meaningful from the ground up. If you are excited about AI, industrial systems, sustainability and entrepreneurship, we would love to hear from you. To apply, please submit: • Your CV • LinkedIn profile • A short introduction explaining why you are interested in joining NexTex AI Selected candidates will be invited to: 1. Introductory discussion with the founders 2. Technical discussion and architecture review 3. Final founder meeting We are currently preparing our EXIST Startup Grant and ProFIT Berlin applications and aim to build and validate our MVP with pilot textile manufacturers during the first year. If successful, you will join NexTex AI as a founding team member with 10% equity and play a key role in building the future of industrial AI for textile manufacturing. We look forward to hearing from you. Find Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-10T15:00:37.000Z"
+      },
+      "fuzzyKey": "nextexai|founding software engineer backend cloud ai infrastructure",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:28:50.208Z",
+      "score": {
+        "score": 55,
+        "stackFit": 35,
+        "seniorityFit": 75,
+        "locationFit": 90,
+        "reasoning": "The role's stated initial cash compensation (~€2,500/month via EXIST) puts total pay far below €100k/year, which is the single biggest blocker for this candidate despite decent seniority and Berlin location.",
+        "language": "en"
+      }
+    },
+    "arbeitnow:full-stack-software-engineer-ai-accelerated-munich-396494": {
+      "posting": {
+        "id": "arbeitnow:full-stack-software-engineer-ai-accelerated-munich-396494",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/merlin-digital-solutions-gmbh/full-stack-software-engineer-ai-accelerated-munich-396494",
+        "title": "Full-Stack Software Engineer | AI Accelerated | (m/w/d)",
+        "company": "Merlin Digital Solutions GmbH",
+        "location": "Munich",
+        "workMode": "remote",
+        "description": "Baue mit uns die KI-Plattform für den öffentlichen Sektor Der öffentliche Sektor steht unter massivem Druck: steigende Anfragen, Fachkräftemangel, komplexe Prozesse, wachsende Erwartungen der Bürger:innen. Viele Verwaltungen scheitern nicht am Willen, sondern an Systemen, die nie für diese Realität gebaut wurden. Wir ändern das. Mit Merlin entwickeln wir KI-native Produkte, die Verwaltungen entlasten, Mitarbeitende stärken und Bürger:innen bessere Services bieten. Unser Anspruch: Merlin wird der führende KI-Anbieter für Kommunen und Behörden im deutschsprachigen Raum. Wir werden seit einer Pre-Seed-Finanzierung von Top-Tier-Investoren, Business Angels und ehemaligen Spitzenpolitikern unterstützt und haben bereits mehr als 60 Kunden. Aufgaben Das ist eine High-Ownership-Rolle für Engineers, die Dinge von 0 → 1 bauen wollen und Verantwortung übernehmen möchten. Eine Rolle für Builder, die lernen wollen durch AI Tools (Claude Code, Codex, Cursor, etc.) ihren Output zu maximieren. Als Full-Stack Software Engineer bei uns arbeitest du direkt mit den Gründern zusammen und prägst Tech, Produkt und Architektur von Grund auf. Du schreibst nicht nur Code – du entscheidest, was gebaut wird und wie es gebaut wird. Unser Ziel ist ein kleines, extrem starkes Kernteam mit sehr hohem Impact. Nicht der richtige Ort ist das hier für alle, die sich hinter Prozessen oder Tickets verstecken wollen. Für alle, die gestalten wollen, hingegen schon. Du solltest Lust haben, an allen Teilen des Produkts zu arbeiten: Heute den Retriever am RAG-System für die kommunalen Wissensbestände optimieren, nächste Woche ein neues Feature für das Multi-Tenant-Kundendashboard ausrollen oder ein neues Tool für den Voiceagenten entwickeln. Was du tun wirst KI-Systeme konzipieren, bauen und produktiv betreiben (z. B. Conversational AI, RAG, Agenten, Voice) skalierbare Backend-Architekturen für ein Multi-Tenant-SaaS entwickeln technische Grundsatzentscheidungen treffen (Cloud, Datenmodelle, Infrastruktur, Tooling) Features und Systeme end-to-end ownen – von der Idee bis zum produktiven Einsatz bei Kunden Unser Tech-Stack (heute) Python, TypeScript, Next.js Postgres, Docker, Cloud-Infrastruktur (Azure, StackIT) LiveKit Agents Framework, Langfuse, diverse LLM-APIs, Embeddings/RAG und STT/TTS Qualifikation Was dich zu einem guten Fit macht du hast bereits produktive Software gebaut (Startup, Scale-up oder vergleichbar) du übernimmst Verantwortung und brauchst keine engmaschige Anleitung du bist pragmatisch, entscheidungsfreudig und bringst Dinge zu Ende du tauschst dich gern direkt mit Kunden aus und verstehst ihre Anforderungen du hast echtes Interesse an KI-Engineering und der praktischen Anwendung du sprichst sehr gutes Deutsch (mindestens C1), da wir für den öffentlichen Sektor bauen Benefits Warum Merlin Chance, ein fundamentales Problem des öffentlichen Sektors mitzugestalten Attraktives Gehalt + Equity (0,25% - 1,5%): Neben einem attraktiven Gehalt profitierst du von signifikanten Anteilen an einem stark wachsenden Start-up. Zugang zu allen (AI) Tools die dich produktiver machen Flexible Arbeitsweise: Full Remote oder Hybrid Benefits: Wellpass und Workcations in der Sonne tragen zu deiner Produktivität bei. Find more English Speaking Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-10T18:59:02.000Z"
+      },
+      "fuzzyKey": "merlin digital solutions|full stack software engineer ai accelerated",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:28:50.405Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 55,
+        "stackFit": 85,
+        "seniorityFit": 90,
+        "locationFit": 95,
+        "reasoning": "The candidate's German level is B1, which is below the C1 the role requires for public-sector, customer-facing work and is likely disqualifying despite strong technical and seniority fit.",
+        "language": "de"
+      }
+    },
+    "arbeitnow:tech-lead-engineering-lead-berlin-286872": {
+      "posting": {
+        "id": "arbeitnow:tech-lead-engineering-lead-berlin-286872",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/teclead-ventures-gmbh/tech-lead-engineering-lead-berlin-286872",
+        "title": "Tech Lead / Engineering Lead (w/m/d)",
+        "company": "Teclead Ventures GmbH",
+        "location": "Berlin",
+        "workMode": "unknown",
+        "description": "Werde Teil von Teclead Ventures Teclead Ventures ist ein Berliner Softwareunternehmen mit Fokus auf individuelle Softwareentwicklung und digitale Innovation. Wir arbeiten eng mit unseren Kunden zusammen und entwickeln moderne, nachhaltige Softwarelösungen in interdisziplinären Teams. Dabei setzen wir auf moderne Technologien, KI-gestützte Entwicklungstools und eine pragmatische, qualitätsorientierte Arbeitsweise, um gemeinsam die bestmöglichen Ergebnisse zu erzielen. Unsere Kultur Bei uns erwarten dich flache Hierarchien, kurze Entscheidungswege und ein kollegiales Miteinander. Wir legen Wert auf Eigenverantwortung, offene Kommunikation und gegenseitige Unterstützung. Regelmäßige Team-Events und gemeinsame Aktivitäten stärken unseren Zusammenhalt – im Arbeitsalltag und darüber hinaus. Aufgaben Was dich bei uns erwartet Du übernimmst die fachliche Leitung und Koordination eines Teams von 3–6 Entwickler:innen und verantwortest die Lieferung von der Anforderungsanalyse bis zum Go-Live Du triffst die zentralen technischen Entscheidungen, setzt die Architektur auf und sicherst Qualität über Code- und Architektur-Reviews Du arbeitest hands-on im Java-Backend (Java 17/21, Spring Boot, Maven, AWS Lambda) und in einer microservice-basierten Architektur, inklusive Einarbeitung und Pflege von Legacy-Code Du treibst die Modernisierung der Teststrategie voran und verankerst Qualitäts- und Sicherheits-Gates in der CI/CD-Pipeline (DevOps / DevOps Security) Du steuerst angrenzende .NET- und Frontend-Arbeit auf unserem Bestandsstack (JavaScript/TypeScript, Node.js, Next.js, React) sowie die jeweiligen Spezialist:innen, ohne in jedem Stack selbst zu entwickeln Du arbeitest agil (Scrum/Kanban), moderierst die relevanten Formate und behältst Deadlines, Budget und Ressourcen im Blick Du erkennst Risiken früh, löst Blocker und kommunizierst transparent gegenüber Team und Kunde Du teilst dein Wissen aktiv im Team und bringst Learnings aus dem Projekt ein Qualifikation Wer gut zu uns passt Wichtiger als formale Abschlüsse sind uns Einstellung, Motivation und nachweisliches Können. Du hast ein abgeschlossenes Studium (z. B. Informatik, Wirtschaftsinformatik) oder eine abgeschlossene Ausbildung mit relevanter, einschlägiger Berufserfahrung Du löst anspruchsvolle Entwicklungsaufgaben eigenständig und sicher und hast idealerweise bereits ein kleineres Team fachlich geführt oder ein Projekt technisch verantwortet Du beherrschst das Java-Backend (Spring Boot, Microservices) hands-on und arbeitest sicher mit Git, Container- und einer Cloud-Umgebung (z. B. AWS) Du kennst DevOps-/CI/CD-Praktiken inklusive Security-Aspekten und hast Erfahrung mit der Modernisierung von Teststrategien Du bringst die Bereitschaft mit, dich schnell in neue Themen, Tech-Stacks und Branchen einzuarbeiten Du entwickelst dich sowie deine Skills weiter, erweiterst deinen Technologiestack und bleibst bei aufkommenden KI-Tools und -Capabilities am Puls der Zeit Du arbeitest strukturiert, lösungsorientiert und kommunikationsstark und übernimmst gern Verantwortung – für deine eigenen Themen ebenso wie für die fachliche Führung kleinerer Teams Du bringst fließende Deutschkenntnisse (mind. C1) und sehr gute Englischkenntnisse mit Nice to have Erfahrung mit .NET und/oder modernen Frontend-Stacks (React, Next.js, TypeScript) zur Steuerung angrenzender Arbeit echte Erfahrung im Bereich AI-Knowledge (z. B. LLM-/RAG-Integration in bestehende Systeme, MCP) UI/UX-Erfahrung tiefgreifende DevOps-Security- und Betriebssystem-Kenntnisse Benefits Was wir dir bieten Attraktives Büro mit Dachterrasse und Office-Koch Snacks, Getränke und frisches Obst for free Flexible Arbeitszeiteinteilung Hybrides Arbeiten in Berlin mit flexiblem Home-Office-Anteil Ein Umfeld, in dem du mit modernsten KI-Tools arbeitest und deinen Umgang damit gezielt weiterentwickelst Du übernimmst über die Zeit unterschiedliche Herausforderungen und kannst dich in viele Projekte einbringen, oder eigene auf den Weg bringen Wir unterstützen dich dabei, dich fachlich und persönlich weiterzuentwickeln – sei es beim Einarbeiten in neue Aufgaben, beim Ausbau deiner Projektverantwortung oder dabei, deine nächsten Entwicklungsschritte zu gehen Attraktive Vergütung 30 Tage Urlaub regelmäßig große und kleine Teamevents Zuschuss zum Deutschlandticket &#x26; der Urban Sports Club Mitgliedschaft Vielfalt macht uns stärker Bei Teclead Ventures glauben wir, dass unterschiedliche Perspektiven Innovation vorantreiben. Deshalb freuen wir uns über Bewerbungen von Menschen mit vielfältigen Hintergründen, Erfahrungen und Sichtweisen - unabhängig von Geschlecht, Herkunft, Religion, Alter, sexueller Orientierung oder Identität sowie Behinderung. Find more English Speaking Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-10T10:00:33.000Z"
+      },
+      "fuzzyKey": "teclead ventures|tech lead engineering lead",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:28:45.280Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 30,
+        "stackFit": 25,
+        "seniorityFit": 70,
+        "locationFit": 90,
+        "reasoning": "The role requires hands-on Java/Spring Boot back-end work and fluent German (C1), whereas the candidate is primarily TypeScript/React/Node.js focused and has German at B1, so it's a poor technical and language match.",
+        "language": "de"
+      }
+    },
+    "remoteok:1133025": {
+      "posting": {
+        "id": "remoteok:1133025",
+        "source": "remoteok",
+        "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-infrastructure-docker-1133025",
+        "title": "Staff Software Engineer Infrastructure",
+        "company": "Docker",
+        "location": "",
+        "workMode": "remote",
+        "description": "Docker has been one of the most loved brands in developer tooling, trusted by more than 20 million monthly users and over 20 billion container image pulls. From solo founders to the world's largest companies, developers rely on Docker to build, share, and run their applications across our suite of products including Docker Desktop, Docker Hub, and Docker Scout. We are a globally distributed, remote-first team building the tools that define how software gets built and delivered. As AI agents redefine software development, Docker is at the center of that shift, providing the sandboxed environments, verified images, and secure infrastructure that make autonomous workflows trustworthy by default. Docker is shipping a wave of new products this year, with R&D initiatives likely to lead to more, and we're investing heavily in the platform underneath all of it. That platform supports hundreds of engineers across many development teams and carries high-scale production traffic and data transfer every day. It has grown faster than its foundations, and this year is about closing that gap. Today, much of that work still leans on a handful of experts unblocking the same provisioning and operational workflows by hand. The top priority for this role is moving that work from expert-driven support to paved roads : self-service systems with clear ownership, safe defaults, strong guardrails, and adoption we can measure. The goal is a platform teams trust enough to stop thinking about it, one that just works, so they can focus on their own products instead of ours. The concrete version sits on this year's roadmap: spinning up a new global region or application environment should take hours, not days. Right now it takes days. Getting there means building the foundations underneath it. We need a real multi-region, cross-account network architecture and a testing and continuous-deployment flow teams can trust, then a self-service layer on top. We're the container company building our own internal platform, so the bar for \"the easy path is also the safe path\" is high. You'd be joining a team of four, growing to seven this year (this is one of those hires), and we're looking for a Staff engineer to set technical direction and lead it through real production adoption. Responsibilities This is a Staff-level role, so success is measured by leverage rather than just your own commits. On a team this size you'll stay hands-on in the codebase while also setting direction, aligning teams on pragmatic standards, and carrying platform investments through to adoption. Concretely, you will: Take ambiguous infrastructure problems and turn them into proposals the org can rally around, then drive them through RFCs and architecture reviews across teams. Design self-service capabilities and platform APIs (primarily in Go ) for onboarding, provisioning, deployment, observability defaults, and day-2 operations, with contracts and docs teams actually use. Set delivery standards using Terraform , GitOps with Argo CD , progressive rollout, and good testing, including building the continuous-deployment flow we're missing today. Evolve the multi-tenant EKS foundations toward better reliability, security, scale, and cost: Envoy Gateway ingress, traffic routing, and the multi-region, cross-account connectivity we need. Improve SLOs, alerting, and incident follow-up on Grafana Cloud so production gets safer and less dependent on heroics. We judge this work by outcomes the consuming teams feel: how fast they can provision and ship, how much they can do without us, and how reliably it all runs. AI-assisted operations We're actively investing in AI-assisted and agentic workflows to cut operational toil. We care that they stay safe, auditable, and human-reviewed. You'll help shape where these earn their place and where they don't. Early targets include: Alert enrichment and incident context-gathering : assembling the relevant signals, history, and runbook so the on-call engineer starts with context instead of a blank page. Runbook-assisted diagnosis and remediation recommendations , with a human in the loop on anything that changes production. Onboarding and readiness assistants that answer the questions our experts answer today. If you've built operational automation and have a healthy skepticism about where automation belongs, this is a place to put both to work. On-call Operational ownership is part of the job. You'll join the rotation after onboarding and shadowing. As a Staff engineer, you'll also improve the health of on-call itself, with better alerts, stronger runbooks, less toil, and blameless postmortems aimed at prevention. Qualifications 8+ years of professional, hands-on, full-time software engineering experience in backend, infrastructure, or platform engineering. Bachelor's degree in Computer Science, Engineering, or a related field, or equivalent practical experience Strong software engineering in Go or a similar language: design, testing, debugging, review, long-term maintainability. A track record designing, shipping, and operating cloud services or infrastructure platforms in production. We hire for skill and impact, not years. Deep expertise in at least one of: Kubernetes, networking, cloud platforms, reliability engineering, or developer platforms, plus solid Linux, networking, and production-ops fundamentals. Experience setting technical direction and leading work that needs cross-team alignment. Clear written and verbal communication in a remote environment (RFCs, design docs, incident writeups). Nice to have: EKS and ingress/CNI/service-mesh experience; observability with OpenTelemetry/Prometheus/Grafana; CI/CD and progressive delivery (GitHub Actions, Argo CD, canaries); experience leading migrations or adoption programs across teams. You don't need every item here. We value deep expertise in one area, strong systems judgment, and curiosity across the rest. What to Expect First 30 days Build context, meet partner teams, ship your first change, shadow on-call. First 90 days Own a strategic platform problem with a clear plan and metrics; lead an improvement from design to production. One Year Outlook Lead a major cross-team initiative (for example, self-service provisioning of new regions and environments, or the multi-region networking and CD foundations behind it) and establish durable patterns that change how Docker engineers build and operate services. Docker considers visa sponsorship on a case-by-case basis based on business needs. We use Covey as part of our hiring and / or promotional process for jobs in NYC and certain features may qualify it as an AEDT. As part of the evaluation process we provide Covey with job requirements and candidate submitted applications. We began using Covey Scout for Inbound on April 13, 2024. Please see the independent bias audit report covering our use of Covey here . Perks Freedom & flexibility; fit your work around your life Designated quarterly Whaleness Days plus end of year Whaleness break Home office setup; we want you comfortable while you work 16 weeks of paid Parental leave (after 6 months of employment) Technology stipend equivalent to $100 USD net/month PTO plan that encourages you to take time to do the things you enjoy Training stipend for conferences, courses and classes Equity; we are a growing start-up and want all employees to have a share in the success of the company Docker Swag Medical benefits, retirement and holidays vary by country Remote-first culture, with offices in Seattle and Paris Docker embraces diversity and equal opportunity. We are committed to building a team that represents a variety of backgrounds, perspectives, and skills. The more inclusive we are, the better our company will be. #LI-REMOTE Please mention the word **COMFORT** and tag RMTI5LjE1OS42NC4xMjE= when applying to show you read the job post completely (#RMTI5LjE1OS42NC4xMjE=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+        "postedAt": "2026-06-08T16:00:03.000Z"
+      },
+      "fuzzyKey": "docker|staff software engineer infrastructure",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 68,
+        "stackFit": 50,
+        "seniorityFit": 85,
+        "locationFit": 95,
+        "reasoning": "The candidate has strong platform, CI/CD, and staff-level leadership experience but lacks demonstrated Go and deep Kubernetes/EKS expertise required for this infrastructure-heavy Staff role, reducing overall fit.",
+        "language": "en"
+      }
+    },
+    "adzuna:5756632271": {
+      "posting": {
+        "id": "adzuna:5756632271",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5756632271?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Frontend Engineer (m/f/d) Berlin / Remote",
+        "company": "Pitch Software",
+        "location": "Berlin, Deutschland",
+        "workMode": "remote",
+        "description": "Your mission You will join a growing team of experienced developers building a cross-platform application, backend services and open platform. You will collaborate with your peers to define architecture, quality standards, and best practices. You will work closely with our designers, teaming up in small cross-functional teams to bring features from idea to prototype to final implementation. You will work on frontend and possibly backend projects to build simple, high-quality, maintainable, and …",
+        "postedAt": "2026-06-08T23:34:15.000Z"
+      },
+      "fuzzyKey": "pitch software|senior frontend engineer berlin remote",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 88,
+        "stackFit": 92,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The most decisive factor is that this senior frontend role involves both frontend and backend work on a cross-platform app, directly matching the candidate's hands-on senior/full-stack TypeScript + React + Node.js experience and Berlin-remote eligibility.",
+        "language": "en"
+      }
+    },
+    "adzuna:5757353772": {
+      "posting": {
+        "id": "adzuna:5757353772",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5757353772?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Fullstack Developer (w/m/d) - Firstlead",
+        "company": "Firstlead",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Bei ADCELL , dem am schnellsten wachsenden Affiliate-Marketing-Netzwerk Deutschlands, gestaltest Du als Senior Fullstack Developer (w/m/d) moderne, skalierbare Tracking- und Softwaresysteme. Unsere Mission: digitales Marketing mit smarter Technologie effizienter und transparenter machen. Du bringst Deine Expertise in Architekturentscheidungen ein, entwickelst im agilen Team mit modernen Tech-Stacks und prägst aktiv unsere technische Zukunft. Dich erwarten flache Hierarchien, flexible Arbeitszei…",
+        "postedAt": "2026-06-09T15:44:54.000Z"
+      },
+      "fuzzyKey": "firstlead|senior fullstack developer firstlead",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 77,
+        "stackFit": 60,
+        "seniorityFit": 90,
+        "locationFit": 80,
+        "reasoning": "Strong seniority and Berlin-location match, but the posting does not specify TypeScript/React/Node (or remote/hybrid), leaving technical and work-location fit uncertain.",
+        "language": "de"
+      }
+    },
+    "adzuna:5758650529": {
+      "posting": {
+        "id": "adzuna:5758650529",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5758650529?utm_medium=api&utm_source=f4d398fa",
+        "title": "Fullstack TypeScript Developer (m/f/d) - Angular / Node.js - PDR.cloud GmbH",
+        "company": "PDR.cloud GmbH",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Als Fullstack TypeScript Entwickler (m/w/d) gestalten Sie die Zukunft einer innovativen Softwarelösung für Karosserie- und Lackierbetriebe aktiv mit. In einem agilen Team entwickeln Sie moderne Anwendungen mit Angular und Node.js - von der Architektur bis zum Deployment - und übernehmen dabei Verantwortung für technisch anspruchsvolle, praxisnahe Projekte. Wir bieten Ihnen viel Gestaltungsspielraum, neueste Technologien und die Möglichkeit, Ihre Ideen in einem stark wachsenden Unternehmen direk…",
+        "postedAt": "2026-06-10T18:51:33.000Z"
+      },
+      "fuzzyKey": "pdr cloud|fullstack typescript developer angular node js pdr cloud gmbh",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 78,
+        "stackFit": 70,
+        "seniorityFit": 90,
+        "locationFit": 90,
+        "reasoning": "Gute Übereinstimmung bei TypeScript und Node.js sowie Ihrem Senior-Level, aber das Frontend setzt auf Angular statt Ihres primären React-Stacks, was die Passung einschränkt.",
+        "language": "de"
+      }
+    },
+    "adzuna:5756594809": {
+      "posting": {
+        "id": "adzuna:5756594809",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5756594809?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Backend Engineer (f/m/d) - Node.js & Typescript",
+        "company": "smava",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "We are smava – the online credit comparison platform. We make loans transparent, fair and affordable! With more than 300.000 satisfied customers, we are one of the biggest FinTech companies in Germany. Become now part of our vision to shape the digital future of the consumer loan market! Our Development teams are distributed along the customer journey, each being completely in charge of their corresponding part of the platform and respective services and systems. They operate in an autonomous a…",
+        "postedAt": "2026-06-08T22:44:33.000Z"
+      },
+      "fuzzyKey": "smava|senior backend engineer node js typescript",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 78,
+        "stackFit": 75,
+        "seniorityFit": 90,
+        "locationFit": 80,
+        "reasoning": "The job is a senior Node.js + TypeScript role in Berlin that strongly matches your senior backend and Node.js/TypeScript experience and leadership, though it's backend-focused rather than frontend.",
+        "language": "en"
+      }
+    },
+    "adzuna:5758336886": {
+      "posting": {
+        "id": "adzuna:5758336886",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/land/ad/5758336886?se=FPGCTRNl8RGN64C7ajy0tA&utm_medium=api&utm_source=f4d398fa&v=69DE57C2C031C444C42981B249B5E0C4AFA4674A",
+        "title": "Software Engineer - RAG, Knowledge Graphs & Agentic Systems (m/f/d)",
+        "company": "Riverty Group GmbH",
+        "location": "Tiergarten, Berlin",
+        "workMode": "unknown",
+        "description": "We are looking for a Software Engineer – RAG, Knowledge Graphs & Agentic Systems (m/f/d) (unlimited, full-time) Join our team at our location in Berlin, Baden-Baden, Verl or Tallinn – flexible working conditions available (Y)our Mission: You will work embedded in our product and domain teams, building the AI-driven features that directly reach users. Your focus lies on RAG pipelines, knowledge graphs, context engineering, and multi-step agentic workflows. You translate AI capabilities into prac…",
+        "postedAt": "2026-06-10T12:23:07.000Z"
+      },
+      "fuzzyKey": "riverty group|software engineer rag knowledge graphs agentic systems",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:07.810Z",
+      "score": {
+        "score": 35,
+        "stackFit": 10,
+        "seniorityFit": 70,
+        "locationFit": 90,
+        "reasoning": "The role is centered on RAG/knowledge-graph/agentic AI systems (ML/AI/backend-focused) rather than the TypeScript/React/Node.js frontend/full-stack expertise the candidate specializes in.",
+        "language": "en"
+      }
+    },
+    "adzuna:5756681948": {
+      "posting": {
+        "id": "adzuna:5756681948",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5756681948?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Software Developer (Backend & Infrastructure) // Remote möglich",
+        "company": "E. Breuninger GmbH & Co.",
+        "location": "Hamburg, Deutschland",
+        "workMode": "remote",
+        "description": "Stellenbeschreibung Willkommen im Team FIND. Als Senior Software Developer (m/w/d) übernimmst du im Team FIND aktiv Ownership für deinen Code, treibst technische Entscheidungen voran und baust proaktiv Wissen im Team auf. Gemeinsam mit deinen Kolleg:innen entwirfst, planst und entwickelst du wertstiftende Features am Kernprodukt des Webshops, der Suche. Das erwartet dich Fun First : Wir sind ein remote arbeitendes Team, das sich regelmäßig zu Team- und Domänentagen trifft. Wir stärken uns gegen…",
+        "postedAt": "2026-06-09T01:00:09.000Z"
+      },
+      "fuzzyKey": "e breuninger|senior software developer backend infrastructure remote m glich",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 65,
+        "stackFit": 60,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The role is focused on backend & infrastructure while the candidate is primarily a frontend/full‑stack engineer specializing in TypeScript/React/Node.js, so the uncertain stack match is the decisive factor.",
+        "language": "de"
+      }
+    },
+    "adzuna:5756630841": {
+      "posting": {
+        "id": "adzuna:5756630841",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5756630841?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager (all genders) | Explore & Discover",
+        "company": "Kaufland e-commerce",
+        "location": "Deutschland",
+        "workMode": "remote",
+        "description": "Anstellungsdetails Permanent contract, Full- or Part-Time, Remote or Cologne / Darmstadt / Düsseldorf / Berlin Info Who we are We are the tech powerhouse behind Kaufland’s international online marketplaces and a company within the Schwarz Group. Driven by a start-up mentality and working on an equal footing within flat hierarchies, we develop the best marketplace solutions for our customers, sellers and partners. FromEuropeForEurope Day by day, our Tech & Product Team of about 400 experts pursu…",
+        "postedAt": "2026-06-08T23:29:10.000Z"
+      },
+      "fuzzyKey": "kaufland e commerce|engineering manager explore discover",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:07.525Z",
+      "score": {
+        "score": 35,
+        "stackFit": 40,
+        "seniorityFit": 50,
+        "locationFit": 90,
+        "reasoning": "The posting appears to be a general Engineering Manager role with no clear hands-on TypeScript/React/Node focus, suggesting a likely people-management position out of scope for a hands-on senior/full‑stack engineer.",
+        "language": "de"
+      }
+    },
+    "adzuna:5757673595": {
+      "posting": {
+        "id": "adzuna:5757673595",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5757673595?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager (all genders) | Backend Infrastructure",
+        "company": "Kaufland e-commerce",
+        "location": "Deutschland",
+        "workMode": "remote",
+        "description": "Anstellungsdetails Permanent Contract, Full- or Part-Time, Remote or Cologne / Darmstadt / Düsseldorf / Berlin Info Who we are We are the tech powerhouse behind Kaufland’s international online marketplaces and a company within the Schwarz Group. Driven by a start-up mentality and working on an equal footing within flat hierarchies, we develop the best marketplace solutions for our customers, sellers and partners. FromEuropeForEurope Day by day, our Tech & Product Team of about 400 experts pursu…",
+        "postedAt": "2026-06-09T23:23:10.000Z"
+      },
+      "fuzzyKey": "kaufland e commerce|engineering manager backend infrastructure",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:08.646Z",
+      "score": {
+        "score": 30,
+        "stackFit": 20,
+        "seniorityFit": 35,
+        "locationFit": 90,
+        "reasoning": "This is a backend-infrastructure Engineering Manager role focused on people/infra (likely non-TypeScript/React/Node stack), which mismatches the candidate’s hands‑on TypeScript/React/Node frontend/full‑stack profile.",
+        "language": "en"
+      }
+    },
+    "adzuna:5757927595": {
+      "posting": {
+        "id": "adzuna:5757927595",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5757927595?utm_medium=api&utm_source=f4d398fa",
+        "title": "Technical Lead / Engineering Manager (gn) Microsoft Dynamics 365 CE / CRM in Berlin",
+        "company": "SoftwareOne Deutschland GmbH von Jobs-Daheim.de",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Job Function IT & Solutions Warum SoftwareOne? SoftwareOne und Crayon haben sich zusammengeschlossen, um gemeinsam zu einem der weltweit führenden Anbieter für AI-gestützte Software- und Cloud-Lösungen zu werden. Mit mehr als 13.000 Mitarbeitenden in über 70 Ländern gestalten wir die technologische Zukunft unserer Kunden – innovativ, global vernetzt und mit klarer Vision. Bei uns stehen die Menschen im Mittelpunkt. Wir fördern mutige Ideen, echte Zusammenarbeit und kontinuierliches Wachstum – u…",
+        "postedAt": "2026-06-10T04:15:03.000Z"
+      },
+      "fuzzyKey": "softwareone deutschland von jobs daheim de|technical lead engineering manager gn microsoft dynamics 365 ce crm in berlin",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:09.151Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 28,
+        "stackFit": 10,
+        "seniorityFit": 70,
+        "locationFit": 90,
+        "reasoning": "The role is centered on Microsoft Dynamics 365/CRM (likely .NET/CRM specialization) rather than hands-on TypeScript/React/Node.js frontend or full-stack engineering, so it's a poor technical fit.",
+        "language": "de"
+      }
+    },
+    "adzuna:5757663971": {
+      "posting": {
+        "id": "adzuna:5757663971",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5757663971?utm_medium=api&utm_source=f4d398fa",
+        "title": "Software Engineer (Engineering Efficiency) - remote friendly",
+        "company": "Qonto",
+        "location": "Deutschland",
+        "workMode": "remote",
+        "description": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.8 on Trustpilot , based on 55,000 reviews. Our culture puts customer satisfaction at the core of what we do, as proven by our Net Promoter Score of 75. Our journey: Founded in 2017 by Alexandre and Steve , Qonto has grown to 1,600 Qontoers serving over 600,000 customers across 8 European cou…",
+        "postedAt": "2026-06-09T23:21:29.000Z"
+      },
+      "fuzzyKey": "qonto|software engineer engineering efficiency remote friendly",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 86,
+        "stackFit": 75,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The role's engineering-efficiency focus and Germany-remote eligibility strongly match the candidate's hands-on senior full‑stack experience (TypeScript/React/Node.js) and CI/CD/dev-tools background.",
+        "language": "en"
+      }
+    },
+    "adzuna:5756629322": {
+      "posting": {
+        "id": "adzuna:5756629322",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5756629322?utm_medium=api&utm_source=f4d398fa",
+        "title": "(Senior) Full-Stack Engineer (all genders) | Tracking",
+        "company": "Kaufland e-commerce",
+        "location": "Deutschland",
+        "workMode": "remote",
+        "description": "Anstellungsdetails Permanent Contract, Full-or Part-Time, Remote or Cologne / Düsseldorf / Darmstadt / Berlin Info Who we are We are the tech powerhouse behind Kaufland’s international online marketplaces and a company within the Schwarz Group. Driven by a start-up mentality and working on an equal footing within flat hierarchies, we develop the best marketplace solutions for our customers, sellers and partners. FromEuropeForEurope Day by day, our Tech & Product Team of about 400 experts pursue…",
+        "postedAt": "2026-06-08T23:24:50.000Z"
+      },
+      "fuzzyKey": "kaufland e commerce|senior full stack engineer tracking",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 90,
+        "stackFit": 85,
+        "seniorityFit": 95,
+        "locationFit": 100,
+        "reasoning": "This is a remote Senior Full-Stack role in Germany and the candidate is a Berlin-based Senior/Staff engineer with extensive hands-on TypeScript, React and Node.js experience, making it a very strong match.",
+        "language": "en"
+      }
+    },
+    "hn:48458096": {
+      "posting": {
+        "id": "hn:48458096",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48458096",
+        "title": "Senior Software Engineer - Full Stack, Technical Lead &#x2F; Software Engineer",
+        "company": "Pango",
+        "location": "Remote, LATAM",
+        "workMode": "remote",
+        "description": "Pango | Senior Software Engineer - Full Stack, Technical Lead &#x2F; Software Engineer | Remote, LATAM | Full time Pango is building the world&#x27;s first Agentic Operating System for e-commerce logistics. Our vision is to create the AI e-commerce employee of the future. We are forming our core team in Stockholm and are looking for exceptional engineers. You are a good fit if: * You are comfortable maintaining, expanding and operating a substantial chunk of a B2B SaaS platform with a high sense of ownership. * You are happy to take on work that in a large company is divided into multiple roles, and execute it all at an excellent level. * You are unafraid of any technology. If we need a desktop app and you haven&#x27;t done one before, you will study the documentation of Electron.js and build one. If a model for predicting delivery times is needed, you will do a literature review to find the right architecture and train one. * You have strong proficiency in any backend language or platform, with a strong willingness to dive deep into PHP&#x2F;Laravel OR strong proficiency in JS&#x2F;React. * E-commerce (Shopify, Magento, other platforms, shipping carrier integrations) experience is a plus. * Extra points if you write the initial email - however short - using your own words. You will take a key role in shaping the product and company, with ability to make an impact and advance career limited only by your aptitude and interest. Reach out to steve@pango.ai if you are interested or have any questions. We review applications immediately and move quickly.",
+        "postedAt": "2026-06-09T08:05:56.000Z"
+      },
+      "fuzzyKey": "pango|senior software engineer full stack technical lead x2f software engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:16.894Z",
+      "score": {
+        "score": 30,
+        "stackFit": 90,
+        "seniorityFit": 85,
+        "locationFit": 10,
+        "reasoning": "The role is explicitly for remote LATAM candidates (region-restricted), while the candidate is based in Germany and likely not eligible to be hired for a LATAM-only remote role.",
+        "language": "en"
+      }
+    },
+    "hn:48457866": {
+      "posting": {
+        "id": "hn:48457866",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48457866",
+        "title": "Full Stack Software Engineer",
+        "company": "Babou",
+        "location": "REMOTE",
+        "workMode": "remote",
+        "description": "Babou | Full Stack Software Engineer | REMOTE | Full-time Babou turns your product into marketing: every time you ship, it watches your deploys, designs, and docs and builds the campaign (ads, demos, social, launch videos). Small team with users and real revenue. Stack: TypeScript everywhere, Next.js front, Node + Postgres back, heavy media job processing, and a lot of AI agents running in production. Looking for: agents are how you ship code, and you know when an LLM is wrong. You move fast without shipping slop. You&#x27;ve built large production systems and kept them running. Apply: email careers@babou.ai with your GitHub, a writeup of something you&#x27;ve shipped, and how you work with agents day to day. https:&#x2F;&#x2F;babou.ai&#x2F;careers",
+        "postedAt": "2026-06-09T07:38:20.000Z"
+      },
+      "fuzzyKey": "babou|full stack software engineer",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 92,
+        "stackFit": 95,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "Excellent alignment with the required stack (TypeScript, Next.js, Node, Postgres) and explicit experience with LLMs/agents and production-scale systems makes this a strong fit.",
+        "language": "en"
+      }
+    },
+    "hn:48448546": {
+      "posting": {
+        "id": "hn:48448546",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48448546",
+        "title": "Full-Stack Engineer",
+        "company": "LabAMI",
+        "location": "Remote (US)",
+        "workMode": "remote",
+        "description": "LabAMI | Full-Stack Engineer | Remote (US) | Equity Only | https:&#x2F;&#x2F;labami.ai Help Us Shape the Future of Music Education LabAMI’s mission is to harness technology to make learning music more accessible, intuitive, and meaningful for everyone. We empower teachers to expand their impact, help students chart inspiring learning journeys, and aim to connect a global community of musicians, educators, and enthusiasts. We&#x27;re looking for a software engineer interested in developing scalable and polished full-stack applications. We&#x27;ve started with a cross-platform mobile and are planning expansions to desktop and web. What We’re Looking For - Strong skills in at least one programming language. - Passion for developing tools for music education. - Ownership mindset and ability to thrive in a collaborative, fast-paced, early-stage environment - Excited to work with Elixir, Flutter, and Rust. This is a remote, equity-only role with a mission-driven, flexible team that cares deeply about music and technology. Apply here! https:&#x2F;&#x2F;forms.gle&#x2F;jRQCwbp1nz9xk5TPA",
+        "postedAt": "2026-06-08T17:45:08.000Z"
+      },
+      "fuzzyKey": "labami|full stack engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:22.252Z",
+      "score": {
+        "score": 25,
+        "stackFit": 15,
+        "seniorityFit": 80,
+        "locationFit": 10,
+        "reasoning": "The posting is remote (US) only and likely not hireable from Germany, making it out-of-scope for this Berlin-based candidate despite senior full‑stack experience.",
+        "language": "en"
+      }
+    },
+    "hn:48404229": {
+      "posting": {
+        "id": "hn:48404229",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48404229",
+        "title": "Senior Fullstack Engineer",
+        "company": "Sequent Tech",
+        "location": "REMOTE (Global)",
+        "workMode": "remote",
+        "description": "Sequent Tech | Senior Fullstack Engineer | REMOTE (Global) | Full-time | sequentech.io Sequent builds cryptographically secure online voting infrastructure used in 200+ real elections across multiple countries. We&#x27;re a fully remote team working on an open-source platform combining Rust, TypeScript, and modern DevOps. We handle End-to-end encrypted voting, cryptographic mixnets, and tamper-evident logging. Tech Stack: Rust, TypeScript&#x2F;React, WebAssembly, GraphQL, PostgreSQL, Kubernetes, Keycloak, ImmuDB Open Roles: Senior Fullstack Engineer (Rust + TypeScript&#x2F;React) Reach out: team@sequentech.io",
+        "postedAt": "2026-06-04T20:32:50.000Z"
+      },
+      "fuzzyKey": "sequent tech|senior fullstack engineer",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 72,
+        "stackFit": 70,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "Great fit on TypeScript/React fullstack, GraphQL and infra, but the role’s emphasis on Rust, cryptography and WebAssembly is a notable gap in the candidate’s listed experience.",
+        "language": "en"
+      }
+    },
+    "hn:48403016": {
+      "posting": {
+        "id": "hn:48403016",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48403016",
+        "title": "Staff Software Engineer (Engineering AI Team), Staff Software Engineer, Senior Software Engineer, Engineering Manager",
+        "company": "Second Nature",
+        "location": "REMOTE (US)",
+        "workMode": "remote",
+        "description": "Second Nature | Staff Software Engineer (Engineering AI Team), Staff Software Engineer, Senior Software Engineer, Engineering Manager | REMOTE (US) | Full-time Second Nature ( https:&#x2F;&#x2F;secondnature.com ) is redefining professional property management with fully managed Resident Benefits Packages. We&#x27;re a Resident Experience Platform helping 1,000+ property management companies automate resident onboarding, credit-building, renters insurance, utilities, and other resident services, creating \"Triple Win\" experiences for residents, property managers, and investors. We&#x27;re the only 7-time national NARPM vendor of the year! Tech Stack: TypeScript, React, Next.js, NestJS, PostgreSQL, Kubernetes, Terraform, AWS. CI&#x2F;CD with GitHub Actions. Domain-driven design and event-driven architecture. Culture: We move fast (\"Pirate Ship, Not a Cruise Ship\"), take extreme ownership, and focus on outcomes. We&#x27;re investing heavily in AI across our product and workflows, including a dedicated AI team. Benefits: 100% remote (US), medical&#x2F;dental&#x2F;vision, 401K, open PTO, equity. Open Roles: Staff Software Engineer, Engineering AI Team ($150K-$180K) - High-agency IC building agentic AI dev workflows; the team ships 100% of its software with AI coding agents like Claude Code. https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=ce8bb758-f58a... Staff Software Engineer ($150K-$190K) - Senior IC setting technical direction across teams while staying hands-on in the codebase. https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=9bc8e6af-d2bf... Senior Software Engineer ($155K-$185K) - Full-stack across the platform: TypeScript, Python, SQL, CI&#x2F;CD. https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=6b92e266-4491... Engineering Manager - Player&#x2F;coach: lead 5-10 engineers, drive architecture decisions, and ship production code. https:&#x2F;&#x2F;www.secondnature.com&#x2F;careers?ashby_jid=6ac49e4d-9541...",
+        "postedAt": "2026-06-04T18:53:16.000Z"
+      },
+      "fuzzyKey": "second nature|staff software engineer engineering ai team staff software engineer senior software engineer engineering manager",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:24.340Z",
+      "score": {
+        "score": 30,
+        "stackFit": 90,
+        "seniorityFit": 90,
+        "locationFit": 5,
+        "reasoning": "The role is explicitly remote (US) only, making it unlikely the company will hire a candidate based in Germany, which is the decisive mismatch.",
+        "language": "en"
+      }
+    },
+    "hn:48402188": {
+      "posting": {
+        "id": "hn:48402188",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48402188",
+        "title": "Staff Software Engineer",
+        "company": "Pelotech",
+        "location": "REMOTE (US Only)",
+        "workMode": "remote",
+        "description": "Pelotech | Staff Software Engineer | REMOTE (US Only) | Full-Time We&#x27;re Pelotech ( https:&#x2F;&#x2F;www.pelotech.com ), a software consulting company. We are deeply technical but also deeply human: approachable, adaptable, curious, and helpful. We aren&#x27;t here to blindly build features; we&#x27;re here to solve problems thoughtfully. We&#x27;re looking for a Staff Software Engineer who enjoys working directly with clients, mentoring engineers, and solving messy real-world problems. You might call yourself a passionate polyglot, versatile specialist, or curious expert. We&#x27;re looking for engineers with 5+ years of experience, strong backend skills, proficiency in languages such as TypeScript, Go, Python, Java, or Rust, and familiarity with Kubernetes, Terraform, ArgoCD, AWS, and GCP. We value curiosity, pragmatism, kindness, autonomy, and people who enjoy learning new technologies. Compensation: $160k–$210k base salary + 10–20% profit sharing + full benefits. Contact: [henry.anderson@pelo.tech](mailto:henry.anderson@pelo.tech) https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;henryanderson9&#x2F;",
+        "postedAt": "2026-06-04T17:57:13.000Z"
+      },
+      "fuzzyKey": "pelotech|staff software engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:25.188Z",
+      "score": {
+        "score": 30,
+        "stackFit": 75,
+        "seniorityFit": 90,
+        "locationFit": 0,
+        "reasoning": "The posting is restricted to REMOTE (US Only), so a candidate based in Germany is not eligible to be hired.",
+        "language": "en"
+      }
+    },
+    "hn:48392586": {
+      "posting": {
+        "id": "hn:48392586",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48392586",
+        "title": "Fullstack & Senior Fullstack SWE",
+        "company": "CO-Ver",
+        "location": "Remote US",
+        "workMode": "remote",
+        "description": "CO-Ver | Fullstack & Senior Fullstack SWE | Remote US | $125k-$175k DOE + Equity | 1099 Contract-to-Hire | Self-funded GCs routinely overbill 10-15% on change orders, and owners have no systematic way to catch it. CO-Ver is building software to help owners and developers review, validate, and challenge construction change orders before they pay them. The product combines document ingestion, scope&#x2F;cost comparison, estimate review workflows, and LLM-assisted analysis with human estimators in the loop. MVP is nearing completion. We&#x27;re targeting production by mid-July, self-funded, intentionally small, and working directly with customers in a painful, expensive, and underserved market. You&#x27;ll work with the founders and fractional CTO, have a real voice in product and architecture decisions, and receive early-stage equity. Open roles: Fullstack SWE ($125k-$155k): 3+ years, strong TypeScript, React&#x2F;Next.js, solid data modeling, interest in LLM-assisted workflows Senior Fullstack SWE ($150k-$175k): 5+ years, deep TypeScript, production Next.js&#x2F;multi-tenant SaaS&#x2F;LLM features, comfortable owning architecture decisions Nice to have: Convex, Clerk, Tailwind v4, PDF pipelines, construction domain knowledge Stack: Next.js · React 19 · TypeScript · Convex · Clerk · Tailwind v4 · Anthropic API · Vercel · GitHub Actions Email recruiting@co-ver.com with [hn] in the subject. Thank you!",
+        "postedAt": "2026-06-04T01:36:21.000Z"
+      },
+      "fuzzyKey": "ver|fullstack senior fullstack swe",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:27.182Z",
+      "score": {
+        "score": 35,
+        "stackFit": 95,
+        "seniorityFit": 90,
+        "locationFit": 10,
+        "reasoning": "The role is a US 1099 contract-to-hire remote position (Remote US) which likely requires US-based contractors, so the candidate based in Germany is not hireable despite excellent technical fit.",
+        "language": "en"
+      }
+    },
+    "hn:48383091": {
+      "posting": {
+        "id": "hn:48383091",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48383091",
+        "title": "Software Developers",
+        "company": "micro1",
+        "location": "Remote &#x2F; Global",
+        "workMode": "remote",
+        "description": "micro1 | Software Developers | Remote &#x2F; Global | Contract | $60–$110&#x2F;hr I’m sourcing candidates for a remote Software Developer role with micro1. Relevant backgrounds: Python, Rust, Go, Java, Node.js, full-stack, Android, or iOS. Details: Remote &#x2F; Global Contract $60–$110&#x2F;hr 100 openings 1+ years hands-on dev experience AI interview required Apply: https:&#x2F;&#x2F;jobs.micro1.ai&#x2F;post&#x2F;774871bf-951f-4f26-9fe8-42eabfce... Disclosure: I’m sourcing for this role as a recruiter partner, so the link includes referral tracking.",
+        "postedAt": "2026-06-03T12:29:01.000Z"
+      },
+      "fuzzyKey": "micro1|software developers",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 82,
+        "stackFit": 75,
+        "seniorityFit": 80,
+        "locationFit": 100,
+        "reasoning": "Remote full‑stack role explicitly lists Node.js (matching the candidate's backend stack) with strong hourly rates that convert to >€100k/year, making it a compelling, hireable fit from Germany.",
+        "language": "en"
+      }
+    },
+    "hn:48376486": {
+      "posting": {
+        "id": "hn:48376486",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48376486",
+        "title": "Lead Software Engineer, Data Sovereignty",
+        "company": "Conservation Metrics",
+        "location": "REMOTE (US) Indigenous People around the world are working tirelessly to protect and manage their territories under mounting external threats. Conservation Metrics is a small, mission-driven company co-creating an open-source data platform designed to support territorial monitoring and Indigenous data sovereignty. It combines remote sensing products (maps, alerts, and change detection), mobile data collection tools, secure data warehousing, and governed data access to allow Indigenous communities to explore, analyze, and summarize their information. Lead position: You will own architecture and data infrastructure. You will work across engineering and partner-facing teams to build systems that support Indigenous data sovereignty, secure collaboration, and long-term stewardship of community data. We are looking for someone who can work through hard technical trade-offs and commit. In addition, Leads at Conservation Metrics are hands-on, writing production code and reviewing PRs to stay close to the system. Tech: PostgreSQL, CapRover (Docker Swarm), Identity Systems (Auth0) on single-tenant stacks. See link for example projects and how to apply:",
+        "workMode": "remote",
+        "description": "Conservation Metrics | Lead Software Engineer, Data Sovereignty | REMOTE (US) Indigenous People around the world are working tirelessly to protect and manage their territories under mounting external threats. Conservation Metrics is a small, mission-driven company co-creating an open-source data platform designed to support territorial monitoring and Indigenous data sovereignty. It combines remote sensing products (maps, alerts, and change detection), mobile data collection tools, secure data warehousing, and governed data access to allow Indigenous communities to explore, analyze, and summarize their information. Lead position: You will own architecture and data infrastructure. You will work across engineering and partner-facing teams to build systems that support Indigenous data sovereignty, secure collaboration, and long-term stewardship of community data. We are looking for someone who can work through hard technical trade-offs and commit. In addition, Leads at Conservation Metrics are hands-on, writing production code and reviewing PRs to stay close to the system. Tech: PostgreSQL, CapRover (Docker Swarm), Identity Systems (Auth0) on single-tenant stacks. See link for example projects and how to apply: https:&#x2F;&#x2F;conservationmetrics.com&#x2F;careers&#x2F;lead-data-platform-e...",
+        "postedAt": "2026-06-02T21:21:26.000Z"
+      },
+      "fuzzyKey": "conservation metrics|lead software engineer data sovereignty",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:32.562Z",
+      "score": {
+        "score": 30,
+        "stackFit": 65,
+        "seniorityFit": 90,
+        "locationFit": 10,
+        "reasoning": "The posting is explicitly REMOTE (US), which likely excludes hiring candidates based in Germany—making location the decisive mismatch despite strong technical and seniority fit.",
+        "language": "en"
+      }
+    },
+    "hn:48376099": {
+      "posting": {
+        "id": "hn:48376099",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48376099",
+        "title": "AI Staff Engineer",
+        "company": "Republic Services",
+        "location": "WFH in Arizona preferably, will consider remote",
+        "workMode": "remote",
+        "description": "Republic Services | AI Staff Engineer | WFH in Arizona preferably, will consider remote | $132,600- $182,250 + Bonus We’re hiring an AI Staff Engineer to help lead the next wave of enterprise software built with GenAI and agentic AI. This is a senior technical leadership role for someone who can combine strong engineering depth with real business partnership and influence across product, data, architecture, and executive stakeholders. You’ll work closely with business leaders, product managers, and data scientists to identify high-value opportunities where AI can reduce friction, improve efficiency, lower risk, and create measurable business impact. A big part of the role is translating ambiguous business problems into practical AI-enabled solutions and helping leaders make smart decisions about where and how to invest. On the technical side, you’ll design and build core services, APIs, and orchestration pipelines that connect LLMs and agentic workflows to enterprise data, systems, and digital platforms. You’ll provide technical direction to distributed engineering teams, lead design and code quality practices, and help teams ship secure, scalable, production-grade solutions. You’ll also play a key leadership role in shaping platform standards around reliability, observability, governance, and responsible AI. We want someone who can partner credibly with senior leaders, drive execution across teams, and turn GenAI from experimentation into durable business value. DM me or apply here https:&#x2F;&#x2F;wd5.myworkday.com&#x2F;republic&#x2F;d&#x2F;inst&#x2F;15$392530&#x2F;9925$288...",
+        "postedAt": "2026-06-02T20:51:49.000Z"
+      },
+      "fuzzyKey": "republic services|ai staff engineer",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 82,
+        "stackFit": 75,
+        "seniorityFit": 90,
+        "locationFit": 70,
+        "reasoning": "Your staff/lead-level TypeScript + Node.js full‑stack background combined with hands‑on LLM/Generative-AI experience and history of leading cross-functional, production-grade projects closely matches the role's technical and leadership needs, though the posting's enterprise/ML-infra emphasis and US/AZ preference slightly reduce the fit.",
+        "language": "en"
+      }
+    },
+    "hn:48372552": {
+      "posting": {
+        "id": "hn:48372552",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48372552",
+        "title": "Backend Software Engineer",
+        "company": "Enveritas (YC S18, non-profit)",
+        "location": "Remote (Global)",
+        "workMode": "remote",
+        "description": "Enveritas (YC S18, non-profit) | Backend Software Engineer | Remote (Global) | https:&#x2F;&#x2F;enveritas.org&#x2F;jobs&#x2F; Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing smallholder coffee farmers. We collect field data in 25+ countries and build systems for analyzing risks in coffee supply chains (including EUDR-related deforestation checks). * Backend Software Engineer (Python, PostgreSQL&#x2F;PostGIS, Docker, AWS, Terraform) - $135-$155k — https:&#x2F;&#x2F;enveritas.org&#x2F;jobs&#x2F;backend-software-eng&#x2F;#10d7adef8us (worldwide remote)",
+        "postedAt": "2026-06-02T16:35:33.000Z"
+      },
+      "fuzzyKey": "enveritas yc s18 non profit|backend software engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:32.297Z",
+      "score": {
+        "score": 45,
+        "stackFit": 20,
+        "seniorityFit": 80,
+        "locationFit": 90,
+        "reasoning": "The role is primarily a Python/PostGIS backend position (GIS-heavy backend) which does not align with the candidate's TypeScript/React/Node.js frontend/full‑stack specialization.",
+        "language": "en"
+      }
+    },
+    "hn:48370094": {
+      "posting": {
+        "id": "hn:48370094",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48370094",
+        "title": "Remote (US) First with offices in NYC and SF We’re building a healthier future for women and children. We combine clinical excellence, human connection, and proactive technology to ensure our patients get the care they deserve, from preconception through midlife. - Staff Software Engineer, Patient Experience We&#x27;re looking for a Staff SWE to operate as the Tech Lead for the Patient Experience team. Front-end leading fullstack eng, some mobile experience is a nice to have.",
+        "company": "Pomelo Care",
+        "location": "",
+        "workMode": "remote",
+        "description": "Pomelo Care| Remote (US) First with offices in NYC and SF We’re building a healthier future for women and children. We combine clinical excellence, human connection, and proactive technology to ensure our patients get the care they deserve, from preconception through midlife. - Staff Software Engineer, Patient Experience We&#x27;re looking for a Staff SWE to operate as the Tech Lead for the Patient Experience team. Front-end leading fullstack eng, some mobile experience is a nice to have. Apply here: https:&#x2F;&#x2F;grnh.se&#x2F;ws5ijibc4us - Senior Product Security Engineer WE&#x27;re looking for a Senior SWE capable of running with customer-facing product feature development, that wants to work on security features, and has amazing communication skills. Apply here: https:&#x2F;&#x2F;grnh.se&#x2F;1371qh6h4us",
+        "postedAt": "2026-06-02T13:35:25.000Z"
+      },
+      "fuzzyKey": "pomelo care|remote us first with offices in nyc and sf we re building a healthier future for women and children we combine clinical excellence human connection and proactive technology to ensure our patients get the care they deserve from preconception through midlife staff software engineer patient experience we x27 re looking for a staff swe to operate as the tech lead for the patient experience team front end leading fullstack eng some mobile experience is a nice to have",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:37.268Z",
+      "score": {
+        "score": 35,
+        "stackFit": 90,
+        "seniorityFit": 90,
+        "locationFit": 10,
+        "reasoning": "The listing is US-first remote (with NYC/SF offices) and is likely restricted to US hires, making it unlikely the role is hireable from Germany despite a strong TypeScript/React/Node fit.",
+        "language": "en"
+      }
+    },
+    "hn:48368468": {
+      "posting": {
+        "id": "hn:48368468",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48368468",
+        "title": "Fullstack Engineer, MERN &#x2F; LMS",
+        "company": "RealEstateU",
+        "location": "REMOTE (UTC-01:00 to UTC+03:00)",
+        "workMode": "remote",
+        "description": "RealEstateU | Fullstack Engineer, MERN &#x2F; LMS | REMOTE (UTC-01:00 to UTC+03:00) | Contract, full-time We&#x27;re a leading online U.S. real estate education provider. Our custom LMS is a large MERN platform (Node&#x2F;Express, MongoDB Atlas, React, Azure) currently maintained by an external contractor. We need one senior fullstack engineer to help establish oversight and technical standards for the platform, as well as form our own engineering culture. The work: - CI&#x2F;CD: Cut ticket-to-production from months to days. Modernize the build, tests, linting, and GitHub Actions. - Architecture: Break a monolithic environment into dedicated microservices to enable async release schedule. - APIs: Bolster integrations (Stripe, BioSig, Honorlock, SendGrid, Zapier) and open data up to new services. - Frontend: Rebuild student-facing surfaces with modernized stack, ideally using a portable design system. You: >5 years of solid React + Node on complex MERN products, fluent English, and have already embraced a constructive AI-native workflow (i.e. Claude Code &#x2F; Codex &#x2F; Cursor). This is an IC role where you will have significant ownership and ability to define engineering standards as we grow our in-house capabilities. This is not fractional or agency work. You&#x27;ll be given autonomy, work directly with founders + PM, and will not be micro-managed. We&#x27;ll cover the AI coding plan of your choice and encourage its use with your good judgement. This is an opportunity to work on a scaled product (~100k users) with real revenue, not a startup. Simply complete our 5-min questionnaire here and we&#x27;ll reach back out to you directly: https:&#x2F;&#x2F;forms.gle&#x2F;vjdnjrnDVxcsCWM76",
+        "postedAt": "2026-06-02T10:47:54.000Z"
+      },
+      "fuzzyKey": "realestateu|fullstack engineer mern x2f lms",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 92,
+        "stackFit": 95,
+        "seniorityFit": 95,
+        "locationFit": 100,
+        "reasoning": "Excellent hands-on match — the candidate has deep TypeScript/React/Node experience, plus proven success modernizing CI/CD and re-architecting monoliths into service-oriented systems, which is exactly what this MERN LMS role needs.",
+        "language": "en"
+      }
+    },
+    "hn:48363752": {
+      "posting": {
+        "id": "hn:48363752",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48363752",
+        "title": "Full Stack Software Engineer",
+        "company": "Piq Energy",
+        "location": "SF, Athens, or US REMOTE",
+        "workMode": "remote",
+        "description": "Piq Energy | Full Stack Software Engineer | SF, Athens, or US REMOTE | Full-time | $150k-$250k + equity (SF; location-adjusted) https:&#x2F;&#x2F;jobs.gem.com&#x2F;piqenergy&#x2F;am9icG9zdDqgTj8NyVDwal1rIjQFn... for remote US, https:&#x2F;&#x2F;jobs.gem.com&#x2F;piqenergy&#x2F;am9icG9zdDqkYrMOHiz76MhEvW9nt... for San Francisco Piq Energy builds software that helps renewable and large-load developers get projects connected to the electric grid faster. We automate grid interconnection studies and planning workflows. You’ll own features end-to-end: interactive frontend, backend APIs, data pipelines, AI agents, and power systems simulation workflows. We’re looking for experienced generalists who like ownership, real-world impact, and scaling startups. Stack: Typescript, Svelte, GraphQL, Mapbox, D3.js, Python, LLM agents, Postgres, workflow orchestration",
+        "postedAt": "2026-06-01T23:05:25.000Z"
+      },
+      "fuzzyKey": "piq energy|full stack software engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:40.314Z",
+      "score": {
+        "score": 30,
+        "stackFit": 80,
+        "seniorityFit": 90,
+        "locationFit": 0,
+        "reasoning": "The role is listed as US-remote/SF-only, so the company likely won't hire from Germany — the decisive mismatch despite strong TypeScript/GraphQL/full-stack fit.",
+        "language": "en"
+      }
+    },
+    "hn:48363378": {
+      "posting": {
+        "id": "hn:48363378",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48363378",
+        "title": "Staff Software Engineer (multiple)",
+        "company": "Outschool",
+        "location": "Remote US or CA At Outschool, we&#x27;re reimagining education by helping millions of learners discover their passions through engaging, personalized learning experiences. Our mission is to inspire kids to love learning by connecting them with exceptional educators and enriching content from around the world. As a remote-first company, we empower our team with flexibility, autonomy, and the opportunity to make a meaningful impact every day. You&#x27;ll collaborate with talented, mission-driven colleagues who are passionate about innovation, equity in education, and creating products that truly matter for families. Outschool is looking for a full-stack Staff Software Engineer to help develop a 0-1 new product platform with an agentic-first development approach, easing the burden for families searching for new education options.",
+        "workMode": "remote",
+        "description": "Outschool | Staff Software Engineer (multiple) | Remote US or CA At Outschool, we&#x27;re reimagining education by helping millions of learners discover their passions through engaging, personalized learning experiences. Our mission is to inspire kids to love learning by connecting them with exceptional educators and enriching content from around the world. As a remote-first company, we empower our team with flexibility, autonomy, and the opportunity to make a meaningful impact every day. You&#x27;ll collaborate with talented, mission-driven colleagues who are passionate about innovation, equity in education, and creating products that truly matter for families. Outschool is looking for a full-stack Staff Software Engineer to help develop a 0-1 new product platform with an agentic-first development approach, easing the burden for families searching for new education options. https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;outschool&#x2F;jobs&#x2F;4683198006",
+        "postedAt": "2026-06-01T22:18:56.000Z"
+      },
+      "fuzzyKey": "outschool|staff software engineer multiple",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:39.899Z",
+      "score": {
+        "score": 25,
+        "stackFit": 80,
+        "seniorityFit": 85,
+        "locationFit": 10,
+        "reasoning": "The role is restricted to candidates in the US or Canada (remote US/CA), but the candidate is based in Germany and likely ineligible to apply, making it a poor fit due to location constraints.",
+        "language": "en"
+      }
+    },
+    "hn:48362455": {
+      "posting": {
+        "id": "hn:48362455",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48362455",
+        "title": "Full-Stack Engineer",
+        "company": "Hatchet",
+        "location": "NYC or SF or REMOTE (US and EU)",
+        "workMode": "remote",
+        "description": "Hatchet | Full-Stack Engineer | NYC or SF or REMOTE (US and EU) | https:&#x2F;&#x2F;hatchet.run Hey HN! I&#x27;m Alexander, one of the founders of Hatchet. Hatchet is an open-source platform for running background jobs at scale. We&#x27;re hiring engineers who are excited to build the next class of engineering primitives, starting with queues, background tasks and durable execution. We started in early 2024 after launching our distributed task queue ( https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=39643136 ). Hatchet is currently used by thousands of engineers for all kinds of workloads: log ingestion pipelines, code review agents, video encoding, GPU scheduling, etc. Our target customer is fast-growing startups who have a strong need for background jobs system. These days, that tends to be AI companies, though we&#x27;re general-purpose and not exclusively targeted for AI workloads. Stack: Postgres, Go, Typescript, React, Kubernetes Applying: email me at alexander@hatchet.run and tell me about something impressive you&#x27;ve built, along with your CV and why you&#x27;re interested in Hatchet. Note that we&#x27;re fully open-source, which you can check out here: https:&#x2F;&#x2F;github.com&#x2F;hatchet-dev&#x2F;hatchet (and if you have thoughts &#x2F; opinions &#x2F; questions about the codebase, please include those in your note!)",
+        "postedAt": "2026-06-01T20:50:26.000Z"
+      },
+      "fuzzyKey": "hatchet|full stack engineer",
+      "status": "digested",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.850Z",
+      "score": {
+        "score": 88,
+        "stackFit": 85,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "Strong TypeScript + React + Postgres full-stack background and hands-on experience building large-scale systems and infrastructure aligns closely with Hatchet's needs despite Go not being prominent on the resume.",
+        "language": "en"
+      }
+    },
+    "hn:48362451": {
+      "posting": {
+        "id": "hn:48362451",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48362451",
+        "title": "full stack",
+        "company": "Long Tail",
+        "location": "REMOTE&#x2F;US Based",
+        "workMode": "remote",
+        "description": "Long Tail | full stack | REMOTE&#x2F;US Based | full time We build software to help hospitals fight insurance companies. Small team that just took investment from PE firm so we&#x27;re scaling rapidly. Looking for AWS-native full stack architects with 5-10 years&#x27; experience. No healthcare background required (always a plus though). You&#x27;ll be architecting, shipping features, and reviewing work from engineers. Reports to VP of Eng. Email me: scott dot decker at longtailhealth",
+        "postedAt": "2026-06-01T20:49:48.000Z"
+      },
+      "fuzzyKey": "long tail|full stack",
+      "status": "scored",
+      "firstSeenAt": "2026-06-10T21:28:36.557Z",
+      "updatedAt": "2026-06-10T21:29:47.523Z",
+      "score": {
+        "score": 50,
+        "stackFit": 95,
+        "seniorityFit": 95,
+        "locationFit": 20,
+        "reasoning": "The posting is US-based remote and likely requires US work authorization or residency, which makes it a poor practical fit for a Germany-based candidate despite strong stack and seniority match.",
+        "language": "en"
+      }
+    }
+  },
+  "sourceFailures": {}
+}
