@@ -1,0 +1,42 @@
+name: companies
+on:
+  schedule:
+    # Mon 07:00 Berlin (summer). Winter: 06:00 — accepted.
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: job-scout
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  companies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run companies
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Commit state
+        # Research/discovery failures write nothing, so there is nothing to
+        # commit; a fresh artifact is still committed if only the later
+        # Telegram send failed (the work is not lost, the run goes red).
+        if: always()
+        run: |
+          git config user.name "job-scout-bot"
+          git config user.email "job-scout-bot@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || git commit -m "chore: companies update [skip ci]"
+          git pull --rebase origin main
+          git push

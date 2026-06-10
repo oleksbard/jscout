@@ -6,7 +6,8 @@ export interface Config {
   scoringConcurrency: number;
   tailor: boolean;
   minSalaryEur: number;
-  models: { scoring: string; tailoring: string };
+  models: { scoring: string; tailoring: string; research: string };
+  topCompanies: { count: number };
   searchTerms: string[];
   titleInclude: string[];
   titleExclude: string[];
@@ -23,7 +24,8 @@ export function loadConfig(path = 'config.json'): Config {
     tailor: raw.tailor ?? true,
     minSalaryEur: raw.minSalaryEur ?? 0,
     // Model ids are config-only — verify current OpenAI model names/pricing before first real run.
-    models: { scoring: 'gpt-5-mini', tailoring: 'gpt-5', ...raw.models },
+    models: { scoring: 'gpt-5-mini', tailoring: 'gpt-5', research: 'gpt-5', ...raw.models },
+    topCompanies: { count: 30, ...raw.topCompanies },
     searchTerms: raw.searchTerms ?? [],
     titleInclude: raw.titleInclude ?? [],
     titleExclude: raw.titleExclude ?? [],

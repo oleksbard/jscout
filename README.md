@@ -25,6 +25,8 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
 
 - `npm test` / `npm run typecheck`
 - `npm run dry-run` — full pipeline on fixtures, no network/LLM/Telegram
+- `npm run companies` / `npm run companies:dry-run` — weekly top-paying
+  companies research (see below)
 - `npm run alerts` / `npm run digest` — real runs (need env vars locally)
 
 ## Tuning (config.json)
@@ -38,6 +40,8 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
 - `minSalaryEur` — drop jobs whose stated salary range tops out below this
   (default 0 = off; set to 100000 here). Unstated salaries pass; the scorer
   judges salaries mentioned only in the posting text.
+- `topCompanies.count` — size of the weekly top-paying companies list
+  (default 30). `models.research` — model used for the weekly research run.
 
 ## Schedules (UTC cron; Berlin drifts 1h across DST)
 
@@ -45,3 +49,7 @@ Runs on GitHub Actions cron. Design doc lives in `docs/`.
   matches (score ≥ 80) arrive via the daily digest; re-enable by uncommenting
   the cron in `.github/workflows/alerts.yml`
 - digest: 08:30 Berlin daily — all new matches ≥ 60, ranked
+- companies: 07:00 Berlin Mondays — LLM web research refreshes
+  `state/companies.json` (top companies by senior-SWE total comp, Germany
+  office or EU-remote); verified Greenhouse/Lever/Personio boards are
+  monitored by every alerts/digest run alongside the manual `watchlist`.

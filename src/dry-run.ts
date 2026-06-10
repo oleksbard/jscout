@@ -9,6 +9,7 @@ import {
   normalizeGreenhouse, normalizeLever, normalizePersonio,
   type GreenhouseResponse, type LeverResponse, type PersonioResponse,
 } from './sources/watchlist';
+import { TopCompaniesSchema, type ResearchedCompany } from './research/top-companies';
 
 function fixture<T>(name: string): T {
   return JSON.parse(readFileSync(`fixtures/${name}.json`, 'utf8')) as T;
@@ -39,4 +40,9 @@ export function fakeScore(posting: JobPosting): ScoreResult {
     reasoning: `dry-run fake score for ${posting.id}`,
     language: 'en',
   };
+}
+
+export function loadFixtureCompanies(): ResearchedCompany[] {
+  // Schema-parse so the fixture is validated against the live schema.
+  return TopCompaniesSchema.parse(fixture('top-companies')).companies;
 }

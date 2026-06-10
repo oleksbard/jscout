@@ -1,0 +1,28 @@
+name: ci
+on:
+  push:
+  workflow_dispatch:
+
+# Own group (not 'job-scout'): CI is read-only and must not queue behind
+# scheduled digest/alerts runs. Newer pushes cancel in-flight CI on the same ref.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run typecheck
+      # Full pipeline on fixtures — no network, no LLM, no Telegram.
+      - run: npm run dry-run

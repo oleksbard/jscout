@@ -1,0 +1,39 @@
+{
+  "companies": [
+    {
+      "name": "Stripe",
+      "reason": "Top-of-market US-style comp for EU-remote senior engineers.",
+      "estSeniorTotalCompEur": 210000,
+      "germanyPresence": "remote-eu",
+      "ats": { "vendor": "greenhouse", "slugGuesses": ["stripe"] }
+    },
+    {
+      "name": "Google Germany",
+      "reason": "L5 total comp in Munich is among the highest in the country.",
+      "estSeniorTotalCompEur": 200000,
+      "germanyPresence": "office",
+      "ats": { "vendor": "other", "slugGuesses": [] }
+    },
+    {
+      "name": "Datadog",
+      "reason": "Equity-heavy packages, hires EU-remote.",
+      "estSeniorTotalCompEur": 180000,
+      "germanyPresence": "remote-eu",
+      "ats": { "vendor": "greenhouse", "slugGuesses": ["datadog"] }
+    },
+    {
+      "name": "Celonis",
+      "reason": "Munich decacorn with aggressive senior comp bands.",
+      "estSeniorTotalCompEur": 150000,
+      "germanyPresence": "office",
+      "ats": { "vendor": "unknown", "slugGuesses": [] }
+    },
+    {
+      "name": "Personio",
+      "reason": "Munich scale-up paying top-quartile senior salaries.",
+      "estSeniorTotalCompEur": 140000,
+      "germanyPresence": "office",
+      "ats": { "vendor": "personio", "slugGuesses": ["personio"] }
+    }
+  ]
+}

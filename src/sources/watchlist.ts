@@ -1,5 +1,6 @@
 import type { Config } from '../config';
 import type { JobPosting } from '../types';
+import { emptyCompaniesFile, type CompaniesFile } from '../research/companies-file';
 import { stripHtml } from '../util';
 import { inferWorkMode } from './adzuna';
 
@@ -73,9 +74,34 @@ export function normalizePersonio(slug: string, payload: PersonioResponse): JobP
   });
 }
 
-export async function fetchWatchlist(config: Config): Promise<JobPosting[]> {
+export interface WatchlistSlugs {
+  greenhouse: string[];
+  lever: string[];
+  personio: string[];
+}
+
+// Generated boards (state/companies.json) extend — never replace — the manual config lists.
+export function mergeWatchlist(manual: WatchlistSlugs, generated: CompaniesFile): WatchlistSlugs {
+  const merged: WatchlistSlugs = {
+    greenhouse: [...manual.greenhouse],
+    lever: [...manual.lever],
+    personio: [...manual.personio],
+  };
+  for (const c of generated.companies) {
+    if (!c.board) continue;
+    const list = merged[c.board.vendor];
+    if (!list.includes(c.board.slug)) list.push(c.board.slug);
+  }
+  return merged;
+}
+
+export async function fetchWatchlist(
+  config: Config,
+  generated: CompaniesFile = emptyCompaniesFile(),
+): Promise<JobPosting[]> {
+  const watchlist = mergeWatchlist(config.watchlist, generated);
   const tasks: { label: string; fn: () => Promise<JobPosting[]> }[] = [
-    ...config.watchlist.greenhouse.map((slug) => ({
+    ...watchlist.greenhouse.map((slug) => ({
       label: `greenhouse ${slug}`,
       fn: async () => {
         const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${slug}/jobs?content=true`);
@@ -83,7 +109,7 @@ export async function fetchWatchlist(config: Config): Promise<JobPosting[]> {
         return normalizeGreenhouse(slug, (await res.json()) as GreenhouseResponse);
       },
     })),
-    ...config.watchlist.lever.map((slug) => ({
+    ...watchlist.lever.map((slug) => ({
       label: `lever ${slug}`,
       fn: async () => {
         const res = await fetch(`https://api.lever.co/v0/postings/${slug}?mode=json`);
@@ -91,7 +117,7 @@ export async function fetchWatchlist(config: Config): Promise<JobPosting[]> {
         return normalizeLever(slug, (await res.json()) as LeverResponse);
       },
     })),
-    ...config.watchlist.personio.map((slug) => ({
+    ...watchlist.personio.map((slug) => ({
       label: `personio ${slug}`,
       fn: async () => {
         const res = await fetch(`https://${slug}.jobs.personio.de/search.json`);

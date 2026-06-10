@@ -2,7 +2,40 @@ import { describe, expect, it } from 'vitest';
 import greenhouse from '../../fixtures/greenhouse.json';
 import lever from '../../fixtures/lever.json';
 import personio from '../../fixtures/personio.json';
-import { normalizeGreenhouse, normalizeLever, normalizePersonio } from './watchlist';
+import type { CompaniesFile } from '../research/companies-file';
+import { mergeWatchlist, normalizeGreenhouse, normalizeLever, normalizePersonio } from './watchlist';
+
+describe('mergeWatchlist', () => {
+  const manual = { greenhouse: ['acme'], lever: [], personio: ['initech'] };
+
+  function generated(...boards: ({ vendor: 'greenhouse' | 'lever' | 'personio'; slug: string } | null)[]): CompaniesFile {
+    return {
+      updatedAt: '2026-06-10T05:00:00.000Z',
+      companies: boards.map((board, i) => ({
+        name: `Company ${i}`,
+        reason: 'r',
+        estSeniorTotalCompEur: 1,
+        germanyPresence: 'office' as const,
+        board,
+      })),
+    };
+  }
+
+  it('adds generated boards to the manual lists', () => {
+    const merged = mergeWatchlist(manual, generated({ vendor: 'greenhouse', slug: 'stripe' }, { vendor: 'lever', slug: 'n26' }));
+    expect(merged).toEqual({ greenhouse: ['acme', 'stripe'], lever: ['n26'], personio: ['initech'] });
+  });
+
+  it('dedupes slugs already present manually and skips board-less companies', () => {
+    const merged = mergeWatchlist(manual, generated({ vendor: 'greenhouse', slug: 'acme' }, null));
+    expect(merged).toEqual(manual);
+  });
+
+  it('does not mutate the manual config', () => {
+    mergeWatchlist(manual, generated({ vendor: 'greenhouse', slug: 'stripe' }));
+    expect(manual.greenhouse).toEqual(['acme']);
+  });
+});
 
 describe('watchlist normalizers', () => {
   it('greenhouse', () => {

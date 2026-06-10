@@ -1,5 +1,6 @@
 import type { Config } from '../config';
 import type { JobPosting } from '../types';
+import { COMPANIES_PATH, loadCompaniesFile } from '../research/companies-file';
 import { fetchAdzuna } from './adzuna';
 import { fetchArbeitnow } from './arbeitnow';
 import { fetchHnWhoIsHiring } from './hn-whoishiring';
@@ -25,7 +26,7 @@ export function buildSourceTasks(config: Config, opts: { includeJsearch: boolean
   // config key 'hnWhoIsHiring', task/state failure key 'hn'
   if (config.sources.hnWhoIsHiring) tasks.push({ name: 'hn', fn: fetchHnWhoIsHiring });
   if (config.sources.jsearch && opts.includeJsearch) tasks.push({ name: 'jsearch', fn: () => fetchJsearch(config) });
-  if (config.sources.watchlist) tasks.push({ name: 'watchlist', fn: () => fetchWatchlist(config) });
+  if (config.sources.watchlist) tasks.push({ name: 'watchlist', fn: async () => fetchWatchlist(config, loadCompaniesFile(COMPANIES_PATH)) });
   return tasks;
 }
 

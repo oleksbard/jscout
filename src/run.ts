@@ -157,10 +157,15 @@ async function main(): Promise<void> {
       const failing = Object.entries(state.sourceFailures)
         .filter(([, f]) => f.consecutiveFailures >= 3)
         .map(([name]) => name);
-      const message = formatDigestMessage(digestJobs, failing);
-      if (dryRun) console.log('[dry-run digest]\n' + message);
-      else await sendTelegram(token, chatId, message);
-      for (const record of digestJobs) setStatus(record, 'digested');
+      if (digestJobs.length === 0 && failing.length === 0) {
+        // Nothing found and nothing to warn about — stay silent instead of sending "No new matches".
+        console.log('digest: nothing to send, skipping Telegram message');
+      } else {
+        const message = formatDigestMessage(digestJobs, failing);
+        if (dryRun) console.log('[dry-run digest]\n' + message);
+        else await sendTelegram(token, chatId, message);
+        for (const record of digestJobs) setStatus(record, 'digested');
+      }
       // Archive scored-but-below-threshold jobs older than 24h
       for (const record of Object.values(state.jobs)) {
         if (record.status === 'scored' && (record.score?.score ?? 0) < config.thresholds.digest && record.firstSeenAt < since) {

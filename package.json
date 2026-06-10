@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "alerts": "tsx src/run.ts --mode=alerts",
     "digest": "tsx src/run.ts --mode=digest",
-    "dry-run": "tsx src/run.ts --mode=digest --dry-run"
+    "dry-run": "tsx src/run.ts --mode=digest --dry-run",
+    "companies": "tsx src/run-companies.ts",
+    "companies:dry-run": "tsx src/run-companies.ts --dry-run"
   },
   "dependencies": {
     "openai": "^6.42.0",

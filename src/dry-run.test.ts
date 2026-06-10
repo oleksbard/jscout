@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { fakeScore, loadFixturePostings } from './dry-run';
+import { fakeScore, loadFixturePostings, loadFixtureCompanies } from './dry-run';
 
 describe('loadFixturePostings', () => {
   it('loads and normalizes all source fixtures', () => {
@@ -18,5 +18,13 @@ describe('fakeScore', () => {
     expect(a).toEqual(b);
     expect(a.score).toBeGreaterThanOrEqual(0);
     expect(a.score).toBeLessThanOrEqual(100);
+  });
+});
+
+describe('loadFixtureCompanies', () => {
+  it('loads schema-valid researched companies', () => {
+    const companies = loadFixtureCompanies();
+    expect(companies.length).toBeGreaterThanOrEqual(5);
+    expect(companies[0]?.name).toBe('Stripe');
   });
 });
