@@ -1,8 +1,10 @@
 name: digest
 on:
-  schedule:
-    # 08:30 Berlin (summer). Winter: 07:30 — accepted.
-    - cron: '30 6 * * *'
+  # Schedule disabled 2026-06-11 — GitHub Actions cron triggers are not firing
+  # (bug on GitHub's side). Re-enable by uncommenting the schedule block.
+  # schedule:
+  #   # 08:30 Berlin (summer). Winter: 07:30 — accepted.
+  #   - cron: '30 6 * * *'
   workflow_dispatch:
 
 concurrency:

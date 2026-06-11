@@ -25,6 +25,11 @@ describe('fuzzyKey', () => {
       'acme|senior frontend engineer',
     );
   });
+
+  it('tolerates a malformed posting with missing company or title', () => {
+    expect(fuzzyKey(posting({ company: undefined as unknown as string }))).toBe('|senior frontend engineer');
+    expect(fuzzyKey(posting({ title: undefined as unknown as string }))).toBe('acme|');
+  });
 });
 
 describe('dedupe', () => {

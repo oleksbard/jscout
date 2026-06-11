@@ -17,4 +17,10 @@ describe('normalizeRemoteok', () => {
     });
     expect(jobs[0]?.description).toBe('Remote-first team in Europe.');
   });
+
+  it('maps a missing company to an empty string', () => {
+    const entry = { ...(fixture as Record<string, unknown>[])[1], company: undefined };
+    const [job] = normalizeRemoteok([entry]);
+    expect(job?.company).toBe('');
+  });
 });

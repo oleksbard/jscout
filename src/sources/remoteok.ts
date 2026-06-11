@@ -3,7 +3,7 @@ import { stripHtml } from '../util';
 
 interface RemoteokJob {
   id: string | number;
-  company: string;
+  company?: string;
   position: string;
   description: string;
   location: string;
@@ -21,7 +21,7 @@ export function normalizeRemoteok(payload: unknown[]): JobPosting[] {
     source: 'remoteok',
     url: j.url,
     title: j.position,
-    company: j.company,
+    company: j.company ?? '',
     location: j.location ?? '',
     workMode: 'remote' as const, // RemoteOK lists remote jobs only
     description: stripHtml(j.description ?? ''),

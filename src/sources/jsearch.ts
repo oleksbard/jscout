@@ -6,7 +6,7 @@ import { inferWorkMode } from './adzuna';
 export interface JsearchResponse {
   data: {
     job_id: string;
-    employer_name: string;
+    employer_name: string | null;
     job_title: string;
     job_description: string;
     job_apply_link: string;
@@ -23,7 +23,7 @@ export function normalizeJsearch(payload: JsearchResponse): JobPosting[] {
     source: 'jsearch',
     url: j.job_apply_link,
     title: j.job_title,
-    company: j.employer_name,
+    company: j.employer_name ?? '',
     location: [j.job_city, j.job_country].filter(Boolean).join(', '),
     workMode: j.job_is_remote ? ('remote' as const) : inferWorkMode(j.job_description),
     description: stripHtml(j.job_description),

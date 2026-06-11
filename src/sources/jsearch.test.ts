@@ -15,4 +15,11 @@ describe('normalizeJsearch', () => {
       url: 'https://www.stepstone.de/job/12345',
     });
   });
+
+  it('maps a null employer_name to an empty company string', () => {
+    const [job] = normalizeJsearch({
+      data: [{ ...fixture.data[0]!, employer_name: null }],
+    });
+    expect(job?.company).toBe('');
+  });
 });

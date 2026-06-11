@@ -13,8 +13,10 @@ function normalize(text: string, extra?: RegExp): string {
 }
 
 export function fuzzyKey(posting: Pick<JobPosting, 'company' | 'title'>): string {
-  const company = normalize(posting.company.replace(COMPANY_SUFFIXES, ' '));
-  const title = normalize(posting.title);
+  // Sources occasionally emit postings with missing fields despite the types;
+  // one malformed posting must not crash the whole run.
+  const company = normalize((posting.company ?? '').replace(COMPANY_SUFFIXES, ' '));
+  const title = normalize(posting.title ?? '');
   return `${company}|${title}`;
 }
 
