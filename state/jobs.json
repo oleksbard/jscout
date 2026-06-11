@@ -2206,6 +2206,56 @@
         "reasoning": "The role requires deep Kotlin/JVM library and API design expertise (standard-library-level, JVM internals and language-feature work) which the candidate lacks, making it a poor technical fit.",
         "language": "en"
       }
+    },
+    "adzuna:5759216234": {
+      "posting": {
+        "id": "adzuna:5759216234",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5759216234?utm_medium=api&utm_source=f4d398fa",
+        "title": "Manager, Software Engineering, Java/Kotlin - (Logistics, Algorithmic Pricing)",
+        "company": "Delivery Hero",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Job Description We are on the lookout for an Engineering Manager (Java/Kotlin) to join the Algorithmic Pricing team on our journey to always deliver amazing experiences. In our Logistics Team, you’ll tackle high-impact challenges that make last-mile delivery efficient, affordable, and sustainable. Your work will directly improve experiences for riders, end customers, and merchants across the globe. Each enhancement you contribute will help Delivery Hero optimize delivery operations, supporting …",
+        "postedAt": "2026-06-11T01:03:44.000Z"
+      },
+      "fuzzyKey": "delivery hero|manager software engineering java kotlin logistics algorithmic pricing",
+      "status": "scored",
+      "firstSeenAt": "2026-06-11T07:40:39.284Z",
+      "updatedAt": "2026-06-11T07:40:51.331Z",
+      "score": {
+        "score": 20,
+        "stackFit": 10,
+        "seniorityFit": 45,
+        "locationFit": 80,
+        "reasoning": "The role is a Java/Kotlin-focused engineering manager position (people-management and backend-stack) rather than a hands-on TypeScript/React/Node.js senior/lead full‑stack role, so the technical stack and role focus mismatch is decisive.",
+        "language": "en"
+      }
+    },
+    "greenhouse:databricks:7984907002": {
+      "posting": {
+        "id": "greenhouse:databricks:7984907002",
+        "source": "greenhouse",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7984907002",
+        "title": "Staff Software Engineer - Backend",
+        "company": "databricks",
+        "location": "Berlin, Germany",
+        "workMode": "unknown",
+        "description": "P-1328 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started. As a software engineer with a backend focus, you will work with your team to build infrastructure and products for the Databricks platform at scale. The impact you'll have: Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. Deliver reliable and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, Azure Blob Store. Build reliable, scalable services, e.g. Scala, Kubernetes, and data pipelines, e.g. Spark, Databricks, to power the pricing infrastructure that serves millions of cluster-hours per day and develop product features that empower customers to easily view and control platform usage. What we look for: BS (or higher) in Computer Science, or a related field 7+ years of production level experience in one of: Java, Scala, C++, or similar language. Experience developing large-scale distributed systems. Experience working on a SaaS platform or with Service-Oriented Architectures. Good knowledge of SQL. About Databricks Databricks is the data and AI company. More than 10,000 organizations worldwide — including Comcast, Condé Nast, Grammarly, and over 50% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow. To learn more, follow Databricks on Twitter , LinkedIn and Facebook . Benefits At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here . Our Commitment to Diversity and Inclusion At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics. Compliance If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",
+        "postedAt": "2026-04-09T20:51:10.000Z"
+      },
+      "fuzzyKey": "databricks|staff software engineer backend",
+      "status": "scored",
+      "firstSeenAt": "2026-06-11T07:40:39.284Z",
+      "updatedAt": "2026-06-11T07:40:52.220Z",
+      "score": {
+        "score": 48,
+        "stackFit": 20,
+        "seniorityFit": 85,
+        "locationFit": 70,
+        "reasoning": "The role is a backend-focused Staff position requiring 7+ years in Java/Scala/C++ and deep distributed-systems experience, whereas the candidate is a TypeScript/React/Node.js frontend/full‑stack specialist, creating a significant technical stack mismatch.",
+        "language": "en"
+      }
     }
   },
   "sourceFailures": {}
