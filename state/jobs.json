@@ -13,9 +13,9 @@
         "postedAt": "2026-06-10T15:00:37.000Z"
       },
       "fuzzyKey": "nextexai|founding software engineer backend cloud ai infrastructure",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:28:50.208Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 55,
         "stackFit": 35,
@@ -38,9 +38,9 @@
         "postedAt": "2026-06-10T18:59:02.000Z"
       },
       "fuzzyKey": "merlin digital solutions|full stack software engineer ai accelerated",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:28:50.405Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "languageFlag": "de",
       "score": {
         "score": 55,
@@ -64,9 +64,9 @@
         "postedAt": "2026-06-10T10:00:33.000Z"
       },
       "fuzzyKey": "teclead ventures|tech lead engineering lead",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:28:45.280Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "languageFlag": "de",
       "score": {
         "score": 30,
@@ -217,9 +217,9 @@
         "postedAt": "2026-06-10T12:23:07.000Z"
       },
       "fuzzyKey": "riverty group|software engineer rag knowledge graphs agentic systems",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:07.810Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 10,
@@ -268,9 +268,9 @@
         "postedAt": "2026-06-08T23:29:10.000Z"
       },
       "fuzzyKey": "kaufland e commerce|engineering manager explore discover",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:07.525Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 40,
@@ -293,9 +293,9 @@
         "postedAt": "2026-06-09T23:23:10.000Z"
       },
       "fuzzyKey": "kaufland e commerce|engineering manager backend infrastructure",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:08.646Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 20,
@@ -318,9 +318,9 @@
         "postedAt": "2026-06-10T04:15:03.000Z"
       },
       "fuzzyKey": "softwareone deutschland von jobs daheim de|technical lead engineering manager gn microsoft dynamics 365 ce crm in berlin",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:09.151Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "languageFlag": "de",
       "score": {
         "score": 28,
@@ -394,9 +394,9 @@
         "postedAt": "2026-06-09T08:05:56.000Z"
       },
       "fuzzyKey": "pango|senior software engineer full stack technical lead x2f software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:16.894Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 90,
@@ -444,9 +444,9 @@
         "postedAt": "2026-06-08T17:45:08.000Z"
       },
       "fuzzyKey": "labami|full stack engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:22.252Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 15,
@@ -494,9 +494,9 @@
         "postedAt": "2026-06-04T18:53:16.000Z"
       },
       "fuzzyKey": "second nature|staff software engineer engineering ai team staff software engineer senior software engineer engineering manager",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:24.340Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 90,
@@ -519,9 +519,9 @@
         "postedAt": "2026-06-04T17:57:13.000Z"
       },
       "fuzzyKey": "pelotech|staff software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:25.188Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 75,
@@ -544,9 +544,9 @@
         "postedAt": "2026-06-04T01:36:21.000Z"
       },
       "fuzzyKey": "ver|fullstack senior fullstack swe",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:27.182Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 95,
@@ -594,9 +594,9 @@
         "postedAt": "2026-06-02T21:21:26.000Z"
       },
       "fuzzyKey": "conservation metrics|lead software engineer data sovereignty",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:32.562Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 65,
@@ -644,9 +644,9 @@
         "postedAt": "2026-06-02T16:35:33.000Z"
       },
       "fuzzyKey": "enveritas yc s18 non profit|backend software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:32.297Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 45,
         "stackFit": 20,
@@ -669,9 +669,9 @@
         "postedAt": "2026-06-02T13:35:25.000Z"
       },
       "fuzzyKey": "pomelo care|remote us first with offices in nyc and sf we re building a healthier future for women and children we combine clinical excellence human connection and proactive technology to ensure our patients get the care they deserve from preconception through midlife staff software engineer patient experience we x27 re looking for a staff swe to operate as the tech lead for the patient experience team front end leading fullstack eng some mobile experience is a nice to have",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:37.268Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 90,
@@ -719,9 +719,9 @@
         "postedAt": "2026-06-01T23:05:25.000Z"
       },
       "fuzzyKey": "piq energy|full stack software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:40.314Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 80,
@@ -744,9 +744,9 @@
         "postedAt": "2026-06-01T22:18:56.000Z"
       },
       "fuzzyKey": "outschool|staff software engineer multiple",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:39.899Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 80,
@@ -794,9 +794,9 @@
         "postedAt": "2026-06-01T20:49:48.000Z"
       },
       "fuzzyKey": "long tail|full stack",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T21:28:36.557Z",
-      "updatedAt": "2026-06-10T21:29:47.523Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 50,
         "stackFit": 95,
@@ -819,9 +819,9 @@
         "postedAt": "2026-06-10T23:42:57.000Z"
       },
       "fuzzyKey": "interhome|engineering manager web",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:50.498Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "languageFlag": "de",
       "score": {
         "score": 35,
@@ -870,9 +870,9 @@
         "postedAt": "2026-06-11T01:03:46.000Z"
       },
       "fuzzyKey": "delivery hero|senior manager software engineering herogen tech foundations",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:48.249Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 25,
@@ -895,9 +895,9 @@
         "postedAt": "2026-06-05T19:56:20.000Z"
       },
       "fuzzyKey": "stripe|corporate network engineering manager",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:51.037Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 10,
@@ -920,9 +920,9 @@
         "postedAt": "2026-06-05T17:47:00.000Z"
       },
       "fuzzyKey": "stripe|engineering manager developer productivity ai",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:49.580Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 90,
@@ -945,9 +945,9 @@
         "postedAt": "2026-06-05T18:37:38.000Z"
       },
       "fuzzyKey": "stripe|fullstack engineer privy",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:59.143Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 90,
@@ -970,9 +970,9 @@
         "postedAt": "2026-06-05T16:43:14.000Z"
       },
       "fuzzyKey": "stripe|software engineer security analytics infrastructure",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:57.606Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 40,
@@ -995,9 +995,9 @@
         "postedAt": "2026-04-09T20:51:11.000Z"
       },
       "fuzzyKey": "databricks|software engineer backend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:59.968Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 48,
         "stackFit": 20,
@@ -1020,9 +1020,9 @@
         "postedAt": "2026-04-09T20:51:11.000Z"
       },
       "fuzzyKey": "databricks|sr software engineer backend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:13:59.647Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 20,
@@ -1045,9 +1045,9 @@
         "postedAt": "2026-05-21T13:48:15.000Z"
       },
       "fuzzyKey": "helsing|software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:02.332Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 15,
@@ -1070,9 +1070,9 @@
         "postedAt": "2026-05-14T08:10:16.000Z"
       },
       "fuzzyKey": "helsing|software engineer airborne mission systems",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:08.263Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 10,
@@ -1095,9 +1095,9 @@
         "postedAt": "2026-05-14T08:10:16.000Z"
       },
       "fuzzyKey": "helsing|software engineer autonomous air systems",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:07.798Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 20,
@@ -1120,9 +1120,9 @@
         "postedAt": "2026-05-14T08:10:16.000Z"
       },
       "fuzzyKey": "helsing|software engineer autonomous air system v v",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:07.236Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 12,
         "stackFit": 5,
@@ -1145,9 +1145,9 @@
         "postedAt": "2026-05-21T13:48:15.000Z"
       },
       "fuzzyKey": "helsing|software engineer backend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:16.137Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 45,
         "stackFit": 25,
@@ -1245,9 +1245,9 @@
         "postedAt": "2026-05-21T13:48:15.000Z"
       },
       "fuzzyKey": "helsing|supporting tech lead maritime",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:15.137Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 10,
@@ -1270,9 +1270,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|engineering manager i growth ai",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:24.562Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 85,
@@ -1295,9 +1295,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|principal engineer compute platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:24.964Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 25,
@@ -1320,9 +1320,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|security software engineer ii corporate security",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:24.402Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 40,
@@ -1345,9 +1345,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|security software engineer ii detection and response",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:29.338Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 10,
         "stackFit": 15,
@@ -1370,9 +1370,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|security software engineer ii security operations",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:28.350Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 45,
@@ -1395,9 +1395,9 @@
         "postedAt": "2026-06-04T19:57:20.000Z"
       },
       "fuzzyKey": "pinterest|software engineer ii backend tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:31.248Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 70,
@@ -1420,9 +1420,9 @@
         "postedAt": "2026-06-04T19:57:20.000Z"
       },
       "fuzzyKey": "pinterest|software engineer ii big data tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:31.625Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 10,
         "stackFit": 10,
@@ -1445,9 +1445,9 @@
         "postedAt": "2026-06-04T19:57:20.000Z"
       },
       "fuzzyKey": "pinterest|software engineer ii ml platform tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:33.691Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 25,
@@ -1470,9 +1470,9 @@
         "postedAt": "2026-06-04T19:57:19.000Z"
       },
       "fuzzyKey": "pinterest|software engineer ii simulation tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:38.298Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 10,
         "stackFit": 15,
@@ -1495,9 +1495,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|software engineer ios",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:34.637Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 7,
         "stackFit": 5,
@@ -1520,9 +1520,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|sr security software engineer application security",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:41.715Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 30,
@@ -1545,9 +1545,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|sr security software engineer corporate security",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:39.500Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 10,
@@ -1570,9 +1570,9 @@
         "postedAt": "2026-06-09T20:34:40.000Z"
       },
       "fuzzyKey": "pinterest|sr software engineer backend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:44.395Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 40,
@@ -1595,9 +1595,9 @@
         "postedAt": "2026-06-04T19:57:19.000Z"
       },
       "fuzzyKey": "pinterest|sr software engineer big data tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:43.145Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 18,
         "stackFit": 10,
@@ -1620,9 +1620,9 @@
         "postedAt": "2026-06-04T19:57:19.000Z"
       },
       "fuzzyKey": "pinterest|sr software engineer ml platform tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:47.124Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 15,
@@ -1645,9 +1645,9 @@
         "postedAt": "2026-06-04T19:57:20.000Z"
       },
       "fuzzyKey": "pinterest|sr software engineer simulation tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:46.545Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 15,
         "stackFit": 20,
@@ -1670,9 +1670,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|sr staff software engineer data product platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:49.824Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 30,
@@ -1695,9 +1695,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer ads measurement products",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:51.966Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 40,
@@ -1720,9 +1720,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer ads measurement signal",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:51.976Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 55,
@@ -1745,9 +1745,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer batch processing platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:55.988Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 15,
         "stackFit": 15,
@@ -1770,9 +1770,9 @@
         "postedAt": "2026-06-04T19:57:19.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer big data tvscientific",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:54.224Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 18,
         "stackFit": 25,
@@ -1795,9 +1795,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer capacity engineering",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:14:57.751Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 25,
         "stackFit": 40,
@@ -1820,9 +1820,9 @@
         "postedAt": "2026-06-04T20:28:57.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer conversion data privacy",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:01.067Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 30,
@@ -1845,9 +1845,9 @@
         "postedAt": "2026-06-04T20:28:58.000Z"
       },
       "fuzzyKey": "pinterest|staff software engineer observability",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:01.707Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 35,
@@ -1870,9 +1870,9 @@
         "postedAt": "2026-06-09T14:08:08.000Z"
       },
       "fuzzyKey": "n26|lead software engineer servicenow regtech",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:03.147Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 45,
         "stackFit": 20,
@@ -1895,9 +1895,9 @@
         "postedAt": "2026-06-09T14:09:49.000Z"
       },
       "fuzzyKey": "n26|software engineer servicenow regtech",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:04.634Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 45,
         "stackFit": 30,
@@ -1920,9 +1920,9 @@
         "postedAt": "2026-06-08T18:40:12.000Z"
       },
       "fuzzyKey": "elastic|senior software engineer docs engineering documentation",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:09.128Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 58,
         "stackFit": 90,
@@ -1970,9 +1970,9 @@
         "postedAt": "2026-06-10T07:11:03.000Z"
       },
       "fuzzyKey": "jetbrains|qa engineer kotlin compiler frontend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:08.909Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 15,
         "stackFit": 5,
@@ -2020,9 +2020,9 @@
         "postedAt": "2026-06-08T05:23:11.000Z"
       },
       "fuzzyKey": "jetbrains|senior graphics jvm software engineer jvm runtime",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:13.243Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 12,
         "stackFit": 5,
@@ -2045,9 +2045,9 @@
         "postedAt": "2026-04-21T01:35:22.000Z"
       },
       "fuzzyKey": "jetbrains|senior software developer intellij ai",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:20.828Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 15,
@@ -2070,9 +2070,9 @@
         "postedAt": "2026-04-21T01:36:09.000Z"
       },
       "fuzzyKey": "jetbrains|senior software developer intellij ai ui desktop",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:17.145Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 35,
         "stackFit": 15,
@@ -2095,9 +2095,9 @@
         "postedAt": "2026-05-26T10:00:11.000Z"
       },
       "fuzzyKey": "jetbrains|senior software developer resharper",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:19.902Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 5,
@@ -2120,9 +2120,9 @@
         "postedAt": "2026-05-08T13:29:35.000Z"
       },
       "fuzzyKey": "jetbrains|senior software engineer appglass",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:22.313Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 48,
         "stackFit": 10,
@@ -2170,9 +2170,9 @@
         "postedAt": "2026-06-03T11:09:54.000Z"
       },
       "fuzzyKey": "jetbrains|staff software developer intellij platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:27.137Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 15,
@@ -2195,9 +2195,9 @@
         "postedAt": "2026-04-07T11:59:28.000Z"
       },
       "fuzzyKey": "jetbrains|staff software developer kotlin libraries",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-10T23:13:35.620Z",
-      "updatedAt": "2026-06-10T23:15:27.718Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 30,
         "stackFit": 10,
@@ -2220,9 +2220,9 @@
         "postedAt": "2026-06-11T01:03:44.000Z"
       },
       "fuzzyKey": "delivery hero|manager software engineering java kotlin logistics algorithmic pricing",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-11T07:40:39.284Z",
-      "updatedAt": "2026-06-11T07:40:51.331Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 20,
         "stackFit": 10,
@@ -2245,15 +2245,217 @@
         "postedAt": "2026-04-09T20:51:10.000Z"
       },
       "fuzzyKey": "databricks|staff software engineer backend",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-11T07:40:39.284Z",
-      "updatedAt": "2026-06-11T07:40:52.220Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
       "score": {
         "score": 48,
         "stackFit": 20,
         "seniorityFit": 85,
         "locationFit": 70,
         "reasoning": "The role is a backend-focused Staff position requiring 7+ years in Java/Scala/C++ and deep distributed-systems experience, whereas the candidate is a TypeScript/React/Node.js frontend/full‑stack specialist, creating a significant technical stack mismatch.",
+        "language": "en"
+      }
+    },
+    "arbeitnow:java-tech-lead-mobility-startup-berlin-59083": {
+      "posting": {
+        "id": "arbeitnow:java-tech-lead-mobility-startup-berlin-59083",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/getaway/java-tech-lead-mobility-startup-berlin-59083",
+        "title": "Java Tech Lead (m/w/d) Mobility Startup",
+        "company": "GETAWAY",
+        "location": "Berlin",
+        "workMode": "unknown",
+        "description": "Wir entwickeln und betreiben eine End-to-End-Plattform für Car-Sharing und Fahrzeugvermietung, die heute bei Kunden in Deutschland, Österreich und Spanien im Einsatz ist. Die Plattform ist vollständig white-label-fähig und umfasst mobile Apps, Web-Applikationen, Back-Office-Tools sowie Integrationen mit Telematik-Hardware, Zahlungsdienstleistern und KYC-Anbietern – alles aus einer einzigen, modularen Codebasis. Das Backend basiert auf Java 17 / Jakarta EE 10 (Payara), das Frontend auf React / React Native. Wir befinden uns in einer strategischen Wachstumsphase und suchen jetzt eine erfahrene technische Führungskraft, die den nächsten Schritt mitgestaltet. Die Rolle Als Tech Lead übernimmst du eine zentrale Brückenfunktion zwischen Engineering und Unternehmensführung. Du arbeitest eng mit dem CTO zusammen, entlastest ihn operativ und stellst sicher, dass die Plattform mit dem Wachstum des Unternehmens Schritt hält – technisch wie organisatorisch. Diese Position ist für jemanden gemacht, der sowohl tief in den Code einsteigen als auch die größeren Zusammenhänge im Blick behalten kann. Du hast keine Angst vor einem gewachsenen System mit Geschichte – du siehst darin eine Chance. Aufgaben Technische Führung &#x26; Architektur • Weiterentwicklung und Pflege der modularen Java/Jakarta EE-Plattform inkl. Mitverantwortung für Architekturentscheidungen • Umsetzung der identifizierten Infrastrukturverbesserungen: IaC (Terraform / CloudFormation), Multi-Region-Setup, DR-Plan • Verantwortung für die Umsetzung offener Sicherheitsmaßnahmen • Vorantreiben der Migration von Binärdaten von MongoDB zu S3 sowie weiterer technischer Schuldenabbauprojekte • Evaluation und Weiterentwicklung der CI/CD-Pipelines (GitLab CI) und Testabdeckung Prozesse &#x26; Teamorganisation • Etablierung formaler Code-Review-Prozesse und konsistenter Planungszyklen im Entwicklungsteam • Enge Zusammenarbeit mit dem CTO zur schrittweisen Übergabe von Engineering- und Betriebsverantwortung • Unterstützung beim Aufbau eines Produktmanagement-Prozesses in Abstimmung mit Kundenanforderungen • Mentoring des Junior-Frontend-Entwicklers und Unterstützung der Senior Engineers Betrieb &#x26; Qualität • Mitverantwortung für Monitoring, Alerting und Incident Response (AWS CloudWatch, Sentry, Crashlytics) • Optimierung der Sentry-Konfiguration zur Rauschreduzierung und Verbesserung der Observability • Automatisierung des Dependency-Vulnerability-Scannens in der CI-Pipeline • Begleitung von Kundenprojekten auf der technischen Seite – vom Onboarding bis zur Fehlerbehebung Qualifikation Must-have • Mehrjährige Erfahrung in der Backend-Entwicklung mit Java (JakartaEE / JavaEE / Spring) in produktiven Systemen * Ausgeprägte Erfahrung mit Test-Driven Development (TDD) sowie ein hohes Qualitätsbewusstsein und Interesse an Software Craftsmanship. • Nachweisliche Erfahrung als Tech Lead oder Senior Engineer mit Teamverantwortung • Solides Verständnis von Cloud-Infrastruktur, idealerweise AWS (EC2, ECS, CloudWatch, S3) • Erfahrung mit MongoDB oder vergleichbaren NoSQL-Datenbanken im Produktivbetrieb • Vertrautheit mit CI/CD-Pipelines (GitLab CI, GitHub Actions o. Ä.) und modernen Deployment-Praktiken • Hands-on-Mentalität: Du kannst sofort Mehrwert liefern, ohne monatelange Einarbeitungszeit zu benötigen Nice-to-have • Kenntnisse in Infrastructure-as-Code (Terraform oder CloudFormation) • Erfahrung mit React und/oder React Native im Frontend • Verständnis von Mobilitäts-, Car-Sharing- oder Rental-Domänen • Erfahrung in regulierten Umgebungen oder mit GDPR-Compliance-Projekten • Kenntnisse in Telematik-Hardware-Integrationen oder IoT-nahen Systemen • Führerschein Klasse B Benefits Eine der technisch beeindruckendsten kleinen Plattformen in der deutschen Mobilitätslandschaft – mit echter Verantwortung vom ersten Tag an • kurze Entscheidungswege, hohe Gestaltungsfreiheit • Ein eingespieltes Team mit 5–10 Jahren gemeinsamer Plattformgeschichte … GmbH, Berlin | Vertraulich | Seite 2 … GmbH | Stellenbeschreibung: Tech Lead • Moderner Tech-Stack: Java 17, Jakarta EE 10, React, React Native, GitLab CI/CD – keine Legacy-Last • >99,9 % Uptime – Effizienz ist hier kein Wunsch, sondern Realität • Hybrides Arbeiten mit Büro in Berlin; flexible Arbeitszeiten • Wettbewerbsfähiges Gehalt, abhängig von Erfahrung und Qualifikation • Aktive Beteiligung an der strategischen Weiterentwicklung des Unternehmens Wir freuen uns auf deine Bewerbung – bevorzugt mit kurzem Anschreiben, Lebenslauf und ggf. relevanten Referenzen oder GitHub-Projekten. Ein formales Anschreiben ist kein Muss; wir legen mehr Wert auf echtes Interesse und technische Tiefe als auf Formalien. Find more English Speaking Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-11T14:00:47.000Z"
+      },
+      "fuzzyKey": "getaway|java tech lead mobility startup",
+      "status": "scored",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:42.451Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 30,
+        "stackFit": 25,
+        "seniorityFit": 85,
+        "locationFit": 90,
+        "reasoning": "The role is heavily Java/Jakarta EE backend–focused and requires strong production Java experience that the candidate does not have, making it out-of-scope despite matching seniority and React experience.",
+        "language": "de"
+      }
+    },
+    "remoteok:1133161": {
+      "posting": {
+        "id": "remoteok:1133161",
+        "source": "remoteok",
+        "url": "https://remoteOK.com/remote-jobs/remote-senior-data-engineering-manager-yipitdata-1133161",
+        "title": "Senior Data Engineering Manager",
+        "company": "YipitData",
+        "location": "US Remote",
+        "workMode": "remote",
+        "description": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a valuation of over $1B. Every day, our proprietary technology analyzes billions of alternative data points to uncover actionable insights across sectors like software, AI, cloud, e-commerce, ridesharing, and payments. Our data and research teams transform raw data into strategic intelligence, delivering accurate, timely, and deeply contextualized analysis that our customersâranging from the worldâs top investment funds to Fortune 500 companiesâdepend on to drive high-stakes decisions. From sourcing and licensing novel datasets to rigorous analysis and expert narrative framing, our teams ensure clients get not just data, but clarity and confidence. We operate globally with offices in the US (NYC, Austin, Miami, Mountain View), APAC (Hong Kong, Shanghai, Beijing, Guangzhou, Singapore), and India. Our award-winning, people-centric cultureârecognized by Inc. as a Best Workplace for three consecutive yearsâemphasizes transparency, ownership, and continuous mastery. What Itâs Like to Work at YipitData: YipitData isnât a place for coastingâitâs a launchpad for ambitious, impact-driven professionals. From day one, youâll take the lead on meaningful work, accelerate your growth, and gain exposure that shapes careers. Why Top Talent Chooses YipitData: Ownership That Matters : Youâll lead high-impact projects with real business outcomes Rapid Growth : We compress years of learning into months Merit Over Titles : Trust and responsibility are earned through execution, not tenure Velocity with Purpose: We move fast, support each other, and aim highâalways with purpose and intention If your ambition is matched by your work ethicâand you're hungry for a place where growth, impact, and ownership are the normâYipitData might be the opportunity youâve been waiting for. About The Role: Please mention the word **HEARTFELT** and tag RMjMuODQuODkuMjAw when applying to show you read the job post completely (#RMjMuODQuODkuMjAw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+        "postedAt": "2026-06-10T16:00:30.000Z"
+      },
+      "fuzzyKey": "yipitdata|senior data engineering manager",
+      "status": "scored",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:44.986Z",
+      "score": {
+        "score": 18,
+        "stackFit": 10,
+        "seniorityFit": 55,
+        "locationFit": 0,
+        "reasoning": "The role is a Senior Data Engineering Manager (data-focused) and listed as US-remote, which neither matches the candidate's TypeScript/React/Node frontend/full-stack specialty nor the required EU/Germany-hireable remote location.",
+        "language": "en"
+      }
+    },
+    "adzuna:5760094386": {
+      "posting": {
+        "id": "adzuna:5760094386",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/land/ad/5760094386?se=jCD2pDZm8RG8bNopENVYHw&utm_medium=api&utm_source=f4d398fa&v=009612BB9893C9B9D20BF8E5A79A8E8AF197F997",
+        "title": "Frontend Entwickler React & TypeScript (w/m/d) in Berlin (hybrid)",
+        "company": "Finmas GmbH",
+        "location": "Berlin, Deutschland",
+        "workMode": "hybrid",
+        "description": "Worum geht es in dieser Rolle? Du entwickelst als Frontend Entwickler:in mit Fokus auf React und TypeScript die Online‑Banking‑Lösungen der Sparkassen-Finanzgruppe aktiv mit. Die Position ist bei Finmas, einem Netzwerkunternehmen der Hypoport SE, angesiedelt. Du arbeitest in Vollzeit, hybrid (2 Tage/Woche in Berlin) in einem interdisziplinären Team aus Frontend‑ und Backendentwickler:innen. Dein Fokus liegt auf skalierbaren, sicheren und performanten Web-Applikationen im regulierten Finanzumfel…",
+        "postedAt": "2026-06-11T18:14:42.000Z"
+      },
+      "fuzzyKey": "finmas|frontend entwickler react typescript in berlin hybrid",
+      "status": "digested",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 88,
+        "stackFit": 95,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "Sehr gute Übereinstimmung hinsichtlich React + TypeScript + Node.js Erfahrung auf Senior/Staff-Level kombiniert mit Berlin‑basiertem, hybridem Arbeitsmodell.",
+        "language": "de"
+      }
+    },
+    "adzuna:5760482993": {
+      "posting": {
+        "id": "adzuna:5760482993",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5760482993?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager, Infrastructure Platform",
+        "company": "Parloa",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "About Parloa Parloa’s mission is to make every customer conversation feel effortless for both customers and the companies serving them. As agentic AI accelerates, Parloans are shaping the foundation of a new era in customer experience, one where customer support is no longer transactions, but meaningful exchanges. It is not just a vision; Parloa has powered over ONE BILLION interactions between global enterprise brands and their customers, with companies like Booking.com , HealthEquity, Allianz…",
+        "postedAt": "2026-06-11T23:21:35.000Z"
+      },
+      "fuzzyKey": "parloa|engineering manager infrastructure platform",
+      "status": "scored",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:45.780Z",
+      "score": {
+        "score": 30,
+        "stackFit": 30,
+        "seniorityFit": 50,
+        "locationFit": 100,
+        "reasoning": "The role is an infrastructure/platform Engineering Manager (likely people-management and infra-focused) which doesn't match the candidate's hands-on senior/frontend–full‑stack TypeScript/React/Node specialization.",
+        "language": "en"
+      }
+    },
+    "adzuna:5760498439": {
+      "posting": {
+        "id": "adzuna:5760498439",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5760498439?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Engineering Manager (m/f/d)",
+        "company": "Affinidi",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "About the Company Affinidi is a technology company dedicated to changing data ownership for good. We empower businesses and individuals with control and ownership of their data, with a comprehensive approach to managing their holistic identity – accounting for all aspects of their digital footprint while ensuring privacy and security. Affinidi’s technology enables users to benefit from decentralised digital identity solutions. We believe that everyone has the right to own and control their data…",
+        "postedAt": "2026-06-11T23:44:27.000Z"
+      },
+      "fuzzyKey": "affinidi|senior engineering manager",
+      "status": "digested",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
+      "score": {
+        "score": 72,
+        "stackFit": 50,
+        "seniorityFit": 85,
+        "locationFit": 90,
+        "reasoning": "The posting is for an engineering manager role with no explicit mention of hands-on TypeScript/React/Node work, so it's unclear whether it matches the candidate's preferred hands-on senior/full‑stack track.",
+        "language": "en"
+      }
+    },
+    "adzuna:5760319950": {
+      "posting": {
+        "id": "adzuna:5760319950",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5760319950?utm_medium=api&utm_source=f4d398fa",
+        "title": "(Senior) Frontend Engineer (f/m/d)",
+        "company": "bunch",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "bunch is building the backbone of private markets. We are enabling next-gen fund operations with one integrated system that combines secure data infrastructure, AI-powered workflows and expert fund services. If you value ownership, growth through real responsibility, and working with a thoughtful, ambitious team, this role might be for you. Your role You’ll be at the forefront of building the frontend experience that powers bunch. We’re looking for someone who sees product development as a craf…",
+        "postedAt": "2026-06-11T22:50:18.000Z"
+      },
+      "fuzzyKey": "bunch|senior frontend engineer",
+      "status": "digested",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:58.418Z",
+      "score": {
+        "score": 92,
+        "stackFit": 95,
+        "seniorityFit": 95,
+        "locationFit": 100,
+        "reasoning": "Excellent match on core technologies and level — candidate is a senior/full‑stack engineer with extensive TypeScript + React + Node experience and prior frontend ownership at bunch/Berlin, making this role highly suitable.",
+        "language": "en"
+      }
+    },
+    "greenhouse:stripe:7957344": {
+      "posting": {
+        "id": "greenhouse:stripe:7957344",
+        "source": "greenhouse",
+        "url": "https://stripe.com/jobs/search?gh_jid=7957344",
+        "title": "Senior Mobile Engineer - React Native",
+        "company": "stripe",
+        "location": "Barcelona, Spain",
+        "workMode": "remote",
+        "description": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team We're a mobile engineering team based in Barcelona, focused on building world-class mobile applications that deliver excellent user experiences for Stripe merchants. React Native is at the core of how we build—it lets us move fast, share code across platforms, and ship high-quality experiences to millions of businesses worldwide without compromise. As a Senior Mobile Engineer on our team, you'll help shape our React Native architecture, set the bar for engineering quality, and play a meaningful role in defining what great mobile development looks like at Stripe. This is a high-impact role where your decisions will be felt across the product—and across the millions of merchants who depend on our apps every day. What you'll do As a Senior Mobile Engineer, you'll own significant parts of our React Native codebase, lead architectural decisions, and help grow the team around you. You'll work closely with product, design, and cross-functional partners to deliver polished, performant mobile experiences. Responsibilities Spearhead the design and development of critical product features, partnering with cross-functional teams to transform complex requirements into seamless, high-performance mobile experiences Champion the integration of AI and cutting-edge development tools to drive efficiency, elevate code standards, and cultivate a culture of AI-assisted engineering Own architectural decisions for the mobile layer—including navigation, state management, native module integration, and performance strategy Drive code quality through thorough code reviews, clear standards, and a strong testing culture Mentor and support junior and mid-level engineers, helping them grow technically and professionally Proactively identify and resolve performance bottlenecks across the JS thread, native bridge, and render pipeline, while scaling our mobile CI/CD infrastructure, release processes, and engineering tooling Act as the primary mobile platform liaison for internal teams, effectively translating requirements into well-scoped mobile initiatives while upholding rigorous standards for code quality and architectural integrity Who you are We're looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 5+ years of professional mobile development experience, with a strong focus on React Native Strong proficiency in TypeScript and modern JavaScript Solid understanding of mobile app architecture and design patterns (e.g., Flux, Redux, MobX, or similar) Proven expertise in React Native, encompassing component architecture, performance tuning, and a demonstrated ability to ship and maintain high-quality production applications at scale Excellent problem-solving skills and ability to communicate complex technical concepts clearly Preferred qualifications Experience with Expo (managed or bare workflow) Experience designing and maintaining mobile CI/CD pipelines (e.g., Fastlane, GitHub Actions, Bitrise) Experience building or contributing to mobile SDKs or shared component libraries Experience with backend development (REST APIs and GraphQL) Contributions to open-source React Native libraries or the broader JS and mobile ecosystem Experience mentoring engineers and contributing to a team's engineering culture Familiarity with native iOS (Swift, UIKit) or Android (Kotlin, Android SDK) development Experience working in a remote-first or distributed engineering environment",
+        "postedAt": "2026-06-11T14:07:07.000Z"
+      },
+      "fuzzyKey": "stripe|senior mobile engineer react native",
+      "status": "scored",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:55.402Z",
+      "score": {
+        "score": 45,
+        "stackFit": 20,
+        "seniorityFit": 90,
+        "locationFit": 80,
+        "reasoning": "This is a React Native–focused mobile role and the candidate does not show React Native or mobile app experience, creating a strong stack mismatch.",
+        "language": "en"
+      }
+    },
+    "greenhouse:n26:7992958": {
+      "posting": {
+        "id": "greenhouse:n26:7992958",
+        "source": "greenhouse",
+        "url": "https://n26.com/en-eu/careers/positions/7992958?gh_jid=7992958",
+        "title": "Engineering Manager - Assistance",
+        "company": "n26",
+        "location": "Berlin",
+        "workMode": "unknown",
+        "description": "About the opportunity: We are seeking an Engineering Manager to join our Assistance segment to lead, manage and grow a group of talented engineers, working closely with product managers and various stakeholders from the business, focusing on interesting and exciting topics at N26. Our Assistance segment focuses on providing a world class support experience in the channels customers prefer whilst we grow our customer base. Drive speedy problem resolution in a compliant way through improved tooling and processes for operations staff and thereby reducing costs. Once you are here you will: Support, invest in and develop an incredible team of talented and motivated engineers with clear expectations via practices such as 1:1s, goal setting, and constant feedback. Recruit, manage and retain the best talent for the delivery teams. Create growth opportunities for team members and address gaps via technical or non-technical skills mentoring and performance management. Help make our people shine! Create a high performing and positive work environment based on transparency, accountability, and trust. Collaborate with product managers and operations in project planning, dependency management, risk management and continuous process improvement for an optimal flow of value for customers and the business (with an appropriate use of metrics). Connect with management and other teams to unblock dependencies, provide visibility and transparency to team progress on product initiatives What you will bring along: Experience growing, coaching, mentoring and providing feedback to team members including having had difficult conversations Experience managing and delivering impactful projects Experience working on an rapidly evolving product in an agile environment Strong leadership, planning and communication skills Passionate about people, and improving the environment in which they work Interested in working with a fast-paced and quickly growing company Professional proficiency in written English Nice to have: Previous experience work in a FinTech company or exposure working in an environment enabling DevOps culture A good understanding of infrastructure, operations and engineering. What’s in it for you: Accelerate your career growth by joining Germany’s #1 Top Startup Employer, named by LinkedIn two years running 🚀 Personal development budget, discounted public transit pass, German language classes, fitness memberships, childcare services, N26 premium bank card, employee loans, and your choice of a Mac or Windows laptop 26 vacation days per year in Austria & Germany, with an additional day for each year of service - up to 30 days ; and 24 vacation days in Spain (up to 28 days) A high degree of collaboration and autonomy while working with a group of international peers, getting things done attitude , and access to cutting edge technologies Rotating selection of hot and cold drinks and snacks in the office, Friday Celebrations once per month with pizza, wine, and beer, plus a monthly company-wide lunch and learn A relocation package with visa support for those who need it Who we are N26 has reimagined banking for today's digital world. Technology and design empower everything we do and it's how we are building the global banking platform the world loves to use. We've eliminated physical branches, paperwork, and hidden fees for an elegant digital experience and supreme savings. We are headquartered in Berlin with offices in multiple cities across Europe, including Vienna and Barcelona, and a 1,500-strong team of more than 80 nationalities. Sounds good? Apply now for this position. Equal Opportunities We recognize that our strength lies in our people and the varied perspectives they bring to our workforce. We strive to build talented and diverse teams to drive our business success and empower our people to reach their full potential. We genuinely welcome and encourage applications from people of all backgrounds, cultures, genders, sexual orientations, abilities, neurodiversities, and ages. If there's anything you need to make the application process work for you, please let us know by reaching out to candidate.exp@n26.com.",
+        "postedAt": "2026-06-11T18:13:13.000Z"
+      },
+      "fuzzyKey": "n26|engineering manager assistance",
+      "status": "scored",
+      "firstSeenAt": "2026-06-12T08:14:34.769Z",
+      "updatedAt": "2026-06-12T08:14:58.004Z",
+      "score": {
+        "score": 28,
+        "stackFit": 25,
+        "seniorityFit": 60,
+        "locationFit": 90,
+        "reasoning": "The role is primarily a people-management Engineering Manager focused on recruiting, performance management and operational processes with little emphasis on hands‑on TypeScript/React/Node engineering, so it doesn't match the candidate's hands-on senior/full‑stack profile.",
         "language": "en"
       }
     }
