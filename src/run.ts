@@ -16,7 +16,7 @@ import { matchFilename, openaiTailoringClient, tailorJob } from './pipeline/tail
 import { buildSourceTasks, runSources } from './sources/index';
 
 const STATE_PATH = 'state/jobs.json';
-const PROFILE_PATH = 'profile.pdf';
+const PROFILE_PATH = 'profile.md';
 
 async function main(): Promise<void> {
   const totalStart = Date.now();

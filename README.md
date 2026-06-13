@@ -1,15 +1,15 @@
 # job-scout
 
 Personal AI job-search pipeline: discovers software jobs (EU/Germany), scores them
-against `profile.pdf` with a cheap OpenAI model, writes tailored application material
+against `profile.md` with a cheap OpenAI model, writes tailored application material
 with a stronger model, and sends Telegram alerts + a daily digest.
 Runs on GitHub Actions cron. Design doc lives in `docs/`.
 
 ## Setup
 
-1. Export your CV as `profile.pdf` at the repo root (a text-based export from
-   Word/Google Docs/LaTeX — not a scan; the pipeline fails fast if the PDF has
-   no text layer). Commit it: GitHub Actions reads it from the repo.
+1. Write your CV content as `profile.md` at the repo root — experience, skills,
+   location, but no contact details (name, phone, email): the file is committed
+   and GitHub Actions reads it from the repo.
 2. Create a Telegram bot via @BotFather; get your chat id by messaging the bot
    and calling `https://api.telegram.org/bot<TOKEN>/getUpdates`.
 3. Get API keys: OpenAI, Adzuna (free at developer.adzuna.com),
