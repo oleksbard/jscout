@@ -2270,9 +2270,9 @@
         "postedAt": "2026-06-11T14:00:47.000Z"
       },
       "fuzzyKey": "getaway|java tech lead mobility startup",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-12T08:14:34.769Z",
-      "updatedAt": "2026-06-12T08:14:42.451Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
       "languageFlag": "de",
       "score": {
         "score": 30,
@@ -2296,9 +2296,9 @@
         "postedAt": "2026-06-10T16:00:30.000Z"
       },
       "fuzzyKey": "yipitdata|senior data engineering manager",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-12T08:14:34.769Z",
-      "updatedAt": "2026-06-12T08:14:44.986Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
       "score": {
         "score": 18,
         "stackFit": 10,
@@ -2347,9 +2347,9 @@
         "postedAt": "2026-06-11T23:21:35.000Z"
       },
       "fuzzyKey": "parloa|engineering manager infrastructure platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-12T08:14:34.769Z",
-      "updatedAt": "2026-06-12T08:14:45.780Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
       "score": {
         "score": 30,
         "stackFit": 30,
@@ -2422,9 +2422,9 @@
         "postedAt": "2026-06-11T14:07:07.000Z"
       },
       "fuzzyKey": "stripe|senior mobile engineer react native",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-12T08:14:34.769Z",
-      "updatedAt": "2026-06-12T08:14:55.402Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
       "score": {
         "score": 45,
         "stackFit": 20,
@@ -2447,15 +2447,266 @@
         "postedAt": "2026-06-11T18:13:13.000Z"
       },
       "fuzzyKey": "n26|engineering manager assistance",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-12T08:14:34.769Z",
-      "updatedAt": "2026-06-12T08:14:58.004Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
       "score": {
         "score": 28,
         "stackFit": 25,
         "seniorityFit": 60,
         "locationFit": 90,
         "reasoning": "The role is primarily a people-management Engineering Manager focused on recruiting, performance management and operational processes with little emphasis on hands‑on TypeScript/React/Node engineering, so it doesn't match the candidate's hands-on senior/full‑stack profile.",
+        "language": "en"
+      }
+    },
+    "arbeitnow:software-engineer-ios-core-product-berlin-germany-366026": {
+      "posting": {
+        "id": "arbeitnow:software-engineer-ios-core-product-berlin-germany-366026",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-ios-core-product-berlin-germany-366026",
+        "title": "Software Engineer, iOS Core Product - Berlin, Germany",
+        "company": "Speechify",
+        "location": "Berlin, Berlin, Germany",
+        "workMode": "unknown",
+        "description": "The mission of Speechify is to make sure that reading is never a barrier to learning. Over 50 million people use Speechify's text-to-speech products to turn whatever they're reading – PDFs, books, Google Docs, news articles, websites – into audio, so they can read faster, read more, and remember more. Speechify's text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App. Google recently named Speechify the Chrome Extension of the Year and Apple named Speechify its App of the Day. Today, nearly 200 people around the globe work on Speechify in a 100% distributed setting – Speechify has no office. These include frontend and backend engineers, AI research scientists, and others from Amazon, Microsoft, and Google, leading PhD programs like Stanford, high growth startups like Stripe, Vercel, Bolt, and many founders of their own companies. Overview With the growth of our iOS app, being the #18 productivity app in the App Store category and also our recent recognition as Apple's 2025 Design Award for inclusivity, we find the need for a Senior iOS Engineer to help us support the new user base as well as work on new and exciting projects to push our missing forward. This is a key role and ideal for someone who thinks strategically, enjoys fast-paced environments, passionate about making product decisions, and has experience building great user experiences that delight users. We are a flat organization that allows anyone to become a leader by showing excellent technical skills and delivering results consistently and fast. Work ethic, solid communication skills, and obsession with winning are paramount. Our interview process involves several technical interviews and we aim to complete them within 1 week. What Yo u' ll Do Opportunity to lead key engineering and product decisions Actively shipping production code for the Speechify iOS app Work within a dedicated product team Participate in product discussions to shape the product roadmap Maintain and enhance the existing complex app architecture An Ideal Candidate Should Have Experience. You've worked on products that scaled to a large user base Track record. You have worked on various products from inception to decent traction. You have been responsible for engineering the product Customer obsession. We expect every team member whose responsibilities directly impact customers to be constantly obsessed about providing the best possible experience Product thinking. You make thoughtful decisions about the evolution of your product and support internal teams and designers into taking the right direction Speed. You work quickly to generate ideas and know how to decide which things can ship now and what things need time Focus. We're a high-growth startup with a busy, remote team. You know how and when to engage or be heads down Technical skills. Swift, SwiftUI Technical Requirements: Swift Programming Language SwiftUI experience Experience in Multithreading Programming Working with CI/CD infrastructure Experience with Fastlane SOLID principles, the ability to write every single class according to SOLID Experience with Git and understanding of different Git strategies What We offer: A fast-growing environment where you can help shape the company and product An entrepreneurial crew that supports risk, intuition, and hustle The opportunity to make a big impact in a transformative industry A competitive salary, a collegiate atmosphere, and a commitment to building a great asynchronous culture Work on a product that millions of people use and where daily feedback includes users sharing that they cried when they first found the product because it was so impactful on their lives Support people with learning differences like Dyslexia, ADD, Low Vision, Concussions, Autism, and Second Language Learners, and give reading superpowers to professionals all over the world Work in one of the fastest growing sectors of tech: Intersection of Artificial Intelligence and Audio The Germany Based Salary range for this role is: 30,000-120,000 USD/Year + Bonus + Stock depending on experience. Think you're a good fit for this job? Tell us more about yourself and why you're interested in the role when you apply. And don't forget to include links to your portfolio and LinkedIn. Not looking but know someone who would make a great fit? Refer them! Speechify is committed to a diverse and inclusive workplace. Speechify does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Find more English Speaking Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-15T06:45:23.000Z"
+      },
+      "fuzzyKey": "speechify|software engineer ios core product berlin germany",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:16.775Z",
+      "score": {
+        "score": 20,
+        "stackFit": 0,
+        "seniorityFit": 60,
+        "locationFit": 90,
+        "reasoning": "The role is a hands-on iOS (Swift/SwiftUI) mobile engineering position, which does not match the candidate's TypeScript/React/Node fullstack/frontend specialization.",
+        "language": "en"
+      }
+    },
+    "adzuna:5762983009": {
+      "posting": {
+        "id": "adzuna:5762983009",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5762983009?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Frontend Developer - React AI experience (all genders)",
+        "company": "Lightspeed Commerce",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Hi there! Thanks for stopping by Lightspeed is looking for a Senior Frontend Developer to join our team. As a Frontend engineer, you will support Lightspeed's mission to build intelligent, AI-powered tools and capabilities that transform how our teams and customers work. For this role specifically, you will join our Agent OC Squad. This squad is focused on bringing generative AI capabilities directly into our product — building features that provide real value to customers by leveraging LLMs, …",
+        "postedAt": "2026-06-13T23:40:56.000Z"
+      },
+      "fuzzyKey": "lightspeed commerce|senior frontend developer react ai experience",
+      "status": "digested",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:32.579Z",
+      "score": {
+        "score": 90,
+        "stackFit": 95,
+        "seniorityFit": 95,
+        "locationFit": 85,
+        "reasoning": "Direct match on senior React/TypeScript frontend experience plus hands-on generative AI/LLM work and being based in Berlin makes this role an excellent fit.",
+        "language": "en"
+      }
+    },
+    "adzuna:5761825560": {
+      "posting": {
+        "id": "adzuna:5761825560",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5761825560?utm_medium=api&utm_source=f4d398fa",
+        "title": "(Senior) Fullstack Developer Angular Java (w/m/d) 100% remote Deutschlandweit",
+        "company": "Europace Ag",
+        "location": "Deutschland",
+        "workMode": "remote",
+        "description": "Was macht Europace genau? Wir sind Deutschlands größter Finanzmarktplatz für Immobilienfinanzierungen, Bausparprodukte und Privatkredite. Wir gestalten und bewegen Märkte und befinden uns auf einer stetigen Mission für den Verbraucher:innen. Wir bringen Banken und Vertriebe zusammen, um für den Verbraucher:innen den einfachsten Zugang zu den besten Finanzierungen zu schaffen. In unserer Ratenkredit-Unit arbeiten 40 Mitarbeitende in unterschiedlichen voll funktionalen Produktteams daran, Service…",
+        "postedAt": "2026-06-13T00:00:43.000Z"
+      },
+      "fuzzyKey": "europace|senior fullstack developer angular java 100 remote deutschlandweit",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:11.591Z",
+      "score": {
+        "score": 28,
+        "stackFit": 10,
+        "seniorityFit": 85,
+        "locationFit": 90,
+        "reasoning": "Major stack mismatch — the role is Angular + Java while the candidate specializes in TypeScript/React/Node.js, making it a poor technical fit.",
+        "language": "de"
+      }
+    },
+    "adzuna:5762334724": {
+      "posting": {
+        "id": "adzuna:5762334724",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5762334724?utm_medium=api&utm_source=f4d398fa",
+        "title": "(Senior) Frontend Engineer (d/w/m)",
+        "company": "Rulemapping",
+        "location": "Mitte, Berlin",
+        "workMode": "unknown",
+        "description": "Deine Aufgaben Du entwickelst moderne, performante und barrierearme Frontend-Komponenten mit React, TypeScript, Panda CSS und dem TanStack Router. Du setzt hochwertige UI-Flows um – von Prototypen bis zum Live-Feature – in enger Zusammenarbeit mit UX/UI (Figma) und dem Product Management. Du gestaltest und entwickelst eine klare, skalierbare Frontend-Architektur weiter (u. a. State Management mit Zustand und Immer, Routing, Caching). Du implementierst robuste API-Integrationen (REST / OpenAPI) …",
+        "postedAt": "2026-06-13T11:00:11.000Z"
+      },
+      "fuzzyKey": "rulemapping|senior frontend engineer d w m",
+      "status": "digested",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:32.580Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 88,
+        "stackFit": 90,
+        "seniorityFit": 90,
+        "locationFit": 90,
+        "reasoning": "Excellent match on React + TypeScript frontend architecture (state management, routing, API integrations) combined with being based in Berlin, making this a strong apply-today opportunity.",
+        "language": "de"
+      }
+    },
+    "adzuna:5763255661": {
+      "posting": {
+        "id": "adzuna:5763255661",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5763255661?utm_medium=api&utm_source=f4d398fa",
+        "title": "Sr. Project Engineering Manager",
+        "company": "GE Vernova",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Job Description Summary Own the project control activity globally and drive consistent functional specifications and common global processes for projects implementation. Activities that are conducted to better understand or ultimately meet the expectations of the customer Impacts approaches, projects and programs in the functional area or affected business organization and ways of working. Impacts quality, efficiency and effectiveness of own team. Has significant input into priorities. Guided b…",
+        "postedAt": "2026-06-14T07:43:31.000Z"
+      },
+      "fuzzyKey": "ge vernova|sr project engineering manager",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:14.944Z",
+      "score": {
+        "score": 15,
+        "stackFit": 5,
+        "seniorityFit": 20,
+        "locationFit": 30,
+        "reasoning": "The posting is for a senior project engineering manager focused on global project control and processes (non-software, non-hands-on), which does not match the candidate's hands-on TypeScript/React/Node full‑stack/frontend engineering profile.",
+        "language": "en"
+      }
+    },
+    "adzuna:5762916426": {
+      "posting": {
+        "id": "adzuna:5762916426",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5762916426?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager - ZEOS (all genders)",
+        "company": "Zalando",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "THE ROLE AND THE TEAM The ZEOS B2B Portal is the face of our platform, serving as the central gateway for partners to manage their business within the Zalando ecosystem. As the Engineering Manager for the Portal and Portal Application team, you will lead the engineers responsible for building a seamless, high-performance, and intuitive user interface that unifies complex B2B services. You will manage a cross-functional team of up to 10 engineers, fostering an environment where frontend excellen…",
+        "postedAt": "2026-06-13T23:04:06.000Z"
+      },
+      "fuzzyKey": "zalando|engineering manager zeos",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:28.034Z",
+      "score": {
+        "score": 45,
+        "stackFit": 60,
+        "seniorityFit": 70,
+        "locationFit": 90,
+        "reasoning": "The posting is primarily a people-management Engineering Manager role (leading a team of ~10) rather than a hands-on senior/staff frontend or full-stack engineering position focused on day-to-day TypeScript/React/Node.js work.",
+        "language": "en"
+      }
+    },
+    "adzuna:5762932294": {
+      "posting": {
+        "id": "adzuna:5762932294",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5762932294?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager - Data & Content Delivery (m/f/d)",
+        "company": "Statista",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "At Statista , we’re all about facts and data, for we are the world's leading business data platform. By providing reliable and easy-to-use data as well as various data analytics products and services, we empower people worldwide to make fact-based decisions. Founded in Hamburg in 2007, we have quickly grown into a global company with offices in major cities such as London, New York, Berlin and Tokyo. And we still have a lot of plans. Our constant growth does not only prove our success, but also…",
+        "postedAt": "2026-06-13T23:06:44.000Z"
+      },
+      "fuzzyKey": "statista|engineering manager data content delivery",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:27.717Z",
+      "score": {
+        "score": 42,
+        "stackFit": 30,
+        "seniorityFit": 60,
+        "locationFit": 30,
+        "reasoning": "The role is a Berlin-based Engineering Manager for Data & Content Delivery that appears backend/data-focused with unclear hands-on expectations and not centered on the candidate's TypeScript/React/Node frontend/fullstack expertise, making it a weak fit.",
+        "language": "en"
+      }
+    },
+    "hn:48507707": {
+      "posting": {
+        "id": "hn:48507707",
+        "source": "hn",
+        "url": "https://news.ycombinator.com/item?id=48507707",
+        "title": "Senior Software Engineer",
+        "company": "Upwave (YC S12)",
+        "location": "REMOTE (US)",
+        "workMode": "remote",
+        "description": "Upwave (YC S12) | Senior Software Engineer | REMOTE (US) | Full-time | $150k-$175k + bonus&#x2F;equity&#x2F;benefits | https:&#x2F;&#x2F;www.upwave.com&#x2F;job&#x2F;8547924002&#x2F; Upwave builds brand measurement software for large advertisers, agencies, and media partners. We process high-volume ad exposure + survey&#x2F;event data and turn it into brand lift, reach validation, optimization recommendations, and AI-assisted analysis for enterprise marketers. We&#x27;re looking for a senior full-stack&#x2F;backend-leaning engineer who can be productive quickly in our JVM&#x2F;Spring Boot stack. Recent production experience with Java, Kotlin, or similar is important for this role; we need someone who can help us ship and operate backend services without a long stack ramp-up. Strong candidates also bring Python, SQL&#x2F;data modeling, AWS&#x2F;Kubernetes&#x2F;observability, and high-volume event or analytics pipeline experience. The work includes building APIs and data pipelines, productionizing analytics&#x2F;statistical workflows with Product and Data Science, improving reliability&#x2F;performance, and building AI-powered customer experiences. Stack includes Kotlin&#x2F;Java, Python analytics services, React, MySQL, DynamoDB, AWS, Kubernetes, Terraform and LLM orchestration. We&#x27;re profitable&#x2F;growth-stage, remote-first in the US, and engineering-led: high velocity through focus and leverage, not crunch. Interview process includes an in-person meeting. Apply: https:&#x2F;&#x2F;www.upwave.com&#x2F;job&#x2F;8547924002&#x2F; Or email me directly: jason.kelly@upwave.com",
+        "postedAt": "2026-06-12T18:31:16.000Z"
+      },
+      "fuzzyKey": "upwave yc s12|senior software engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:28.433Z",
+      "score": {
+        "score": 30,
+        "stackFit": 30,
+        "seniorityFit": 85,
+        "locationFit": 20,
+        "reasoning": "The role explicitly requires recent production experience with Java/Kotlin and a JVM/Spring Boot backend (minimal ramp-up), which the candidate lacks, making the stack mismatch the single biggest barrier.",
+        "language": "en"
+      }
+    },
+    "greenhouse:databricks:7319791002": {
+      "posting": {
+        "id": "greenhouse:databricks:7319791002",
+        "source": "greenhouse",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7319791002",
+        "title": "Senior Staff Software Engineer - Delta",
+        "company": "databricks",
+        "location": "Berlin, Germany",
+        "workMode": "unknown",
+        "description": "P-1127 At Databricks, we are obsessed with enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high value challenges that are central to their own missions. Our engineering teams build highly technical products that fulfill real, important needs in the world. We develop and operate one of the largest scale software platforms. The fleet consists of millions of virtual machines, generating terabytes of logs and processing exabytes of data per day. At our scale, we regularly observe cloud hardware, network, and operating system faults, and our software must gracefully shield our customers from any of the above. The Delta DML team owns the core write-path operations for Delta Lake, the open-source storage layer behind the Databricks Lakehouse. Our mission is to deliver industry-leading performance and a seamless user experience at massive scale, with most data written in Databricks flowing through our platform. We drive performance innovations like Low Shuffle Merge and Deletion Vectors and actively contribute to open source efforts to unify Delta and Iceberg formats. We are seeking a highly skilled and experienced Senior Staff Software Engineer to join our backend team. In this role, you will be instrumental in designing, developing, and maintaining robust backend systems that power Databricks workspaces. You will build the next-generation platform for serving workspace assets, ensuring high QPS, low latency, reliable, and performant systems, proactively addressing the future growth challenges. Additionally, as a senior member of the team, you will provide technical leadership, mentorship, and guidance to junior engineers, contributing to the overall improvement of team coding practices and system designs. The Impact you will have: Solve real business needs at large scale by applying your software engineering. Low level systems debugging, performance measurement, and optimization on large production clusters. Build architecture design, influence product roadmap, and take ownership and responsibility over new projects. Introduce tools to allow greater automation and operability of services. Use your deep experience to help prevent and investigate production issues. Plan and lead complicated technical projects that work with several teams within the company. Contribute as a technical team lead by mentoring others, lead sprint planning, delegating work and assignments to team members and participate in project planning. What we look for: 15+ years industry experience building and supporting large-scale distributed systems. Comfortable working towards a multi-year vision with incremental deliverables. Motivated by delivering customer value and impact. Strong foundation in algorithms and data structures and their real-world use cases. Experience driving company initiatives towards customer satisfaction. BS/MS/PhD in Computer Science or related majors, or equivalent experience. About Databricks Databricks is the data and AI company. More than 10,000 organizations worldwide — including Comcast, Condé Nast, Grammarly, and over 50% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow. To learn more, follow Databricks on Twitter , LinkedIn and Facebook . Benefits At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here . Our Commitment to Diversity and Inclusion At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics. Compliance If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",
+        "postedAt": "2026-04-09T20:51:10.000Z"
+      },
+      "fuzzyKey": "databricks|senior staff software engineer delta",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:32.191Z",
+      "score": {
+        "score": 35,
+        "stackFit": 20,
+        "seniorityFit": 45,
+        "locationFit": 60,
+        "reasoning": "The role is a backend-focused, large-scale distributed systems position requiring 15+ years and deep systems engineering (likely JVM/Scala/Java) expertise, which does not match the candidate's TypeScript/React/Node.js frontend-heavy full‑stack background and experience level.",
+        "language": "en"
+      }
+    },
+    "greenhouse:pinterest:7888329": {
+      "posting": {
+        "id": "greenhouse:pinterest:7888329",
+        "source": "greenhouse",
+        "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7888329",
+        "title": "Principal Engineer, AI Platform",
+        "company": "pinterest",
+        "location": "San Francisco, CA, US; Remote, US",
+        "workMode": "remote",
+        "description": "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the flexibility to do your best work. Creating a career you love? It’s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experience and abilities, we’ll explore your foundational skills and how you collaborate with AI. Through our interview process, what matters most is that you can always explain your approach, showing us not just what you know, but how you think. You can read more about our AI interview philosophy and how we use AI in our recruiting process here . Millions of people across the world come to Pinterest to find new ideas every day. It’s where they get inspiration, dream about new possibilities and plan for what matters most. Our mission is to help those people find their inspiration and create a life they love. As a Pinterest employee, you’ll be challenged to take on work that upholds this mission and pushes Pinterest forward. As a Principal Engineer on the AI Platform team, you'll help architect the infrastructure that powers both Generative AI and Recommender Systems across Pinterest's entire product suite. Our team builds the end-to-end engines for petabyte-scale data orchestration, model training and fine-tuning, and high-performance inference, ensuring our models scale seamlessly to hundreds of millions of inferences per second in service of over 600 million monthly active users. What you’ll do: Set the technical vision and roadmap for the Pinterest AI Platform, aligning with business priorities and long-term company strategy. Drive cross-functional strategic initiatives that advance our platform capabilities across: Generative AI: multimodal data management, post-training, evaluation, and batch/online inference. Recommender Systems: feature stores, training infra, and large-scale high performance inference. AI-powered tools that automate the user experience across our platforms, connecting every stage of the AI/ML lifecycle to enhance productivity and accelerate development. Cultivate a collaborative and inclusive culture where every team member feels welcome and empowered, and provide candid, constructive feedback that accelerates individual and team growth. What we’re looking for: Deep expertise in AI/ML infrastructure and distributed systems: Hands-on experience designing, building, and operating highly available, production-grade systems at large scale; strong technical judgment; and proficiency in at least one of C++, Java, or Rust. Proven track record of company-wide impact: Experience leading cross-organizational initiatives, navigating ambiguity, defining technical strategy, influencing architecture decisions, and aligning cross-functional partners and executives around a shared direction. Strong ownership and a high engineering bar: Sets and upholds high standards for engineering quality, integrity, and accountability, and takes end-to-end ownership of outcomes. Bachelor's degree in Computer Science or a related field. Relocation Statement : This position is not eligible for relocation assistance. Visit our PinFlex page to learn more about our working model. In-Office Requirement Statement : We recognize that the ideal environment for work is situational and may differ across departments. What this looks like day-to-day can vary based on the needs of each organization or role. This role will need to be in the office for in-person collaboration 1-2 times per quarter and therefore needs to be in a commutable distance from one of the following offices: Palo Alto, CA or San Francisco, CA. #LI-REMOTE #LI-AH2 At Pinterest we believe the workplace should be equitable, inclusive, and inspiring for every employee. In an effort to provide greater transparency, we are sharing the base salary range for this position. The position is also eligible for equity. Final salary is based on a number of factors including location, travel, relevant prior experience, or particular skills and expertise. Information regarding the culture at Pinterest and benefits available for this position can be found here . US based applicants only $242,634 &mdash; $499,541 USD Our Commitment to Inclusion: Pinterest is an equal opportunity employer and makes employment decisions on the basis of merit. We want to have the best qualified people in every job. All qualified applicants will receive consideration for employment without regard to race, color, ancestry, national origin, religion or religious creed, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, age, marital status, status as a protected veteran, physical or mental disability, medical condition, genetic information or characteristics (or those of a family member) or any other consideration made unlawful by applicable federal, state or local laws. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you require a medical or religious accommodation during the job application process, please complete this form for support. By submitting this application, I certify that all information submitted in my application and throughout the hiring process is true, accurate, and complete to the best of my knowledge. I understand that any false statement, omission, or misrepresentation may disqualify me from employment consideration or result in termination if discovered after hire.",
+        "postedAt": "2026-06-12T17:10:49.000Z"
+      },
+      "fuzzyKey": "pinterest|principal engineer ai platform",
+      "status": "scored",
+      "firstSeenAt": "2026-06-15T08:20:03.376Z",
+      "updatedAt": "2026-06-15T08:20:31.953Z",
+      "score": {
+        "score": 20,
+        "stackFit": 20,
+        "seniorityFit": 55,
+        "locationFit": 0,
+        "reasoning": "The role is restricted to US-based applicants with a requirement to be commutable to San Francisco/Palo Alto, making it inaccessible to a Berlin-based candidate.",
         "language": "en"
       }
     }
