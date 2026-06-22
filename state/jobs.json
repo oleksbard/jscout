@@ -2472,9 +2472,9 @@
         "postedAt": "2026-06-15T06:45:23.000Z"
       },
       "fuzzyKey": "speechify|software engineer ios core product berlin germany",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:16.775Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 20,
         "stackFit": 0,
@@ -2522,9 +2522,9 @@
         "postedAt": "2026-06-13T00:00:43.000Z"
       },
       "fuzzyKey": "europace|senior fullstack developer angular java 100 remote deutschlandweit",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:11.591Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 28,
         "stackFit": 10,
@@ -2573,9 +2573,9 @@
         "postedAt": "2026-06-14T07:43:31.000Z"
       },
       "fuzzyKey": "ge vernova|sr project engineering manager",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:14.944Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 15,
         "stackFit": 5,
@@ -2598,9 +2598,9 @@
         "postedAt": "2026-06-13T23:04:06.000Z"
       },
       "fuzzyKey": "zalando|engineering manager zeos",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:28.034Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 45,
         "stackFit": 60,
@@ -2623,9 +2623,9 @@
         "postedAt": "2026-06-13T23:06:44.000Z"
       },
       "fuzzyKey": "statista|engineering manager data content delivery",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:27.717Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 42,
         "stackFit": 30,
@@ -2648,9 +2648,9 @@
         "postedAt": "2026-06-12T18:31:16.000Z"
       },
       "fuzzyKey": "upwave yc s12|senior software engineer",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:28.433Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 30,
         "stackFit": 30,
@@ -2673,9 +2673,9 @@
         "postedAt": "2026-04-09T20:51:10.000Z"
       },
       "fuzzyKey": "databricks|senior staff software engineer delta",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:32.191Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 35,
         "stackFit": 20,
@@ -2698,15 +2698,344 @@
         "postedAt": "2026-06-12T17:10:49.000Z"
       },
       "fuzzyKey": "pinterest|principal engineer ai platform",
-      "status": "scored",
+      "status": "archived",
       "firstSeenAt": "2026-06-15T08:20:03.376Z",
-      "updatedAt": "2026-06-15T08:20:31.953Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
       "score": {
         "score": 20,
         "stackFit": 20,
         "seniorityFit": 55,
         "locationFit": 0,
         "reasoning": "The role is restricted to US-based applicants with a requirement to be commutable to San Francisco/Palo Alto, making it inaccessible to a Berlin-based candidate.",
+        "language": "en"
+      }
+    },
+    "arbeitnow:senior-software-engineer-windows-desktop-applications-berlin-germany-209742": {
+      "posting": {
+        "id": "arbeitnow:senior-software-engineer-windows-desktop-applications-berlin-germany-209742",
+        "source": "arbeitnow",
+        "url": "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-windows-desktop-applications-berlin-germany-209742",
+        "title": "Senior Software Engineer, Windows/Desktop Applications - Berlin, Germany",
+        "company": "Speechify",
+        "location": "Berlin, Berlin, Germany",
+        "workMode": "unknown",
+        "description": "Mission The mission of Speechify is to make sure that reading is never a barrier to learning. Over 50 million people use Speechify's text-to-speech products to turn whatever they're reading – PDFs, books, Google Docs, news articles, websites – into audio, so they can read faster, read more, and remember more. Speechify's text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App. Google recently named Speechify the Chrome Extension of the Year and Apple named Speechify its 2025 Design Award winner for Inclusivity. Today, nearly 200 people around the globe work on Speechify in a 100% distributed setting – Speechify has no office. These include frontend and backend engineers, AI research scientists, and others from Amazon, Microsoft, and Google, leading PhD programs like Stanford, high growth startups like Stripe, Vercel, Bolt, and many founders of their own companies What You'll Do Lead the design, architecture, and development of native Windows desktop applications using Windows App SDK, WinUI (or related UI frameworks), C#, XAML, and — when needed — C++. Define and enforce best-practices for Windows desktop development across the codebase: code architecture, performance, memory usage, responsive UI, cross-version compatibility (Windows 10/11+), and maintainability. Drive accessibility efforts: integrate and validate support for accessibility APIs (e.g. Microsoft UI Automation or other relevant Windows accessibility frameworks), ensure UI controls, focus management, keyboard navigation, screen-reader support, and usability for users with disabilities. Collaborate closely with product designers, UX researchers, QA, and other stakeholders to shape feature planning, UI/UX architecture, and long-term roadmap for the Windows platform. Take ownership of full lifecycle of features: conception → design → implementation → testing → release → maintenance. Ensure quality, reliability, and consistency across releases. Identify, diagnose, and resolve complex bugs, performance bottlenecks, memory leaks, rendering issues, or compatibility problems — and propose robust architectural or design solutions. An ideal candidate should have Required: 3+ in Windows desktop application development using Windows App SDK, WinUI (or similar), C#, XAML — and ideally additional experience with native Windows code (C++, Win32/WinRT/COM). Deep understanding of Windows application architecture, including interop between managed code (.NET) and native code. Proven track record of designing, building, and shipping production-quality desktop applications, with an emphasis on reliability, performance, scalability, and maintainability. Strong experience with accessibility APIs on Windows (e.g. Microsoft UI Automation or similar), and a dedication to building accessible and inclusive software. Excellent software engineering fundamentals: OOP, design patterns, data structures, algorithms, memory management, multi-threading or asynchronous programming (where relevant). Experience leading technical design, mentoring other engineers, conducting code reviews, and making architecture-level decisions. Strong communication skills; ability to articulate tradeoffs, collaborate with cross-functional teams, and drive consensus. A user-centric mindset: focus on building polished, intuitive, and accessible experiences for end users. Preferred / Bonus: Experience with writing automated tests for UI — unit tests, integration tests, UI automation tests; familiarity with relevant testing frameworks. Experience with performance optimization for desktop apps (memory usage, startup time, rendering performance, high-DPI support, responsiveness under load). Experience with localization/globalization, right-to-left UI support, internationalization, accessibility for multiple regions. Familiarity with telemetry, analytics, crash reporting, logging, and error monitoring in desktop applications. Previous experience in shaping CI/CD workflows, release pipelines, and deployment strategies for desktop applications. Demonstrated ability to take ownership of feature areas or modules and drive them long-term, including maintenance, refactoring, and technical debt management. What we offer A high-impact role: you will define architecture, shape the future of our Windows product, and directly influence what millions of users see and experience. A collaborative, flat-structure engineering culture — you are not just a coder, but a builder and a decision-maker. Opportunities to lead — mentor others, steer technical direction, and grow into broader technical leadership (e.g. Tech Lead, Architect). Flexibility, autonomy, and responsibility: you define how to solve problems, own features end-to-end, and contribute to long-term product vision. A purpose-driven mission: building software that's reliable, accessible, and user-centered — making a real difference for people. The Germany Based Salary range for this role is: 30,000-120,000 USD/Year + Bonus + Stock depending on experience. Think you're a good fit for this job? Tell us more about yourself and why you're interested in the role when you apply. And don't forget to include links to your portfolio and LinkedIn. Not looking but know someone who would make a great fit? Refer them! Speechify is committed to a diverse and inclusive workplace. Speechify does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Find more English Speaking Jobs in Germany on Arbeitnow",
+        "postedAt": "2026-06-21T06:45:55.000Z"
+      },
+      "fuzzyKey": "speechify|senior software engineer windows desktop applications berlin germany",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:19.439Z",
+      "score": {
+        "score": 30,
+        "stackFit": 10,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The role is focused on native Windows desktop development (C#/XAML/C++) and accessibility for Win32/WinRT, which does not match the candidate's TypeScript/React/Node.js frontend and full‑stack specialization.",
+        "language": "en"
+      }
+    },
+    "adzuna:5770445495": {
+      "posting": {
+        "id": "adzuna:5770445495",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5770445495?utm_medium=api&utm_source=f4d398fa",
+        "title": "Frontend Developer - Fully Remote",
+        "company": "Mercor",
+        "location": "Berlin, Deutschland",
+        "workMode": "remote",
+        "description": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Frontend Engineer (Coding Agent Experience) Type: Contract Compensation: $85/hour Location: Remote Role Responsibilities Use frontier AI coding agents to complete and evaluate complex engineering tasks. Review model-generated frontend code for…",
+        "postedAt": "2026-06-20T11:31:00.000Z"
+      },
+      "fuzzyKey": "mercor|frontend developer fully remote",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "score": {
+        "score": 82,
+        "stackFit": 70,
+        "seniorityFit": 75,
+        "locationFit": 100,
+        "reasoning": "The role's focus on evaluating AI-generated frontend code and using coding agents maps well to the candidate's strong TypeScript/React frontend background and AI/LLM experience while being remote-hireable from Berlin.",
+        "language": "en"
+      }
+    },
+    "adzuna:5772202767": {
+      "posting": {
+        "id": "adzuna:5772202767",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5772202767?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Software Engineer at Ficus Health",
+        "company": "Ficus Health",
+        "location": "Wedding, Berlin",
+        "workMode": "unknown",
+        "description": "This is a role that Atlas, our AI Recruiter, is hiring for on behalf of one of our customers. He'll pick the best candidates from Nova's network. The next step is to speak to Nova . The Role Job Title: Senior Software Engineer Company: Ficus Health Location: Berlin, Germany Why this role matters Founded in 2024, we’ve successfully validated our AI-powered medical documentation tool in the German market and are now ready to scale our product. As a Senior Software Engineer joining our team, your …",
+        "postedAt": "2026-06-22T04:45:11.000Z",
+        "salary": "80000–100000"
+      },
+      "fuzzyKey": "ficus health|senior software engineer at ficus health",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "score": {
+        "score": 74,
+        "stackFit": 75,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The stated salary range (€80k–€100k) is likely below market for a Senior/Staff TypeScript/React/Node engineer in Berlin, making compensation the single biggest fit concern.",
+        "language": "en"
+      }
+    },
+    "adzuna:5771761142": {
+      "posting": {
+        "id": "adzuna:5771761142",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5771761142?utm_medium=api&utm_source=f4d398fa",
+        "title": "Lead Fullstack Developer (m/f/d) - TypeScript / Angular / Node.js - PDR.cloud GmbH",
+        "company": "PDR.cloud GmbH",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "Als Lead Fullstack Developer (m/w/d) übernehmen Sie eine zentrale Rolle in der technischen Weiterentwicklung unserer innovativen Softwarelösung für Karosserie- und Lackierbetriebe. Sie gestalten moderne Webanwendungen mit Angular und Node.js , übernehmen Verantwortung für Architektur, Codequalität und Teamkoordination - und bleiben dabei selbst aktiv im Code. In einem agilen Umfeld führen Sie anspruchsvolle Entwicklungsprojekte von der Konzeption bis zum Deployment und treiben die technische We…",
+        "postedAt": "2026-06-21T16:19:14.000Z"
+      },
+      "fuzzyKey": "pdr cloud|lead fullstack developer typescript angular node js pdr cloud gmbh",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 70,
+        "stackFit": 55,
+        "seniorityFit": 90,
+        "locationFit": 60,
+        "reasoning": "Entscheidender Faktor: Die Stelle verlangt explizit Angular-Fachkenntnisse, während das Profil stark auf React/Next.js fokussiert ist, wodurch der Frontend-Stack nicht optimal übereinstimmt.",
+        "language": "de"
+      }
+    },
+    "adzuna:5771761509": {
+      "posting": {
+        "id": "adzuna:5771761509",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5771761509?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Backend Developer (m/w/d) (Node.js, Prisma, TRPC, Typescript) - Jobflow GmbH",
+        "company": "Jobflow GmbH",
+        "location": "Berlin, Deutschland",
+        "workMode": "remote",
+        "description": "Jobflow ist eine video-basierte Job-Plattform, anstatt sich langweilige Texte durchzulesen, haben Kandidaten die Möglichkeit direkt ihren Alltag durch Videos zu sehen! Unsere Mission ist es den Job-Markt zu revolutionieren, wobei wir uns am Anfang vor allem auf Ausbildungen konzentrieren. Die Rolle Dies ist eine Vollzeit Remote Position als Senior Backend Engineer. Deine Aufgabe wird es sein qualitativ hochwertigen und performanten Code zu schreiben, um eine Top User-experience zu erzeugen. Du …",
+        "postedAt": "2026-06-21T16:19:55.000Z"
+      },
+      "fuzzyKey": "jobflow|senior backend developer node js prisma trpc typescript jobflow gmbh",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "languageFlag": "de",
+      "score": {
+        "score": 85,
+        "stackFit": 75,
+        "seniorityFit": 80,
+        "locationFit": 100,
+        "reasoning": "Strong Senior-level Node.js/TypeScript background and Berlin-remote availability, but the role is backend-heavy (Prisma/TRPC) which aren't explicitly listed on the candidate's profile.",
+        "language": "de"
+      }
+    },
+    "adzuna:5771077241": {
+      "posting": {
+        "id": "adzuna:5771077241",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5771077241?utm_medium=api&utm_source=f4d398fa",
+        "title": "Frontend Engineer",
+        "company": "Almedia",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "This isn’t your regular job. Almedia is a place where those who want to push harder can accelerate their careers faster than anywhere else. We’re aiming to become Germany’s second bootstrapped unicorn. Almedia is already Europe’s 3 fastest-growing company in 2025 (FT1000). We are building the future of marketing by rewarding our community of over 70 million users for engaging with our advertisers’ products. We are offering a new way to acquire users for the biggest companies in the world. Front…",
+        "postedAt": "2026-06-20T23:49:49.000Z",
+        "salary": "80000–140000"
+      },
+      "fuzzyKey": "almedia|frontend engineer",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:33.326Z",
+      "score": {
+        "score": 55,
+        "stackFit": 65,
+        "seniorityFit": 50,
+        "locationFit": 90,
+        "reasoning": "The posted salary range (€80k–€140k) includes amounts below €100,000/year, which per the scoring rules requires an overall score below 60 despite reasonable stack and location fit.",
+        "language": "en"
+      }
+    },
+    "adzuna:5769831371": {
+      "posting": {
+        "id": "adzuna:5769831371",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5769831371?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager Wallet",
+        "company": "Safe Labs",
+        "location": "Mitte, Berlin",
+        "workMode": "unknown",
+        "description": "About the Role Safe is building critical infrastructure for digital ownership. Our products help users and organizations manage assets, identities, permissions, and transactions securely. As Safe continues to grow, the Wallet experience is one of the most important ways users interact with our product. We are looking for an Engineering Manager to lead our Wallet team in Berlin, a high-impact role for someone who combines technical judgment, product thinking, people leadership, and strong delive…",
+        "postedAt": "2026-06-20T00:03:48.000Z"
+      },
+      "fuzzyKey": "safe labs|engineering manager wallet",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "score": {
+        "score": 86,
+        "stackFit": 80,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "A hands-on Engineering Manager role for a Berlin wallet team emphasizing technical judgment and product delivery closely matches your TypeScript/React/Node web3 experience and proven senior/lead engineering track record.",
+        "language": "en"
+      }
+    },
+    "adzuna:5771074268": {
+      "posting": {
+        "id": "adzuna:5771074268",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5771074268?utm_medium=api&utm_source=f4d398fa",
+        "title": "Senior Engineering Manager Ads Backend",
+        "company": "Zattoo",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "YOUR FUTURE, ON DEMAND The ideal blend of stability and flexibility. A genuinely human employer that cares for people and the planet. True autonomy to shape what comes next, for us and you. This is the perfect platform to take your career where you want. Back in 2005, we pioneered Europe’s first TV streaming service. Today, we’re the world’s first certified climate neutral TV streaming provider. Several million users across three countries. Over 230 colleagues of 47 nationalities. We’re the gro…",
+        "postedAt": "2026-06-20T23:43:50.000Z"
+      },
+      "fuzzyKey": "zattoo|senior engineering manager ads backend",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:35.895Z",
+      "score": {
+        "score": 30,
+        "stackFit": 15,
+        "seniorityFit": 40,
+        "locationFit": 75,
+        "reasoning": "The role is a backend-focused Senior Engineering Manager (ads backend) with heavy people-management and likely non-Node/TypeScript tech, so it poorly matches the candidate's hands-on TypeScript/React/Node full‑stack focus.",
+        "language": "en"
+      }
+    },
+    "adzuna:5771994457": {
+      "posting": {
+        "id": "adzuna:5771994457",
+        "source": "adzuna",
+        "url": "https://www.adzuna.de/details/5771994457?utm_medium=api&utm_source=f4d398fa",
+        "title": "Engineering Manager (m/f/d)",
+        "company": "Affinidi",
+        "location": "Berlin, Deutschland",
+        "workMode": "unknown",
+        "description": "About the Company Affinidi is a technology company dedicated to changing data ownership for good. We empower businesses and individuals with control and ownership of their data, with a comprehensive approach to managing their holistic identity – accounting for all aspects of their digital footprint while ensuring privacy and security. Affinidi’s technology enables users to benefit from decentralised digital identity solutions. We believe that everyone has the right to own and control their data…",
+        "postedAt": "2026-06-21T23:21:00.000Z"
+      },
+      "fuzzyKey": "affinidi|engineering manager",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "score": {
+        "score": 68,
+        "stackFit": 65,
+        "seniorityFit": 75,
+        "locationFit": 50,
+        "reasoning": "The posting is ambiguous about whether this is a hands-on Engineering Manager role working with TypeScript/React/Node and whether remote/hybrid arrangements are allowed, which are the single most important factors for fit.",
+        "language": "en"
+      }
+    },
+    "greenhouse:databricks:8521090002": {
+      "posting": {
+        "id": "greenhouse:databricks:8521090002",
+        "source": "greenhouse",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8521090002",
+        "title": "Forward Deployed Engineer - Full Stack",
+        "company": "databricks",
+        "location": "Remote - Denmark",
+        "workMode": "remote",
+        "description": "CSQ327R46 As a Forward Deployed Engineer (FDE) you will work with customers to build and productionize solutions to their data & AI challenges using the Databricks platform. You will own the architecture, lead design decisions, and implement end-to-end systems spanning data engineering, AI, and application development. We work cross-functionally to shape long-term strategic priorities and initiatives alongside engineering, product, and developer relations. FDEs deliver with customer empathy, integrating with client systems, training, and other technical needs to help customers get most value out of their data. This is a hands-on, customer-facing role for builders who thrive at the intersection of technology and business impact. The ideal candidate combines engineering expertise with adaptability, curiosity, and a passion for working with customers and teammates to solve complex problems that drive measurable outcomes. FDEs are billable and know how to complete projects according to specification with exceptional customer empathy. The impact you will have: Production Solution Delivery: Lead impactful customer technical projects by delivering production-grade systems, designing and building reference architectures, custom applications and data ingestion and ML/AI model integration Transformational Impact: Guide strategic customers as they implement transformational big data projects including end-to-end design, build and deployment of industry-leading big data and AI applications. Work with engagement managers to scope technical delivery work with input from the customer Empower Customers: Guide customers on architecture and design; bootstrap or implement customer projects which leads to a customers' successful understanding, evaluation and adoption of Databricks. Own the Architecture: Lead architecture and design decisions, ensuring solutions are secure, scalable, and aligned with both customer needs and Databricks best practices. Work with the Databricks technical team, Project Manager, Architect and Customer team to ensure the technical components of the engagement are delivered to meet customer's needs. Work with Engineering and Databricks Customer Support to provide product and implementation feedback and to guide rapid resolution for engagement specific product and support issues. Customer Immersion: Embed with customer teams, engaging with stakeholders from technical ICs to executives to deeply understand challenges and deliver impact. Reusable Assets & Scale: Contribute accelerators, frameworks, and best practices that scale impact across accounts and influence the Databricks product roadmap. What we look for: Extensive experience in data engineering, data platforms & analytics, or software engineering Comfortable writing code in either Python, Scala, JavaScript/TypeScript, and modern frameworks Working knowledge of two or more common Cloud ecosystems (AWS, Azure, GCP) with expertise in at least one Deep experience with distributed computing with Apache Spark™ and knowledge of Spark runtime internals Familiarity with CI/CD for production deployments Working knowledge of MLOps, ML/AI models and AI APIs Design and deployment of performant production end-to-end data architectures and applications that combine data pipelines, ML/AI models, and user-facing interfaces. Experience with technical project delivery - managing scope, timelines and measurable outcomes, translating complex concepts into actionable solutions. Documentation and white-boarding skills. Experience working with enterprise clients and managing conflicts across a broad stakeholder range Build skills in technical areas, and demonstrate curiosity, adaptability, and eagerness to explore new technologies which support the deployment and integration of Databricks-based solutions to complete customer projects. Travel to customers 20% of the time Databricks Certification About Databricks Databricks is the data and AI company. More than 10,000 organizations worldwide — including Comcast, Condé Nast, Grammarly, and over 50% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow. To learn more, follow Databricks on Twitter , LinkedIn and Facebook . Benefits At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here . Our Commitment to Diversity and Inclusion At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics. Compliance If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",
+        "postedAt": "2026-06-19T10:58:22.000Z"
+      },
+      "fuzzyKey": "databricks|forward deployed engineer full stack",
+      "status": "digested",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:46.007Z",
+      "score": {
+        "score": 68,
+        "stackFit": 55,
+        "seniorityFit": 90,
+        "locationFit": 100,
+        "reasoning": "The role requires deep Apache Spark/distributed data-engineering and strong Python/Scala experience for production data/AI projects, while your background is primarily TypeScript/React/Node.js with limited explicit Spark experience.",
+        "language": "en"
+      }
+    },
+    "greenhouse:databricks:7477087002": {
+      "posting": {
+        "id": "greenhouse:databricks:7477087002",
+        "source": "greenhouse",
+        "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7477087002",
+        "title": "Senior Software Engineer - Backend",
+        "company": "databricks",
+        "location": "Berlin, Germany",
+        "workMode": "unknown",
+        "description": "P-1327 At Databricks, we are passionate about helping data teams solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers, Databricks has started a multi-year journey to build the best Lakehouse Platform. For this we are building on top of a great foundation but our goal is to go further to build dramatically better products. We want to revisit every component to provide our customers with the fastest, easiest to use and most secure data platform for all their data workloads. As a software engineer, you will join as a founding member of not only the Berlin site, but really as a founding team for our multi-year journey to achieve our Lakehouse vision. You will be involved in the entire development cycle and exemplify all core Databricks values. The impact you'll have: Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. Build reliable, secure and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, GCS, Azure Blob Store. Develop product features that empower our customers to easily store and access their data. What we look for: BS (or higher) in Computer Science, or a related field 5+ years of production level experience in one of: Java, Scala, C++, or similar language. Experience developing large-scale distributed systems. Experience working on a SaaS platform or with Service-Oriented Architectures. Knowledge of SQL. About Databricks Databricks is the data and AI company. More than 10,000 organizations worldwide — including Comcast, Condé Nast, Grammarly, and over 50% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow. To learn more, follow Databricks on Twitter , LinkedIn and Facebook . Benefits At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here . Our Commitment to Diversity and Inclusion At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics. Compliance If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",
+        "postedAt": "2026-06-15T22:30:50.000Z"
+      },
+      "fuzzyKey": "databricks|senior software engineer backend",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:43.802Z",
+      "score": {
+        "score": 30,
+        "stackFit": 15,
+        "seniorityFit": 60,
+        "locationFit": 85,
+        "reasoning": "The role is a backend-heavy position requiring Java/Scala/C++ and deep distributed-systems experience, but the candidate specializes in TypeScript/React/Node.js frontend/full‑stack work, creating a strong tech-stack mismatch.",
+        "language": "en"
+      }
+    },
+    "greenhouse:gitlab:8592950002": {
+      "posting": {
+        "id": "greenhouse:gitlab:8592950002",
+        "source": "greenhouse",
+        "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592950002",
+        "title": "Engineering Manager, Data Foundations",
+        "company": "gitlab",
+        "location": "Remote, US",
+        "workMode": "remote",
+        "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As Engineering Manager at GitLab, you’ll manage and grow a high-performing engineering team within the Data Foundations group, working on a core data platform that ingests, processes, persists, and queries data streams generated across GitLab. We are looking for a leader who can leverage AI to drive non-linear productivity gains across the platform, accelerating our ability to deliver value to our customers. We’re looking for someone with deep distributed systems knowledge. You’ll need to be comfortable going well beyond people management and into the architecture of high-throughput, multi-component data systems: ingestion, buffering, enrichment, replication, storage, querying, backpressure handling, isolation, and production operations across multiple deployment models. You’ll partner closely with Product, Design, Infrastructure, Data, and other Engineering teams to evolve a platform that lives inside the product, keeps external services to a minimum, and runs across GitLab.com, Dedicated, Self-Managed, and Cells-based deployments. In addition to Data Insights Platform, this role will take on classic search scope as the team joins the Data Foundations organization. You’ll help lead architecture and execution across both GitLab’s analytics platform and classic search capabilities, balancing platform depth with customer-facing impact. You’ll help lead architecture and execution across both GitLab’s analytics platform and classic search capabilities, balancing platform depth with customer-facing impact. In this role, you’ll balance technical guidance with people management. You’ll hire, coach, and develop engineers while also helping drive architecture and execution across a platform built around stateless ingesters, Siphon CDC replication, NATS/JetStream buffering, enrichment pipelines, ClickHouse-backed storage, and a Query API that interfaces with the GitLab Rails monolith. In Data Foundations, we build the engineering systems that make platform data reliable, scalable, and available to product teams across GitLab, and you’ll help guide that work. What you’ll do Hire, manage, and enable a high-performing Data Insights Platform engineering team, creating an environment where team members can do their best work and deliver strong results. Partner closely with product managers, product designers, and peer engineering managers to define and deliver the roadmap for Data Insights Platform (DIP) and related Platform Insights initiatives such as Siphon , Query API integrations, classic search initiatives, and self-service reporting foundations. Own delivery for your team, including planning, prioritization, execution, and operational follow-through across architecture work, platform improvements, and production readiness, with clear accountability for roadmap milestones and delivery outcomes. Guide the technical design of distributed data-path components, including ingestion, buffering, enrichment, exporting, and querying, and shape architecture choices on sharding, partitioning, component-specific scaling, failure recovery, and tenant isolation across SaaS, Dedicated, self-managed, and Cells deployments, with a strong focus on reliability, throughput, operability, and maintainability. Help the team design safe and scalable integrations with the GitLab monolith, including gRPC/Protobuf-based query paths and clear ownership boundaries between DIP and product teams building user-facing GraphQL or REST endpoints. Drive a high bar for security, privacy, and governance in how platform data is handled, including authentication, authorization, encryption, and safe handling of data with different privacy classifications. Improve operational maturity across the platform, including observability, metrics, logging, readiness, capacity planning, performance monitoring, and clear runbooks for managed environments, with a focus on improving availability, throughput, latency, and time to recovery. Collaborate asynchronously across teams and functions to help GitLab land customer-facing reporting capabilities on top of a strong, scalable data foundation. Lead the design and evolution of the platform with a focus on modular architecture, ensuring systems are extensible and ready for AI-driven integrations. What you’ll bring Experience managing platform, infrastructure, or data systems teams at scale, with a track record of building high-performing, values-aligned teams. Deep distributed systems expertise, including strong judgment on service boundaries, asynchronous pipelines, backpressure, fault tolerance, horizontal scalability, and operating multi-component systems in production. Strong technical background in backend and platform engineering, with the ability to guide architecture for high-throughput event pipelines and data systems. Experience with technologies and patterns relevant to this space, such as change data capture, event streaming or messaging systems, OLAP data stores, query-serving layers, and service-to-service APIs. Ability to hire, develop, and coach team members while still contributing technical guidance on complex architecture and delivery tradeoffs. Strong cross-functional collaboration skills, especially when ownership is split between platform teams and feature teams consuming common infrastructure or APIs. Experience building or operating systems across multiple deployment models, with sound judgment about the tradeoffs between GitLab.com, Dedicated, self-managed, and cell-based environments. Strong written communication skills and the ability to work effectively in an all-remote, asynchronous environment. Familiarity with search, indexing, and query-serving systems is a strong plus. A deep passion for reliability, customer outcomes, and engineering and operational excellence, with a proven track record of instilling these values in high-performing teams. About the team In Data Foundations, we enable customers to self-serve reporting with scalable architecture. Our vision is to build a comprehensive dashboards-as-a-service framework that uses AI and relies on scalable data infrastructure. Data Insights Platform is one of our central initiatives, and we play a key role in advancing self-service reporting across GitLab. This is the foundational layer every reporting and intelligence surface at GitLab depends on — from product dashboards to Software Engineering Intelligence to the GitLab Knowledge Graph. In addition to Data Insights Platform, the team’s scope will include classic search as part of the broader Data Foundations organization.This brings together foundational analytics and search capabilities that help customers generate insights from product data and find relevant information across GitLab. We partner closely with product teams to turn DIP’s real-time insights, Postgres-to-ClickHouse replication, event routing, and downstream exports into dashboards, agent experiences, and customer-facing reporting. The scale expectations are real: we handle very large event volumes, with current and projected usage in the hundreds of millions of events per day. For more on how we work, see: Platform Insights Group Data Insights Platform architecture blueprint Data Insights Platform Querying API The base salary range for this role’s listed level is currently for residents of the United States only. This range is intended to reflect the role's base salary rate in locations throughout the US. Grade level and salary ranges are determined through interviews and a review of education, experience, knowledge, skills, abilities of the applicant, equity with other team members, alignment with market data, and geographic location. The base salary range does not include any bonuses, equity, or benefits. See more information on our benefits and equity . Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary. United States Salary Range $152,800 &mdash; $259,200 USD How GitLab Supports Full-Time Employees Benefits to support your health, finances, and well-being Flexible Paid Time Off Team Member Resource Groups Equity Compensation & Employee Stock Purchase Plan Growth and Development Fund Parental Leave Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. Additionally, studies have shown that people from underrepresented groups are less likely to apply to a job unless they meet every single qualification. If you're excited about this role, please apply and allow our recruiters to assess your application. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process. Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab’s EEO Policy and EEO is the Law . If you have a disability or special need that requires accommodation , please let us know during the recruiting process .",
+        "postedAt": "2026-06-17T22:33:01.000Z"
+      },
+      "fuzzyKey": "gitlab|engineering manager data foundations",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:45.451Z",
+      "score": {
+        "score": 30,
+        "stackFit": 35,
+        "seniorityFit": 50,
+        "locationFit": 10,
+        "reasoning": "The role is remote-US-only and therefore not hireable from Germany/Europe, making it unsuitable despite some technical overlap.",
+        "language": "en"
+      }
+    },
+    "greenhouse:helsing:4901373101": {
+      "posting": {
+        "id": "greenhouse:helsing:4901373101",
+        "source": "greenhouse",
+        "url": "https://helsing.ai/jobs/4901373101?gh_jid=4901373101",
+        "title": "Embedded Test Software Engineer – Hardware Interface & Automation ",
+        "company": "helsing",
+        "location": "Munich",
+        "workMode": "remote",
+        "description": "Who we are Helsing is a defence AI company. Our mission is to protect our democracies. We aim to achieve technological leadership, so that open societies can continue to make sovereign decisions and control their ethical standards. As democracies, we believe we have a special responsibility to be thoughtful about the development and deployment of powerful technologies like AI. We take this responsibility seriously. We are an ambitious and committed team of engineers, AI specialists and customer-facing programme managers. We are looking for mission-driven people to join our European teams – and apply their skills to solve the most complex and impactful problems. We embrace an open and transparent culture that welcomes healthy debates on the use of technology in defence, its benefits, and its ethical implications. The role The Embedded Test Software Engineer is the software backbone of Helsing's Test Department, serving all four hardware clusters: Environmental, Electrical, Iron Bird, and Ground Testing. Sitting at the precise boundary between hardware and software, this role designs, develops, and maintains the firmware tools and PC-side automation frameworks that transform manual, one-off test campaigns into repeatable, traceable, and scalable engineering processes. Working across microcontroller firmware and Python-based orchestration, this engineer builds infrastructure that reveals the true behaviour of hardware under test, feeding structured findings back into the design cycle and directly supporting Helsing's ability to field reliable, mission-critical systems, The day-to-day Design and build embedded test firmware in C/C++ on STM32 and RP2040 platforms, implementing CAN, DroneCAN, UART, SPI, and I2C interfaces to simulate, stimulate, and fault-inject across all four hardware test clusters Develop Python-based test orchestration frameworks that control full test sequences, capture and structure multi-source data, and generate automated engineering reports, eliminating manual post-processing for cluster engineers Integrate and commission COTS test instruments and custom test PCBs into repeatable, version-controlled bench rigs, and build the software interface layer connecting HIL simulation environments to hardware under test Diagnose hardware and firmware failures using oscilloscopes, logic analysers, and protocol decoders, translating physical-layer evidence into structured, actionable findings that design engineering teams can act on directly Build and maintain a regression test library spanning CAN/DroneCAN protocol behaviour, interface timing, and power profiles, producing formal clearance reports that gate each hardware and firmware revision before integration proceeds You should apply if you Have developed embedded firmware in C/C++ at both HAL and bare-metal level on ARM Cortex-M platforms, including peripheral configuration for real-time, timing-critical applications Have built and shipped test automation frameworks in Python, integrating hardware communication protocols such as CAN, DroneCAN, or MAVLink into repeatable, production-ready pipelines Have hands-on experience diagnosing hardware and firmware failures using oscilloscopes and logic analysers, with the ability to capture, decode, and interpret physical-layer protocol traffic Understand CAN bus architecture in depth, including frame structure, arbitration, error handling, and bus loading, and can design test scenarios at the protocol level Have worked in a regulated engineering environment where software traceability, version control, and validation records are integral to the workflow Note: We operate in an industry where women, as well as other minority groups, are systematically under-represented. We encourage you to apply even if you don’t meet all the listed qualifications; ability and impact cannot be summarised in a few bullet points. Nice to Have Have experience with MATLAB/Simulink for data analysis or HIL model integration in an aerospace or defence context Have collaborated with hardware designers on test PCB schematics, or contributed to Design for Test reviews during the hardware design cycle Join Helsing and work with world-leading experts in their fields Helsing’s work is important. You’ll be directly contributing to the protection of democratic countries while balancing both ethical and geopolitical concerns The work is unique. We operate in a domain that has highly unusual technical requirements and constraints, and where robustness, safety, and ethical considerations are vital. You will face unique Engineering and AI challenges that make a meaningful impact in the world Our work frequently takes us right up to the state of the art in technical innovation, be it reinforcement learning, distributed systems, generative AI, or deployment infrastructure. The defence industry is entering the most exciting phase of the technological development curve. Advances in our field of world are not incremental: Helsing is part of, and often leading, historic leaps forward In our domain, success is a matter of order-of-magnitude improvements and novel capabilities. This means we take bets, aim high, and focus on big opportunities. Despite being a relatively young company, Helsing has already been selected for multiple significant government contracts We actively encourage healthy, proactive, and diverse debate internally about what we do and how we choose to do it. Teams and individual engineers are trusted (and encouraged) to practise responsible autonomy and critical thinking, and to focus on outcomes, not conformity. At Helsing you will have a say in how we (and you!) work, the opportunity to engage on what does and doesn’t work, and to take ownership of aspects of our culture that you care deeply about What we offer Competitive salary and VSOP options Relocation support : up to €2,500 and 4 weeks temporary accommodation Learning : €500/£450 yearly allowance Health & wellness : gym membership and mental health support (Nilo.health) Social : regular company events and monthly social allowances Enhanced parental leave : 22 weeks fully paid for primary caregivers & 6 weeks for secondary caregivers Family support: 5 days of paid family emergency leave, 100% remote work option during pregnancy and phased return to work A hands-on onboarding program (affectionately labelled “Infraduction”), in which you will be building tooling and applications to be used across the company. This is your opportunity to learn our tech stack, explore the company, and learn how we get things done - all whilst working with other engineering teams from day one Helsing is an equal opportunities employer. We are committed to equal employment opportunity regardless of race, religion, sexual orientation, age, marital status, disability or gender identity. Please do not submit personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, data concerning your health, or data concerning your sexual orientation. Helsing's Candidate Privacy and Confidentiality Regime can be found here .",
+        "postedAt": "2026-06-18T13:53:13.000Z"
+      },
+      "fuzzyKey": "helsing|embedded test software engineer hardware interface automation",
+      "status": "scored",
+      "firstSeenAt": "2026-06-22T09:20:07.168Z",
+      "updatedAt": "2026-06-22T09:20:42.727Z",
+      "score": {
+        "score": 25,
+        "stackFit": 10,
+        "seniorityFit": 60,
+        "locationFit": 95,
+        "reasoning": "The role is heavily embedded/hardware-focused (C/C++ firmware, STM32/RP2040, CAN, oscilloscope-driven test automation) which does not match the candidate's TypeScript/React/Node.js full‑stack expertise.",
         "language": "en"
       }
     }
